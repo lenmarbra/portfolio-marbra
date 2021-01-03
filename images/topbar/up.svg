@@ -1,0 +1,11 @@
+<svg class="nav" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+<defs>
+<style>.cls-1{fill:#172330;}.cls-2{fill:#e5ea77;}</style>
+</defs>
+<g id="Layer_2" data-name="Layer 2">
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M16,8A8,8,0,1,1,8,0a8,8,0,0,1,8,8"/>
+    <path class="cls-2" d="M8,4.78l6.07,8.42h0a8,8,0,0,1-12.15,0h0L8,4.78Z"/>
+  </g>
+</g>
+</svg>

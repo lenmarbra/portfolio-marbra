@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations</title>
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+
+
+<body>
+
+  <div class="bg-img"></div>
+
+  <div id="nav-bar"> 
+    <a href="projects_page.html">
+      <svg class="nav" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 16 16"><defs><style>.cls-1{fill:#172330;}.cls-2{fill:#d9d9d4;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0"/><path class="cls-2" d="M4.78,8,13.2,1.92h0a8,8,0,0,1,0,12.15h0L4.78,8Z"/></g></g></svg>      </a>
+  </div>
+
+
+  <section>
+
+    <article class="box">
+
+      <h1>About</h1>
+
+      <nav>
+        <a href="">Just</a> 
+        <a href="">for</a> 
+        <a href="">show</a> 
+      </nav>
+
+      <p>This is a project where animation is explored and in focus.</p>
+      
+      <div class="grey-box"></div>
+      
+      <div class="black-box-2"></div>
+
+      <h1 class="text wavy remove">
+        <span style="--i:1;">M</span>
+        <span style="--i:2;">o</span>
+        <span style="--i:3;">v</span>
+        <span style="--i:4;">e</span>
+        <span style="--i:5;">m</span>
+        <span style="--i:6;">e</span>
+        <span style="--i:7;">n</span>
+        <span style="--i:8;">t</span>
+      </h1>
+
+    </article>
+
+<!-- Movie -->
+    <article>
+      <div class="lady"></div>
+    </article>
+
+    <span class="scroll-down desktop">Scroll down!</span>
+    <span class="scroll-down mobile">THE END</span>
+
+<!-- At scroll down  -->
+    <h2>The End</h2>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+  
+    <script type="text/javascript">
+    $(document).on('scroll', function(){
+      $('h2').css("left", Math.max(1300-0.75*window.scrollY, 100) + "px");
+    }) 
+    
+    
+    // @keyframes right {
+    // from {transform: translateX(-900px)}
+    // to{transform: translateX(0px)}
+    // } 
+
+    // @keyframes down {
+    //   from {transform: translateY(-200em)}
+    //   to{transform: translateY(-5em)}
+    // }
+
+    // @keyframes up {
+    //   from {transform: translateY(1000em)}
+    //   to{transform: translateY(0em)}
+    // }
+
+    </script>
+  
+  </section>
+
+</body>
+
+</html>

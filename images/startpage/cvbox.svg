@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="646" height="648" viewBox="0 0 646 648">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="1.303" gradientTransform="translate(-0.145 0.21) rotate(-20.8)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a3a198"/>
+      <stop offset="1" stop-color="#52514c"/>
+    </radialGradient>
+    <clipPath id="clip-Artboard_12">
+      <rect width="646" height="648"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_12" data-name="Artboard – 12" clip-path="url(#clip-Artboard_12)">
+    <rect width="646" height="648" fill="url(#radial-gradient)"/>
+    <text id="Cv" transform="translate(219 357)" fill="#e5ea77" font-size="140" font-family="StoneInformalStd-Bold, ITC Stone Informal Std" font-weight="700"><tspan x="0" y="0">CV</tspan></text>
+    <g id="Group_6421" data-name="Group 6421" transform="translate(95.969 96.741)">
+      <path id="Path_76" data-name="Path 76" d="M49.049,121.535" transform="translate(42.081 178.269)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+      <path id="Path_77" data-name="Path 77" d="M91.13,151.893A61.883,61.883,0,0,1,29.246,90.009c0-34.18,28.571-61.653,62.751-61.653a61.609,61.609,0,0,1,31.377,9.025c2.568,2.309,79.191,44.562-28.23,161.994-66.763,76.3-67.6,133.269-68.113,146.471,1.167,47.485,22.964,77.065,64.1,77.543,34.178.4,61.886-27.706,61.886-61.883A61.884,61.884,0,0,0,91.13,299.619" transform="translate(0 0.185)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+      <path id="Path_78" data-name="Path 78" d="M127.334,121.979" transform="translate(191.699 179.118)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+      <path id="Path_79" data-name="Path 79" d="M49.506,28.541l271.682-.282c27.188.815,45.715,16.39,54.675,33.322,13.429,25.371,17.287,72.239-43.811,151.153-27.834,35.95-45.179,65.356-55.974,88.364" transform="translate(42.954 0)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+      <path id="Path_80" data-name="Path 80" d="M49.761,121.56l276.64,1.924a61.885,61.885,0,1,1,0,123.77L47.03,245.385" transform="translate(38.222 178.317)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+      <line id="Line_18" data-name="Line 18" x2="40.426" y2="0.021" transform="translate(90.645 152.412)" fill="none" stroke="#98968d" stroke-miterlimit="10" stroke-width="7"/>
+    </g>
+  </g>
+</svg>

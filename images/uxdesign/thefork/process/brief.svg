@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254.006" height="114.137" viewBox="0 0 254.006 114.137">
+  <defs>
+    <filter id="Rectangle_9" x="0" y="0" width="218" height="114.137" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_47" data-name="Group 47" transform="translate(-404 -381)">
+    <g id="Group_65" data-name="Group 65">
+      <g id="Group_66" data-name="Group 66">
+        <g transform="matrix(1, 0, 0, 1, 404, 381)" filter="url(#Rectangle_9)">
+          <rect id="Rectangle_9-2" data-name="Rectangle 9" width="200" height="96.137" rx="48" transform="translate(9 6)" fill="#fff"/>
+        </g>
+        <text id="Brief" transform="translate(513.407 441.979)" fill="rgba(32,33,36,0.85)" font-size="16" font-family="Merriweather-Regular, Merriweather"><tspan x="-24.496" y="0">BRIEF</tspan></text>
+        <g id="Group_18" data-name="Group 18" transform="translate(482 29)" style="isolation: isolate">
+          <g id="Group_63" data-name="Group 63">
+            <line id="Line_10" data-name="Line 10" x2="31" transform="translate(144.5 406.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="0.75"/>
+          </g>
+          <path id="Path_7" data-name="Path 7" d="M-3015,4769l3.631,5.419-3.631,5.4" transform="translate(3187 -4368)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
