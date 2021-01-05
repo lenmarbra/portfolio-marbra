@@ -3705,6 +3705,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/infodesign/granite_bg_mob.jpg": {
+		"ft": 16384,
+		"iS": 382230,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/infodesign/granite_bg_mob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/infodesign/granite_bg_three.jpg": {
 		"ft": 16384,
 		"iS": 127707,
@@ -7705,6 +7718,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/thefork/entrance.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/thefork/entrance.mp4",
+		"oF": 0
 		},
 	"/images/uxdesign/thefork/fabric.png": {
 		"ft": 32768,
