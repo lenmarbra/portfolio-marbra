@@ -1121,19 +1121,6 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/brandingidentity/bgsoremob.png": {
-		"ft": 32768,
-		"iS": 908479,
-		"oA": 0,
-		"oAP": "/images/brandingidentity/bgsoremob.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/images/brandingidentity/kbg.jpg": {
 		"ft": 16384,
 		"iS": 1709482,
