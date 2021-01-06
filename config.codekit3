@@ -1121,6 +1121,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/brandingidentity/bgsoremob.png": {
+		"ft": 32768,
+		"iS": 765170,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/bgsoremob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/brandingidentity/kbg.jpg": {
 		"ft": 16384,
 		"iS": 1709482,
@@ -3543,6 +3556,19 @@
 		"iS": 687615,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/eyes.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/illustrationspage/eyesmob.png": {
+		"ft": 32768,
+		"iS": 143412,
+		"oA": 0,
+		"oAP": "/images/illustrationspage/eyesmob.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7513,6 +7539,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/images/uxdesign/prescriptionflow.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/shortstartpage.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/shortstartpage.mp4",
 		"oF": 0
 		},
 	"/images/uxdesign/thefork.mp4": {
