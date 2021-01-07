@@ -1280,7 +1280,7 @@
 		"oAP": "/images/brandingidentity/slideshow/grid.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1291,6 +1291,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/slideshow/icons_kite.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/slideshow/iconsdrink copy.jpg": {
+		"ft": 16384,
+		"iS": 92326,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/slideshow/iconsdrink copy.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1306,20 +1319,41 @@
 		"oAP": "/images/brandingidentity/slideshow/iconsdrink.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
+	"/images/brandingidentity/slideshow/iconsdrink.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/slideshow/iconsdrink.psd",
+		"oF": 0
+		},
 	"/images/brandingidentity/slideshow/iconsfour.jpg": {
 		"ft": 16384,
-		"iS": 3631249,
+		"iS": 5966090,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/slideshow/iconsfour.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/slideshow/iconsfours.jpg": {
+		"ft": 16384,
+		"iS": 3631249,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/slideshow/iconsfours.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1351,8 +1385,8 @@
 		"oA": 0,
 		"oAP": "/images/brandingidentity/slideshow/iconwave.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1439,7 +1473,7 @@
 		"oAP": "/images/brandingidentity/slideshow/pictogram.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -1457,19 +1491,6 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/brandingidentity/slideshow/puzzle.jpg": {
-		"ft": 16384,
-		"iS": 952052,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/brandingidentity/slideshow/puzzle.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
 	"/images/brandingidentity/slideshow/puzzle.psd": {
 		"cB": 0,
 		"ft": 8192,
@@ -1478,12 +1499,12 @@
 		"oAP": "/images/brandingidentity/slideshow/puzzle.psd",
 		"oF": 0
 		},
-	"/images/brandingidentity/slideshow/tickets.jpg": {
+	"/images/brandingidentity/slideshow/puzzles.jpg": {
 		"ft": 16384,
-		"iS": 326747,
+		"iS": 951243,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/brandingidentity/slideshow/tickets.jpg",
+		"oAP": "/images/brandingidentity/slideshow/puzzles.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1498,6 +1519,19 @@
 		"oA": 0,
 		"oAP": "/images/brandingidentity/slideshow/tickets.psd",
 		"oF": 0
+		},
+	"/images/brandingidentity/slideshow/ticketss.jpg": {
+		"ft": 16384,
+		"iS": 323048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/slideshow/ticketss.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/brandingidentity/slideshow/type.png": {
 		"ft": 32768,
