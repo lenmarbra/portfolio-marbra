@@ -3270,7 +3270,7 @@
 		},
 	"/images/illustrationspage/03cookbook.png": {
 		"ft": 32768,
-		"iS": 127720,
+		"iS": 87872,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/03cookbook.png",
 		"oF": 0,
@@ -3283,7 +3283,7 @@
 		},
 	"/images/illustrationspage/04cookbook.png": {
 		"ft": 32768,
-		"iS": 85900,
+		"iS": 38520,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/04cookbook.png",
 		"oF": 0,
@@ -3296,7 +3296,7 @@
 		},
 	"/images/illustrationspage/05cookbook.png": {
 		"ft": 32768,
-		"iS": 91508,
+		"iS": 40006,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/05cookbook.png",
 		"oF": 0,
@@ -3309,7 +3309,7 @@
 		},
 	"/images/illustrationspage/06cookbook.png": {
 		"ft": 32768,
-		"iS": 81625,
+		"iS": 42202,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/06cookbook.png",
 		"oF": 0,
@@ -3322,7 +3322,7 @@
 		},
 	"/images/illustrationspage/07cookbook.png": {
 		"ft": 32768,
-		"iS": 49499,
+		"iS": 22007,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/07cookbook.png",
 		"oF": 0,
@@ -3527,7 +3527,7 @@
 		},
 	"/images/illustrationspage/cookbookbg.png": {
 		"ft": 32768,
-		"iS": 959347,
+		"iS": 718310,
 		"oA": 0,
 		"oAP": "/images/illustrationspage/cookbookbg.png",
 		"oF": 0,
@@ -7044,6 +7044,22 @@
 		"oAP": "/images/uxdesign/entrance.mp4",
 		"oF": 0
 		},
+	"/images/uxdesign/instagramvideos.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/instagramvideos.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/instagramvideosblue.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/instagramvideosblue.mp4",
+		"oF": 0
+		},
 	"/images/uxdesign/mobileflows/anantaya/01anantaya.png": {
 		"ft": 32768,
 		"iS": 161191,
@@ -7531,6 +7547,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/images/uxdesign/myaccount.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/myaccountinsta.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/myaccountinsta.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/myaccountyellow.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/myaccountyellow.mp4",
 		"oF": 0
 		},
 	"/images/uxdesign/prescriptionflow.mp4": {
@@ -9168,6 +9200,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/theforkblue.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/theforkblue.mp4",
+		"oF": 0
 		},
 	"/index.html": {
 		"cB": 0,
