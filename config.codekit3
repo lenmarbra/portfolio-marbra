@@ -151,6 +151,14 @@
 		"oAP": "/digartdir.html",
 		"oF": 0
 		},
+	"/dt_projects_page.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dt_projects_page.html",
+		"oF": 0
+		},
 	"/editorialdesign.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -174,6 +182,19 @@
 		"oA": 0,
 		"oAP": "/illustrations.html",
 		"oF": 0
+		},
+	"/images/all/arrowcards.png": {
+		"ft": 32768,
+		"iS": 571,
+		"oA": 0,
+		"oAP": "/images/all/arrowcards.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/all/arrowmobile.png": {
 		"ft": 32768,
@@ -7024,8 +7045,8 @@
 		"oA": 0,
 		"oAP": "/images/topbar/thumbnail.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
