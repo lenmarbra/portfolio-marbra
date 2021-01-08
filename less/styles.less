@@ -51,9 +51,15 @@ body{
 .mobile{
   display: none;
 }
+.desktop{
+  display: inline-block;
+}
 @media only screen and (max-width: 800px){
   .desktop{
     display: none;
+  }
+  .mobile{
+    display: inlie-block;
   }
 }
 
@@ -631,7 +637,7 @@ footer{
   max-width: 13em;
   height: 3em;
   margin-left: 82.5%;
-  margin-top: 1%;
+  margin-top: -0%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -2158,7 +2164,7 @@ footer{
   .area{
     h2{
       position: fixed;
-      top: 1.35em;
+      top: 1.45em;
       left: 5em;
       color: @yellow-color;
       font-size: 16px;
@@ -2209,7 +2215,7 @@ footer{
       text-transform: none;
     }  
     .one-row{
-      margin-top: 24%;
+      margin-top: 5%;
     }
     p{
       margin: 34% 20% -2% 35%;
@@ -2226,3 +2232,178 @@ footer{
     }
   }
 }
+
+//----------- DT - PROJECTSPAGE - IPAD ------------
+
+@media only screen and (max-width: 800px){
+
+#dt-projectspage{
+  .nav-bar-projectspage{
+    margin-left: .4%;
+    margin-top: .1%;
+    .right-align-topbar{
+      margin-left: -4rem;
+    }
+    .logo{
+      margin-top: 1%;
+    }
+  }
+  .area{
+    h2{
+      position: fixed;
+      top: 1.2em;
+      left: 11.8em;
+      color: @yellow-color;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      display: inline-block;
+      z-index: 10;
+    }
+  }
+  .project-areas{
+    margin-left: 10%;
+    margin-top: 4em;
+    max-width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  a{
+    color: @black-color;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .card {
+    margin-right: 4%;
+    margin-bottom: 3%;
+    background-color: #1e1d25;
+    padding: 1.5em;
+    width: 17.3em;
+    height: 10em;
+    border-radius: 1.5%;
+    &:hover{
+      opacity: 98%;
+      border: none;
+      margin-bottom: -1.5px;
+      margin-right: 1.7%;
+    }
+    .cursor {cursor: url(../images/pointer.svg),auto;}
+    h2{
+      color: @yellow-color;
+      font-family: @main-font;
+      line-height: 1.3em;
+      letter-spacing: 1.5px;
+      font-size: @font-size+6;
+      font-weight: 600;
+      margin-top: 15%;
+      margin-left: 0%;
+      text-align: center;
+      text-transform: none;
+    }  
+    .one-row{
+      margin-top: 20%;
+    }
+    p{
+      margin: 34% 20% -2% 35%;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 2.5px;
+    }
+    img{
+      margin: 0 auto auto 35%;
+      width: 65%;
+    }
+    .long-title{
+      margin-top: -10%;
+    }
+  }
+}
+}
+
+//----------- DT - PROJECTSPAGE - MOBILE ------------
+
+@media only screen and (max-width: 400px){
+
+  #dt-projectspage{
+    .nav-bar-projectspage{
+      margin-left: .4%;
+      margin-top: 0%;
+      height: 3.7em;
+      .right-align-topbar{
+        margin-left: -4rem;
+      }
+      .logo{
+        margin-top: 0%;
+      }
+    }
+    .area{
+      h2{
+        position: fixed;
+        top: 2%;
+        left: 0em;
+        color: @yellow-color;
+        font-size: 16px;
+        line-height: 1.25em;
+        text-align: center;
+        display: inline-block;
+        z-index: 10;
+      }
+    }
+    .project-areas{
+      margin-left: 6%;
+      margin-top: 4em;
+      max-width: 95%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    a{
+      color: @black-color;
+      display: inline-block;
+      text-decoration: none;
+    }
+    .card {
+      margin-right: 5%;
+      margin-bottom: 3%;
+      background-color: #1e1d25;
+      padding: 1.5em;
+      width: 98vw;
+      height: 10em;
+      border-radius: 1.5%;
+      &:hover{
+        opacity: 98%;
+        border: none;
+        margin-bottom: -1.5px;
+        margin-right: 1.7%;
+      }
+      .cursor {cursor: url(../images/pointer.svg),auto;}
+      h2{
+        color: @yellow-color;
+        font-family: @main-font;
+        line-height: 1.3em;
+        letter-spacing: 1.5px;
+        font-size: @font-size+6;
+        font-weight: 600;
+        margin-top: 15%;
+        margin-left: 0%;
+        text-align: center;
+        text-transform: none;
+      }  
+      .one-row{
+        margin-top: 20%;
+      }
+      p{
+        margin: 34% 20% -2% 35%;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2.5px;
+      }
+      img{
+        margin: 0 auto auto 35%;
+        width: 65%;
+      }
+      .long-title{
+        margin-top: -10%;
+      }
+    }
+  }
+  }
