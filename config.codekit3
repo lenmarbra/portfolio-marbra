@@ -7117,6 +7117,30 @@
 		"oAP": "/images/uxdesign/entrance.mp4",
 		"oF": 0
 		},
+	"/images/uxdesign/instagram/myaccount.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/instagram/myaccount.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/instagram/startpage.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/instagram/startpage.mp4",
+		"oF": 0
+		},
+	"/images/uxdesign/instagram/startpagex.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/instagram/startpagex.mp4",
+		"oF": 0
+		},
 	"/images/uxdesign/instagramvideos.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -7637,6 +7661,19 @@
 		"oA": 0,
 		"oAP": "/images/uxdesign/myaccountyellow.mp4",
 		"oF": 0
+		},
+	"/images/uxdesign/playpause.png": {
+		"ft": 32768,
+		"iS": 3132,
+		"oA": 0,
+		"oAP": "/images/uxdesign/playpause.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/uxdesign/prescriptionflow.mp4": {
 		"cB": 0,

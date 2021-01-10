@@ -240,6 +240,23 @@ a{
     display: inline-block;
   }
 }
+.mail-and-cv{
+  max-width: 13em;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 2.5%;
+  margin-top: 132%;
+  a{
+    display: inline-block;
+  }
+  h2{
+    letter-spacing: 1.5px;
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 800px){
   .intro{
     padding: 5%;
@@ -266,6 +283,19 @@ a{
   .arrow{
     width: 90%;
     margin-left: 0%;  
+  }
+}
+.mail-and-cv{
+  max-width: 85vw;
+  justify-content: start;
+}
+.startpage-mailcv{ 
+  margin-left: 2.5%;
+  margin-top: 12%;
+  width: 90vw;
+  a h2{
+    font-size: 16px;
+    margin-right: 2em;
   }
 }
 }
@@ -622,53 +652,6 @@ a{
   }
 }
 
-
-// -------------------FOOTER-------------------
-
-footer{
-  width: 100vw;
-  height: 3em;
-  background-color: @darkblue;
-  padding: 1%;
-  margin-top: -.6%;
-}
-
-.mail-and-cv{
-  max-width: 13em;
-  height: 3em;
-  margin-left: 82.5%;
-  margin-top: -0%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  a{
-    display: inline-block;
-  }
-  h2{
-    letter-spacing: 1.5px;
-    font-size: 16px;
-  }
-}
-.startpage-mailcv{
-  margin-left: 2.5%;
-  margin-top: 130%;
-}
-@media only screen and (max-width: 800px){
-  .mail-and-cv{
-    max-width: 85vw;
-    justify-content: start;
-  }
-  .startpage-mailcv{ 
-    margin-left: 2.5%;
-    margin-top: 12%;
-    width: 90vw;
-    a h2{
-      font-size: 16px;
-      margin-right: 2em;
-    }
-  }
-}
-
 .contact-arrow{
   .contact-txt{
     transform: rotate(-90deg);
@@ -1016,11 +999,15 @@ footer{
 }
 .thefork-video{
   width: 18em;
+  // width: 14em;
   margin-top: -76%;
+  // margin-top: -56%;
   margin-bottom: 8%;
+  // margin-bottom: 18%;
   margin-left: -17%;
-  border: 12px solid @yellow-color;
-  border-radius: 20px;
+  // border: 12px solid @yellow-color;
+  border-radius: 3px;
+  // border-radius: 1px;
   background-color: @white-color;
 }
 #userflow2{
@@ -1032,29 +1019,39 @@ footer{
    margin-top: -7%;
  }
  .rayban-video{
-   margin-top: -15%;
+   margin-top: -5.7%;
    margin-bottom: 4%;
+   margin-left: 3%;
    width: 50em;
-   border: 12px solid @yellow-color;
-   border-radius: 20px;
+   border-radius: 2px;
  }
  .anantaya-video{
    width: 18em;
    margin-top: -14%;
    margin-left: -17%;
    margin-bottom: 10%;
-   border: 12px solid @yellow-color;
-   border-radius: 20px;
-   background-color: @white-color;
+   border-radius: 2px;
  }
  .arrow-mobile{
   display:none;
 }
 .rayban-arrow{
   width: 120%;
-  margin-top: -30%;
+  margin-top: -100%;
   margin-left: 0%;
 }
+#anantaya{
+  .subject-page{
+    h1{
+      margin-left: 0%;
+      width: 12em;
+    }
+    p{
+      max-width: 22em;
+    }
+  }
+}
+
 
  //------------UXDESIGN PAGE - MOBILE------------------------------
 
