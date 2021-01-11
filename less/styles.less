@@ -126,6 +126,9 @@ a{
 .italic{
   font-style: italic;
 }
+.underline{
+  text-decoration: underline;
+}
 
 // ----------------------NAV BAR-------------------------
 
@@ -1388,16 +1391,19 @@ a{
   }
   .vertical-arrow{
     position: absolute;
-    left: 1.8%;
-    top: 77%;
-    img{
-      width: 45%;
-      margin-top: 2.5em
-    }
+    left: 2.9%;
+    top: 17%;
     h2{
       writing-mode: vertical-lr;
-      margin-right: 1em;
+      margin-right: 0em;
+      margin-bottom: 3em;
     }
+    img{
+      width: 25%;
+      margin-top: 40em;
+      margin-left: -34%;
+    }
+
   }
   #k-bg{
     width: 100vw;
@@ -1864,14 +1870,40 @@ a{
       display: none;
     }
   }
-.fullreportarea{
-    .workprocess-arrow{
-    h2{
-    margin-top: 3.5%;
-    }
+.intro-slownews{
+  position: fixed;
+}
+.intro-slownews-first{
+  margin-top: 6%;
+  margin-bottom: 15%;
+  a{
+    text-decoration: underline;
+    margin-left: .2%;
+  }
+  .slownews-link{
+    text-decoration: none;
   }
 }
-
+.intro-slownews-second{
+  margin-left: -2%;
+}
+#slownews-top{
+  img{
+    width: 100%;
+    margin-top: 30%;
+    margin-left: -50%;
+    margin-bottom: 15%;
+  }
+}
+.at-area{
+  p{
+    font-size: @font-size+8;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 2.7%;
+  }
+}
 #logo-slownews{
   width: 100vw;
   // height: 100vh;
@@ -1896,8 +1928,9 @@ a{
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-top: 10%;
   img{
-    margin-top: 53%;
+    margin-top: 103%;
     margin-left: 1.8%;
     width: .95em;
   }
@@ -1988,23 +2021,13 @@ a{
 
 
 @media only screen and (max-width: 800px){
-    .fullreportarea{
-      background-color: @darkblue;
-      max-height: 10vh;  
-      margin-left: 2%;
-      .workprocess-arrow{
-        h2{
-        margin-top: 1%;
-        margin-left: 5%;
-        }
-    }
-  }
+
   #slownews-page{
     overflow-x: hidden;
     .nav-bar{
       position: fixed;
-      margin-left: 0%;
-      width: 100%;
+      margin-left: 2%;
+      width: 98%;
       height: 3.6em;
       background-color: @darkblue;
       z-index: 2;
@@ -2027,11 +2050,45 @@ a{
         display: inline-block;
         position: fixed;
         top: -.3em;
-        left: 3em;
+        left: 4.5em;
         z-index: 11;
         text-align: center;
       }
     } 
+    .intro-slownews{
+      position: fixed;
+    }
+    .intro-slownews-first{
+      margin-top: 16%;
+      margin-bottom: 15%;
+      p{
+        width: 100%;
+      }
+      a{
+        text-decoration: underline;
+        margin-left: .2%;
+      }
+      .slownews-link{
+        text-decoration: none;
+      }
+    }
+    .intro-slownews-second{
+      margin-left: -2%;
+    }
+    #slownews-top{
+      img{
+        display: none;
+      }
+    }
+    .at-area{
+      p{
+        font-size: @font-size+8;
+        font-weight: bold;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        margin-left: 2.7%;
+      }
+    }
     #logo-slownews{
       width: 100vw;
       background-color: @darkblue;
@@ -2041,7 +2098,6 @@ a{
       background-repeat: no-repeat;
       background-size: 100%;
     }
-    
     #newworld{
       width: 100vw;
       height: 100vh;
@@ -2060,17 +2116,17 @@ a{
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 90%;
     }
     #articlepage{
       width: 100vw;
       height: 100vh;
       background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/articlemob.png);
+      background-image: url(../images/slownews/articlepagemob.png);
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 90%;
     }
     
     #modules{
@@ -2081,7 +2137,7 @@ a{
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 90%;
     }
     #masterclass{
       width: 100vw;
@@ -2091,7 +2147,7 @@ a{
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: 90%;
     }
     #sheldon-studio{
       width: 100vw;
@@ -2144,8 +2200,8 @@ a{
     // font-size: 1.2em;
   }
   .card {
-    margin-right: 2%;
-    margin-bottom: 1.5%;
+    margin-right: 3%;
+    margin-bottom: 2%;
     background-color: #1e1d25;
     padding: 1.5em;
     width: 17.3em;
@@ -2173,11 +2229,14 @@ a{
     .one-row{
       margin-top: 5%;
     }
+    // p{
+    //   margin: 34% 20% -2% 35%;
+    //   text-transform: uppercase;
+    //   font-size: 14px;
+    //   letter-spacing: 2.5px;
+    // }
     p{
-      margin: 34% 20% -2% 35%;
-      text-transform: uppercase;
-      font-size: 14px;
-      letter-spacing: 2.5px;
+      margin-left: 8%;
     }
     img{
       margin: 0 auto auto 35%;
@@ -2188,6 +2247,93 @@ a{
     }
   }
 }
+
+#dt-projectspage-temp{
+  .nav-bar-projectspage{
+    margin-left: .4%;
+    margin-top: .1%;
+    .right-align-topbar{
+      margin-left: 137.8rem;
+    }
+  }
+  .area{
+    h2{
+      position: fixed;
+      top: 1.45em;
+      left: 5em;
+      color: @yellow-color;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      display: inline-block;
+      z-index: 10;
+    }
+  }
+ 
+  .project-areas{
+    margin-left: 6%;
+    margin-top: 7.5em;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  a{
+    color: @black-color;
+    display: inline-block;
+    text-decoration: none;
+    // font-size: 1.2em;
+  }
+  .card {
+    margin-right: 3%;
+    margin-bottom: 2%;
+    background-color: #1e1d25;
+    padding: 1.5em;
+    width: 17.3em;
+    height: 10em;
+    border-radius: 1.5%;
+    &:hover{
+      opacity: 88%;
+      // border: 2px solid @yellow-color;
+      // margin-bottom: -1.5px;
+      // margin-right: 1.7%;
+    }
+    .cursor {cursor: url(../images/pointer.svg),auto;}
+    h2{
+      color: @yellow-color;
+      font-family: @main-font;
+      line-height: 1.3em;
+      letter-spacing: 1.5px;
+      font-size: @font-size+6;
+      font-weight: 600;
+      margin-top: 5%;
+      margin-left: 7%;
+      text-align: left;
+      text-transform: none;
+      background-color: transparent;
+    }  
+    .one-row{
+      margin-top: 5%;
+    }
+    // p{
+    //   margin: 34% 20% -2% 35%;
+    //   text-transform: uppercase;
+    //   font-size: 14px;
+    //   letter-spacing: 2.5px;
+    // }
+    p{
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+    img{
+      margin: 0 auto auto 35%;
+      width: 65%;
+    }
+    .long-title{
+      margin-top: -10%;
+    }
+  }
+}
+
 
 //----------- DT - PROJECTS PAGE - IPAD ------------
 
@@ -2282,7 +2428,7 @@ a{
       margin-left: .7%;
       margin-top: 0%;
       margin-bottom: 0%;
-      height: 3em;
+      height: 2.6em;
       max-width: 96vw;
       padding-top: 2.5%;
       .right-align-topbar{
@@ -2300,8 +2446,8 @@ a{
     .area{
       h2{
         position: fixed;
-        top: 2.2%;
-        left: 0em;
+        top: 2.6%;
+        left: 25%;
         color: @yellow-color;
         font-size: 12px;
         max-width: 80%;
@@ -2348,14 +2494,15 @@ a{
         text-transform: none;
       }  
       .one-row{
-        margin-top: 20%;
+        margin-top: 16%;
       }
       p{
-        margin: 34% 20% -2% 35%;
-        text-transform: uppercase;
+        margin: -5% 10% -2% 10%;
+        text-transform: lowercase;
         font-size: 14px;
-        letter-spacing: 2.5px;
-      }
+        letter-spacing: 2px;
+        text-align: center;
+        }
       img{
         margin: 0 auto auto 35%;
         width: 65%;

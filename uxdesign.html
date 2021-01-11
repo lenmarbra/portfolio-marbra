@@ -84,10 +84,10 @@
 
         <section id="button-area">
           <h5>User flows</h5>
-          <button onclick="playPause()" id="btnStartpage" class="tn active" href="">&#10141; Start page (Click here for play/puase)</button>
+          <button onclick="playPause()" id="btnStartpage" class="tn active" href="">&#10141; Start page</button>
           <!-- <button onclick="playPause()">Play/Pause</button> <br> -->
-          <button onclick="playPause()" id="btnBooking" class="tn active" href="">&#10141; Booking a table (Click here for play/puase)</button>
-          <button onclick="playPause()" id="btnPay" class="tn active" href="">&#10141; Create your account (Click here for play/puase)</button>
+          <button onclick="playPause()" id="btnBooking" class="tn active" href="">&#10141; Booking a table</button>
+          <button onclick="playPause()" id="btnPay" class="tn active" href="">&#10141; Create your account</button>
         </section>
 
       </div>
@@ -97,16 +97,16 @@
 
   <div class="row" id="video-area">
     <div class="offset-by-seven columns five userflow userflowbtnStartpage desktop" id="userflow1">
-      <!-- <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/shortstartpage.mp4"></video> -->
-      <video id="video1" class="thefork-video">
+      <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/startpage.mp4"></video>
+      <!-- <video id="video1" class="thefork-video">
         <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
-      </video>
+      </video> -->
     </div>
     <div class="offset-by-seven columns five userflow userflowbtnBooking desktop" id="userflow2">
-      <!-- <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/booking.mp4"></video> -->
-      <video id="video2" class="thefork-video">
+      <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/booking.mp4"></video>
+      <!-- <video id="video2" class="thefork-video">
         <source src="images/uxdesign/booking.mp4" type="video/mp4">
-      </video>
+      </video> -->
     </div>
     <div class="offset-by-seven columns five userflow userflowbtnPay desktop" id="userflow3">
       <!-- <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/myaccountyellow.mp4"></video> -->
@@ -264,9 +264,9 @@
       </p>
     </div>
 
-<!-- -----USER FLOW DISPLAY------ -->
+-----USER FLOW DISPLAY------ 
 
-    <!-- <div class="offset-by-one columns five userflow userflowbtnStartpage desktop" id="userflow1">
+    <div class="offset-by-one columns five userflow userflowbtnStartpage desktop" id="userflow1">
       <video class="anantaya-video desktop" loop="" autoplay="" muted="" src="images/uxdesign/anantaya.mp4"></video>
     </div>
   </div>
@@ -341,11 +341,9 @@
     el: '.swiper-pagination',
   },
   })
-  </script>  
   
-  <!-- -------Play pause for video--------- -->
-  <script> 
-    var myVideo = document.getElementById("video1"); 
+  // <!-- -------Play pause for video--------- -->
+    var myVideo = document.getElementById("video2"); 
     
     function playPause() { 
       if (myVideo.paused) 
@@ -354,14 +352,14 @@
         myVideo.pause(); 
     } 
     
-    var myVideoSecond = document.getElementById("video2"); 
+    // var myVideoSecond = document.getElementById("video2"); 
 
-    function playPause() { 
-      if (myVideoSecond.paused) 
-        myVideoSecond.play(); 
-      else 
-        myVideoSecond.pause(); 
-    } 
+    // function playPause() { 
+    //   if (myVideoSecond.paused) 
+    //     myVideoSecond.play(); 
+    //   else 
+    //     myVideoSecond.pause(); 
+    // } 
 
     </script> 
 
