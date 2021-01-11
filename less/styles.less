@@ -250,7 +250,7 @@ a{
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 2.5%;
-  margin-top: 132%;
+  margin-top: 130%;
   a{
     display: inline-block;
   }
@@ -258,9 +258,88 @@ a{
     letter-spacing: 1.5px;
     font-size: 16px;
   }
+  h3{
+    display: inline-block;
+    color: @yellow-color;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: @main-font;
+  }
 }
 
+// -------------START PAGE - IPAD----------
+
 @media only screen and (max-width: 800px){
+
+.intro{
+  padding: 2%;
+  p{
+    margin-left: 0%;
+    max-width: 25em;
+  }
+  h2{
+    width: 30rem;
+  }
+}
+.video-area{
+  .startpage-video{
+    max-width: 54.4em;
+    max-height: 80em;
+    float: right;
+    margin-top: 8%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+    &:hover{
+      opacity: 1;
+    }  
+  }
+  .arrow{
+    width: 97%;
+    margin-left: -.12%;  
+    }
+  h2{
+    margin-left: 0%;
+    margin-bottom: 0.5%;
+    margin-top: 30%;
+    background-color: @darkblue;
+  }
+  a{
+    margin-left: 7.5%;
+    display: inline-block;
+  }
+}
+.mail-and-cv{
+  max-width: 13em;
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 2.5%;
+  margin-top: 130%;
+  a{
+    display: inline-block;
+  }
+  h2{
+    letter-spacing: 1.5px;
+    font-size: 16px;
+  }
+  h3{
+    display: inline-block;
+    color: @yellow-color;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: @main-font;
+  }
+}
+}
+
+@media only screen and (max-width: 400px){
   .intro{
     padding: 5%;
     p{
@@ -326,19 +405,7 @@ a{
     margin-left: 7%;
   }
 }
-// .thumbnail-img{
-//   width: 49.7vw;
-//   height: 80vh;
-//   a{
-//     display: inline-block;
-//   }
-//   h4{
-//     display: inline-block;
-//     margin-top: 78.2%;
-//     margin-bottom: 15%;
-//     margin-left: 7%;
-//   }
-// }
+
 #uxdesign{
   video{
     width: 14em;
@@ -351,13 +418,6 @@ a{
   }
 }
 
-// #slownews{
-//   width: 100%;
-//   background-image: url('../images/projectpage/sheldonstudio.png');
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   margin-top: -25px;
-// }
 #slownews{
   .grey-bg{
     background-color: @light-grey;
@@ -1865,34 +1925,57 @@ a{
 
 // -----------------SLOW NEWS PAGE-------------------
 
-.top-bar-slownews a{
-    .mobile{
-      display: none;
+
+#slownews-page{
+
+  .nav-bg-blue{
+  position:fixed;
+  width: 100vw;
+  height: 5em; 
+  background-color: @darkblue;
+  margin-top: 0;
+  margin-left: 0;
+  .nav-bar{
+    max-width: 6em;
+    margin-top: 1%;
+    margin-left: 93%;
+    }
+    .top-bar-slownews a{
+      .mobile{
+        display: none;
+      }
+      h2{
+        margin-left: 1.8%;
+        margin-top: 3%;
+        background-color: @darkblue;
+        font-size: @font-size;
+      }
     }
   }
-.intro-slownews{
-  position: fixed;
-}
-.intro-slownews-first{
-  margin-top: 6%;
-  margin-bottom: 15%;
-  a{
-    text-decoration: underline;
-    margin-left: .2%;
+  .intro-slownews{
+    position: fixed;
   }
-  .slownews-link{
-    text-decoration: none;
+  .intro-slownews-first{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: -3.2%;
+    a{
+      text-decoration: underline;
+      margin-left: .2%;
+    }
+    .slownews-link{
+      text-decoration: none;
+    }
   }
-}
-.intro-slownews-second{
-  margin-left: -2%;
-}
 #slownews-top{
   img{
     width: 100%;
-    margin-top: 30%;
-    margin-left: -50%;
-    margin-bottom: 15%;
+    margin-top: 32%;
+    margin-left: 14%;
+    margin-bottom: 8%;
+  }
+  p{
+    max-width: 30em;
   }
 }
 .at-area{
@@ -1906,7 +1989,6 @@ a{
 }
 #logo-slownews{
   width: 100vw;
-  // height: 100vh;
   background-color: @darkblue;
   background-image: url(../images/slownews/aselect/logo.png);
   background-attachment: fixed;
@@ -2015,55 +2097,44 @@ a{
     width: .95em;
   }
 }
-
-
-// -----------------SLOW NEWS PAGE- MOBILE-------------------
-
+}
+// -----------------SLOW NEWS PAGE - IPAD-------------------
 
 @media only screen and (max-width: 800px){
 
-  #slownews-page{
-    overflow-x: hidden;
+#slownews-page{
+
+  .nav-bg-blue{
+    position:fixed;
+    width: 100vw;
+    height: 3em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
     .nav-bar{
-      position: fixed;
-      margin-left: 2%;
-      width: 98%;
-      height: 3.6em;
-      background-color: @darkblue;
-      z-index: 2;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      a{
-        display: inline-block;
-        margin: 2.5% 5% .2% -2.5%;
+      max-width: 6em;
+      margin-top: 1.2%;
+      margin-left: 87%;
       }
-      img{
-        margin-left: 35%;
+      .top-bar-slownews a{
+        .mobile{
+          display: none;
+        }
+        h2{
+          margin-left: -3%;
+          margin-top: 4.8%;
+          background-color: @darkblue;
+          font-size: @font-size;
+        }
       }
     }
-    .area{
-      .desktop{
-        display: none;
-      }
-      .mobile{
-        display: inline-block;
-        position: fixed;
-        top: -.3em;
-        left: 4.5em;
-        z-index: 11;
-        text-align: center;
-      }
-    } 
-    .intro-slownews{
+      .intro-slownews{
       position: fixed;
     }
     .intro-slownews-first{
-      margin-top: 16%;
-      margin-bottom: 15%;
-      p{
-        width: 100%;
-      }
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-left: 0%;
       a{
         text-decoration: underline;
         margin-left: .2%;
@@ -2072,12 +2143,15 @@ a{
         text-decoration: none;
       }
     }
-    .intro-slownews-second{
-      margin-left: -2%;
-    }
     #slownews-top{
       img{
-        display: none;
+        width: 150%;
+        margin-top: 60%;
+        margin-left: -15%;
+        margin-bottom: 0%;
+      }
+      p{
+        max-width: 18em;
       }
     }
     .at-area{
@@ -2092,8 +2166,193 @@ a{
     #logo-slownews{
       width: 100vw;
       background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/logo.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 95%;
+      img{
+        margin-top: 18%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    #articlepage{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/articlemob.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin-top: 10%;
+      img{
+        margin-top: 3%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    #modules{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/modulesmob.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      img{
+        margin-top: 53%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    #masterclass{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/masterclassmob.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      img{
+        margin-top: 53%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    #newworld{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/ilmondomob.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      img{
+        margin-top: 53%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    #newworld-mockup{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/newworldmockups.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 95%;
+      img{
+        margin-top: 53%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+    .fullreportarea{
+      background-color: @darkblue;
+      max-height: 10vh;
+    }
+    #sheldon-studio{
+      width: 100vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/aselect/sheldonstudio.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 95%;
+      cursor: pointer;
+      img{
+        margin-top: 53%;
+        margin-left: 1.8%;
+        width: .95em;
+      }
+    }
+  }
+}
+
+// -----------------SLOW NEWS PAGE- MOBILE-------------------
+
+
+@media only screen and (max-width: 400px){
+
+  #slownews-page{
+    // overflow-x: hidden;
+    .nav-bg-blue{
+      position:fixed;
+      width: 100vw;
+      height: 4.4em; 
+      background-color: @darkblue;
+      margin-top: 0;
+      margin-left: 0;
+        .nav-bar{
+          max-width: 6em;
+          margin-top: 3%;
+          margin-left: 76.5%;
+          }
+          .top-bar-slownews{
+            a{
+              .desktop{
+                display: none;
+              }
+              .mobile{
+                display: inline-block;
+                position: fixed;
+                top: .5em;
+                left: 7%;
+                z-index: 11;
+                text-align: left;
+              }
+              h2{
+                margin-left: 0%;
+                margin-top: 1%;
+                font-size: @font-size;
+              }
+            }
+          }
+        } 
+    .intro-slownews{
+      position: fixed;
+    }
+    .intro-slownews-first{
+      margin-top: 26%;
+      margin-bottom: 15%;
+      p{
+        width: 100vw;
+      }
+      a{
+        text-decoration: underline;
+        margin-left: .2%;
+      }
+      .slownews-link{
+        text-decoration: none;
+      }
+    }
+
+    #slownews-top{
+      img{
+        display: none;
+      }
+    }
+    .at-area{
+      p{
+        font-size: @font-size+8;
+        font-weight: bold;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        margin-left: 5.7%;
+      }
+    }
+    #logo-slownews{
+      width: 100vw;
+      background-color: @darkblue;
       background-image: url(../images/slownews/logomob.png);
-      background-attachment: absolute;
+      background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
@@ -2154,99 +2413,18 @@ a{
       height: 100vh;
       background-color: @darkblue;
       background-image: url(../images/slownews/sheldonstudiomob.png);
-      background-attachment: absolute;
+      background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
       cursor: pointer;
+      margin-left: 8%;
     }
   }
 }
 
 //----------- DT - PROJECTS PAGE ------------
 
-#dt-projectspage{
-  .nav-bar-projectspage{
-    margin-left: .4%;
-    margin-top: .1%;
-    .right-align-topbar{
-      margin-left: 134.8rem;
-    }
-  }
-  .area{
-    h2{
-      position: fixed;
-      top: 1.45em;
-      left: 5em;
-      color: @yellow-color;
-      font-size: 16px;
-      line-height: 1.2em;
-      text-align: left;
-      display: inline-block;
-      z-index: 10;
-    }
-  }
-  .project-areas{
-    margin-left: 6%;
-    margin-top: 6em;
-    max-width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  a{
-    color: @black-color;
-    display: inline-block;
-    text-decoration: none;
-    // font-size: 1.2em;
-  }
-  .card {
-    margin-right: 3%;
-    margin-bottom: 2%;
-    background-color: #1e1d25;
-    padding: 1.5em;
-    width: 17.3em;
-    height: 10em;
-    border-radius: 1.5%;
-    &:hover{
-      opacity: 88%;
-      // border: 2px solid @yellow-color;
-      // margin-bottom: -1.5px;
-      // margin-right: 1.7%;
-    }
-    .cursor {cursor: url(../images/pointer.svg),auto;}
-    h2{
-      color: @yellow-color;
-      font-family: @main-font;
-      line-height: 1.3em;
-      letter-spacing: 1.5px;
-      font-size: @font-size+6;
-      font-weight: 600;
-      margin-top: 5%;
-      margin-left: 7%;
-      text-align: left;
-      text-transform: none;
-    }  
-    .one-row{
-      margin-top: 5%;
-    }
-    // p{
-    //   margin: 34% 20% -2% 35%;
-    //   text-transform: uppercase;
-    //   font-size: 14px;
-    //   letter-spacing: 2.5px;
-    // }
-    p{
-      margin-left: 8%;
-    }
-    img{
-      margin: 0 auto auto 35%;
-      width: 65%;
-    }
-    .long-title{
-      margin-top: -10%;
-    }
-  }
-}
 
 #dt-projectspage-temp{
   .nav-bar-projectspage{
@@ -2269,7 +2447,16 @@ a{
       z-index: 10;
     }
   }
- 
+  h3{
+    display: inline-block;
+    color: @yellow-color;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family: @main-font;
+  }
   .project-areas{
     margin-left: 6%;
     margin-top: 7.5em;
@@ -2281,7 +2468,6 @@ a{
     color: @black-color;
     display: inline-block;
     text-decoration: none;
-    // font-size: 1.2em;
   }
   .card {
     margin-right: 3%;
@@ -2292,10 +2478,7 @@ a{
     height: 10em;
     border-radius: 1.5%;
     &:hover{
-      opacity: 88%;
-      // border: 2px solid @yellow-color;
-      // margin-bottom: -1.5px;
-      // margin-right: 1.7%;
+      opacity: 80%;
     }
     .cursor {cursor: url(../images/pointer.svg),auto;}
     h2{
@@ -2314,15 +2497,10 @@ a{
     .one-row{
       margin-top: 5%;
     }
-    // p{
-    //   margin: 34% 20% -2% 35%;
-    //   text-transform: uppercase;
-    //   font-size: 14px;
-    //   letter-spacing: 2.5px;
-    // }
     p{
       margin-left: 8%;
       margin-right: 8%;
+      margin-top: -5%;
     }
     img{
       margin: 0 auto auto 35%;
@@ -2339,131 +2517,60 @@ a{
 
 @media only screen and (max-width: 800px){
 
-#dt-projectspage{
-  .nav-bar-projectspage{
-    margin-left: .4%;
-    margin-top: .1%;
-    .right-align-topbar{
-      margin-left: -4rem;
-    }
-    .logo{
-      margin-top: 1%;
-    }
-  }
-  .area{
-    h2{
-      position: fixed;
-      top: 1.2em;
-      left: 11.8em;
-      color: @yellow-color;
-      font-size: 16px;
-      line-height: 1.2em;
-      text-align: left;
-      display: inline-block;
-      z-index: 10;
-    }
-  }
-  .project-areas{
-    margin-left: 10%;
-    margin-top: 4em;
-    max-width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  a{
-    color: @black-color;
-    display: inline-block;
-    text-decoration: none;
-  }
-  .card {
-    margin-right: 4%;
-    margin-bottom: 3%;
-    background-color: #1e1d25;
-    padding: 1.5em;
-    width: 17.3em;
-    height: 10em;
-    border-radius: 1.5%;
-    &:hover{
-      opacity: 88%;
-    }
-    .cursor {cursor: url(../images/pointer.svg),auto;}
-    h2{
-      color: @yellow-color;
-      font-family: @main-font;
-      line-height: 1.3em;
-      letter-spacing: 1.5px;
-      font-size: @font-size+6;
-      font-weight: 600;
-      margin-top: 15%;
-      margin-left: 0%;
-      text-align: center;
-      text-transform: none;
-    }  
-    .one-row{
-      margin-top: 20%;
-    }
-    p{
-      margin: 34% 20% -2% 35%;
-      text-transform: uppercase;
-      font-size: 14px;
-      letter-spacing: 2.5px;
-    }
-    img{
-      margin: 0 auto auto 35%;
-      width: 65%;
-    }
-    .long-title{
-      margin-top: -10%;
-    }
-  }
-}
-}
-
-//----------- DT - PROJECTS PAGE - MOBILE ------------
-
-@media only screen and (max-width: 400px){
-
-  #dt-projectspage{
+  #dt-projectspage-temp{
     .nav-bar-projectspage{
-      margin-left: .7%;
-      margin-top: 0%;
-      margin-bottom: 0%;
-      height: 2.6em;
-      max-width: 96vw;
-      padding-top: 2.5%;
+      margin-left: .4%;
+      margin-top: -.1%;
       .right-align-topbar{
-        margin-left: -3.7rem;
-        z-index: 7;
-      }
-      .logo{
-        margin-top: 6%;
-        z-index: 7;
-      }
-      .menu{
-        margin-top: -1.2%;
+        margin-left: 71rem;
+        margin-top: .2%;
       }
     }
-    .area{
+    .intro{
+      margin-top: 4em;
       h2{
         position: fixed;
-        top: 2.6%;
-        left: 25%;
+        top: 1.5em;
+        left: 2.3em;
         color: @yellow-color;
-        font-size: 12px;
-        max-width: 80%;
-        line-height: 1.25em;
-        text-align: center;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
         display: inline-block;
-        z-index: 6;
-        margin: 0;
+        z-index: 10;
+      }
+      h1{
         margin-left: 10%;
-        text-transform: vertical;
+      }
+      p{
+        width: 12em;
+        margin-left: 10%;
+
+      }
+    }
+    .mail-and-cv{
+      position: absolute;
+      top: 22.2em;
+      left: 2em;
+      h3{
+        display: inline-block;
+        color: @yellow-color;
+        font-size: 14px;
+        line-height: 1.2em;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        font-family: @main-font;
+      }
+      .contact{
+        margin-left: 5%;
+        display: inline-block;
       }
     }
     .project-areas{
-      margin-left: 6%;
-      margin-top: 2.5em;
-      max-width: 95%;
+      margin-left: -2%;
+      margin-top: 5em;
+      max-width: 80em;
       display: flex;
       flex-wrap: wrap;
     }
@@ -2471,15 +2578,22 @@ a{
       color: @black-color;
       display: inline-block;
       text-decoration: none;
+      // font-size: 1.2em;
     }
     .card {
-      margin-right: 5%;
-      margin-bottom: 3%;
+      margin-right: 3%;
+      margin-bottom: 2%;
       background-color: #1e1d25;
       padding: 1.5em;
-      width: 98vw;
-      height: 10em;
+      width: 11.3em;
+      height: 9em;
       border-radius: 1.5%;
+      &:hover{
+        opacity: 88%;
+        // border: 2px solid @yellow-color;
+        // margin-bottom: -1.5px;
+        // margin-right: 1.7%;
+      }
       .cursor {cursor: url(../images/pointer.svg),auto;}
       h2{
         color: @yellow-color;
@@ -2488,21 +2602,119 @@ a{
         letter-spacing: 1.5px;
         font-size: @font-size+6;
         font-weight: 600;
-        margin-top: 15%;
-        margin-left: 0%;
-        text-align: center;
+        margin-top: 5%;
+        margin-left: 7%;
+        text-align: left;
         text-transform: none;
+        background-color: transparent;
       }  
       .one-row{
-        margin-top: 16%;
+        margin-top: 5%;
       }
       p{
-        margin: -5% 10% -2% 10%;
-        text-transform: lowercase;
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+      img{
+        margin: 0 auto auto 35%;
+        width: 65%;
+      }
+      .long-title{
+        margin-top: -10%;
+      }
+    }
+  }
+}
+
+//----------- DT - PROJECTS PAGE - MOBILE ------------
+
+@media only screen and (max-width: 400px){
+
+  #dt-projectspage-temp{
+    .nav-bar-projectspage{
+      margin-left: .4%;
+      margin-top: -.1%;
+      .right-align-topbar{
+        margin-left: 88vw;
+        margin-top: .6%;
+      }
+    }
+    .intro{
+      margin-top: 2em;
+      h2{
+        position: fixed;
+        top: 2.7%;
+        left: 4.8%;
+        color: @yellow-color;
         font-size: 14px;
-        letter-spacing: 2px;
-        text-align: center;
-        }
+        line-height: 1.2em;
+        text-align: left;
+        display: inline-block;
+        z-index: 10;
+      }
+      h1{
+        display: none;
+      }
+      p{
+        display: none;
+      }
+    }
+    .mail-and-cv{
+      display: none;
+    }
+    .project-areas{
+      margin-left: 5.5%;
+      margin-top: -10%;
+      max-width: 80em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    a{
+      color: @black-color;
+      display: inline-block;
+      text-decoration: none;
+      // font-size: 1.2em;
+    }
+    .card {
+      margin-right: 0%;
+      margin-bottom: 2%;
+      background-color: #1e1d25;
+      padding: 1.5em;
+      width: 80vw;
+      height: 9em;
+      border-radius: 1.5%;
+      &:hover{
+        opacity: 88%;
+        // border: 2px solid @yellow-color;
+        // margin-bottom: -1.5px;
+        // margin-right: 1.7%;
+      }
+      .cursor {cursor: url(../images/pointer.svg),auto;}
+      h2{
+        color: @yellow-color;
+        font-family: @main-font;
+        line-height: 1.3em;
+        letter-spacing: 1.5px;
+        font-size: @font-size+6;
+        font-weight: 600;
+        margin-top: 12%;
+        margin-left: 7%;
+        text-align: left;
+        text-transform: none;
+        background-color: transparent;
+      } 
+      .with-p{
+        margin-top: 10%;
+      }
+      .one-row{
+        margin-top: 18%;
+      }
+      p{
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: -6%;
+        text-align: left;
+      }
       img{
         margin: 0 auto auto 35%;
         width: 65%;
