@@ -258,6 +258,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/all/back2.png": {
+		"ft": 32768,
+		"iS": 2918,
+		"oA": 0,
+		"oAP": "/images/all/back2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/all/downarrowblue.png": {
 		"ft": 32768,
 		"iS": 933,
@@ -7027,32 +7040,45 @@
 		"oAP": "/images/startpage/startpagevideo.mp4",
 		"oF": 0
 		},
-	"/images/topbar/back.png": {
+	"/images/topbar/archive/back.png": {
 		"ft": 32768,
 		"iS": 701,
 		"oA": 0,
-		"oAP": "/images/topbar/back.png",
+		"oAP": "/images/topbar/archive/back.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
 		},
-	"/images/topbar/back.svg": {
+	"/images/topbar/archive/back.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/topbar/back.svg",
+		"oAP": "/images/topbar/archive/back.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/topbar/back2.png": {
+	"/images/topbar/archive/back2.png": {
 		"ft": 32768,
 		"iS": 2793,
+		"oA": 0,
+		"oAP": "/images/topbar/archive/back2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/topbar/back2.png": {
+		"ft": 32768,
+		"iS": 2979,
 		"oA": 0,
 		"oAP": "/images/topbar/back2.png",
 		"oF": 0,

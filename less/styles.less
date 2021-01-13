@@ -7,6 +7,7 @@
 
 // --------------VARIABLES PALETTE----------------
 @yellow-color: #e5ea77;
+@yellow-color: #e9ee8a;
 // @yellow-color: #b7b8b4;
 @blue-color: #23222a;
 @grey-color: #414142;
@@ -103,6 +104,7 @@ h5{
   margin-left: 4%;
   margin-top: -1%;
   margin-bottom: 4.5%;
+  letter-spacing: .5px;
 }
 p{
   font-size: @font-size;
@@ -132,9 +134,12 @@ a{
 }
 .bold{
   font-weight: 600;
+  letter-spacing: .5px;
 }
 .bold-medium{
   font-weight: 500;
+  letter-spacing: .5px;
+
 }
 .italic{
   font-style: italic;
@@ -157,7 +162,7 @@ a{
   margin-left: 0;
   z-index: 8;
   .back{
-    width: 2.15em;
+    width: 2.05em;
     box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
     border-radius: 50px;
     margin-left: 1.8rem;
@@ -228,7 +233,7 @@ a{
     margin-left: 0;
     z-index: 0;
     .back{
-      width: 2.2em;
+      width: 2.05em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
       border-radius: 50px;
       margin-left: 1.9rem;
@@ -1086,7 +1091,7 @@ a{
       font-size: 32px;
     }
     h5{
-      margin-left: 9%;
+      margin-left: 9.1%;
       margin-top: 0%;
     }
     .intro-thefork{
@@ -1111,7 +1116,7 @@ a{
   }
     #video-area{
       // background: @bg-gradient-radial;
-      background-image: url(../images/uxdesign/bggreen.png);
+      background-image: url(../images/uxdesign/bgdarkblue.png);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -1121,7 +1126,7 @@ a{
       height: 100vh;
       // width: 73vw;
       width: 100vw;
-      margin-top: -11.9%;
+      margin-top: -12%;
       z-index: -3;
     }
     .videos{
@@ -1159,7 +1164,8 @@ a{
       list-style: none;
       // display: inline-block;
       text-decoration: none;
-      color: @darkblue;
+      color: @yellow-color;
+      opacity: 70%;
       background-color: transparent;
       font-size: @font-size+10;
       font-family: @main-font;
@@ -1181,19 +1187,20 @@ a{
       left: 72%;
       font-size: @font-size+30;
       h5{
-        letter-spacing: .2px;
+        letter-spacing: .9px;
         font-size: 20px;
-        color: @darkblue;
+        color: @yellow-color;
         font-weight: 700;
       }
       p{
         margin-left: 3.7%;
         max-width: 18em;
-        color: @darkblue;
+        color: @yellow-color;
         font-weight: 350;
         font-family: @main-font;
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 300;
+        margin-top: -2%;
       }
     }
 
@@ -1205,6 +1212,14 @@ a{
 @media only screen and (max-width: 800px){
 
 #uxdesign-thefork{
+
+  .nav-bg-blue{
+    .logo{
+      margin-left: 9rem;
+    }
+  }
+
+
   .top-area{
     background-image: url(../images/uxdesign/bgdarkblue.png);
     background-attachment: fixed;
@@ -1333,6 +1348,59 @@ a{
 @media only screen and (max-width: 400px){
 
   #uxdesign-thefork{
+    .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 4.5em; 
+      background-color: @darkblue;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 2%;
+        left: 70%;
+      }
+      .category{
+        h2{
+          position: absolute;
+          background-color: transparent;
+          font-size: @font-size;
+          font-size: 16px;
+          line-height: 1.2em;
+          text-align: left;
+          width: 10em;
+          top: 2%;
+          left: 2.7%;
+        }
+        .mobile{
+          display: inline-block;
+        }
+      }
+      .next-project{
+        h2{
+        position: absolute;
+        width: 20em;
+        text-transform: none;
+        letter-spacing: 1px;
+        font-size: @font-size;
+        top: 28%;
+        left: -44.3%;
+        }
+      }
+      .logo{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: -2%;
+        left: 63%;
+      }
+    }
+
     .top-area{
       h1{
         margin-left: 1%;
@@ -1806,17 +1874,55 @@ a{
 @media only screen and (max-width: 800px){
   #brandingidentity{
     .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 4em; 
+      background-color: @darkblue;
+      margin-top: 0;
+      margin-left: 0;
+      z-index: 0;
+      .back{
+        width: 2.05em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        margin-left: 1.9rem;
+        margin-top: 1.4rem;
+      }
+      .category{
+        h2{
+          background-color: transparent;
+          font-size: @font-size;
+          font-size: 16px;
+          line-height: 1.2em;
+          text-align: left;
+          width: 30em;
+          margin-top: 4%;
+          margin-left: 3%;
+        }
+        .mobile{
+          display: none;
+        }
+      }
       .next-project{
         h2{
         width: 20em;
         text-transform: none;
         letter-spacing: 1px;
         font-size: @font-size;
-        margin-top: 7.1%;
-        margin-left: 108%;
+        margin-top: 6.9%;
+        margin-left: 50%;
         }
       }
+      .logo{
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        margin-left: 9rem;
+        margin-top: 1.4rem;
+      }
     }
+  
+
     #top-branding{
       height: 100vh;
     }
@@ -1837,7 +1943,7 @@ a{
         writing-mode: vertical-lr;
         margin-right: 0em;
         margin-bottom: 3em;
-        margin-left: -.5%;
+        margin-left: 12%;
       }
       img{
         width: 25%;
@@ -1864,8 +1970,8 @@ a{
       background-repeat: no-repeat;
       background-size: cover;
       .mockup{
-        margin-top: 10%;
-        margin-left: 40%;
+        margin-top: 15%;
+        margin-left: 33.5%;
         width: 17em;
       }
       .kitaapp-arrow{
@@ -1877,7 +1983,7 @@ a{
     .swiper-container {
       width: 50em;
       margin-top: 5%;
-      margin-left: 8%;
+      margin-left: 10.2%;
       margin-bottom: 10%;
       video{
         width: 100%;
