@@ -7214,6 +7214,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/uxdesign/bggreen.png": {
+		"ft": 32768,
+		"iS": 1226110,
+		"oA": 0,
+		"oAP": "/images/uxdesign/bggreen.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/bggreenipad.png": {
+		"ft": 32768,
+		"iS": 192616,
+		"oA": 0,
+		"oAP": "/images/uxdesign/bggreenipad.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/uxdesign/bggrey.png": {
 		"ft": 32768,
 		"iS": 663792,

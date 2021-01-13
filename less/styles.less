@@ -14,7 +14,8 @@
 @black-color: #202124;
 @darkblue: #0b0a14;
 @white-color-second: #e7e7e7;
-@appricot-color: #da816b;
+// @appricot-color: #da816b;
+@appricot-color: #b84554;;
 @light-grey: #e7e7e7;
 
 // --------------VARIABLES OTHER-----------------
@@ -120,11 +121,8 @@ a{
   margin-left: -6px;
   color: @yellow-color;
   &:hover{
-    font-style: italic;
+    // font-style: italic;
     color: @appricot-color;
-    h2{
-      font-style: italic;
-        }
   }
 }
 a{
@@ -143,6 +141,9 @@ a{
 }
 .underline{
   text-decoration: underline;
+}
+.red{
+  color: #b84554;
 }
 
 // ----------------------NAV BAR-------------------------
@@ -172,6 +173,9 @@ a{
       width: 35em;
       margin-top: 4%;
       margin-left: -8%;
+      &:hover{
+        font-style: italic;
+      }
     }
     .mobile{
       display: none;
@@ -185,6 +189,9 @@ a{
     font-size: @font-size;
     margin-top: 7.7%;
     margin-left: 11%;
+    &:hover{
+      font-style: italic;
+    }
     }
   }
   .logo{
@@ -371,6 +378,9 @@ a{
   margin-top: 130%;
   a{
     display: inline-block;
+    &:hover{
+      font-style: italic;
+  }
   }
   h2{
     letter-spacing: 1.5px;
@@ -580,8 +590,11 @@ a{
 .bg-posters{
   margin-top: 8em;
   background-image: url('../images/infodesign/granite_bg.jpg');
-  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+
   .erasedplans-video{
     width: 40vw;
     height: 100%;
@@ -1050,6 +1063,15 @@ a{
 //-------------UXDESIGN - THEFORK - DESKTOP-----------------------
 
 #uxdesign-thefork{
+  .nav-bg-blue{
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 20.75rem;
+      margin-top: 1.6rem;
+    }
+  }
   .top-area{
     background-image: url(../images/uxdesign/bgdarkblue.png);
     background-attachment: fixed;
@@ -1089,7 +1111,7 @@ a{
   }
     #video-area{
       // background: @bg-gradient-radial;
-      background-image: url(../images/uxdesign/bggrey.png);
+      background-image: url(../images/uxdesign/bggreen.png);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -1155,7 +1177,7 @@ a{
     }
     .user-flow-p{
       position: absolute;
-      top: 152%;
+      top: 141%;
       left: 72%;
       font-size: @font-size+30;
       h5{
@@ -1221,12 +1243,12 @@ a{
     }
   }
     #video-area{
-      background: @bg-gradient-radial;
-      // background-image: url(../images/uxdesign/bggrey.png);
-      // background-attachment: fixed;
-      // background-position: center;
-      // background-repeat: no-repeat;
-      // background-size: cover;
+      // background: @bg-gradient-radial;
+      background-image: url(../images/uxdesign/bggreenipad.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       height: 100vh;
       width: 100vw;
       margin-top: -47%;
@@ -1265,7 +1287,6 @@ a{
     }
     button{
       list-style: none;
-      // display: inline-block;
       text-decoration: none;
       color: @darkblue;
       background-color: transparent;
@@ -1668,6 +1689,13 @@ a{
       margin-top: 7.7%;
       margin-left: 61%;
       }
+    }
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 20.75rem;
+      margin-top: 1.6rem;
     }
   }
   #top-branding{
@@ -2858,8 +2886,9 @@ a{
     height: 10em;
     border-radius: 1.5%;
     &:hover{
-      opacity: 80%;
+      opacity: 70%;
     }
+
     .cursor {cursor: url(../images/pointer.svg),auto;}
     h2{
       color: @yellow-color;
