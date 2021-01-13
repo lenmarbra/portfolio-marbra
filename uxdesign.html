@@ -41,79 +41,112 @@
 
 </head>
 
-<body class="subject-page cursor" id="uxdesign-page">
+<body class="cursor" id="uxdesign-thefork">
 
-  <div class="nav-bar">      
-    <a class="cursor" href="dt_projects_page.html">
-      <img class="back" src="images/topbar/back2.png" alt="Back">
-    </a>
-    <a class="cursor" href="index.html">
+  <div class="row nav-bg-blue">
+
+    <div class="columns one">
+      <a class="cursor" href="dt_projects_page.html">
+        <img class="back" src="images/topbar/back2.png" alt="Back">
+      </a>
+    </div>
+
+    <div class="columns one category">
+      <a href="#">
+        <h2>UX design</h2>
+      </a>
+    </div>
+
+    <!-- <div class="columns one">
+      <a class="next-project" href="uxdesign-rayban.html">
+        <h2>Next project &#x279D;</h2>
+      </a>
+    </div> -->
+
+    <div class="offset-by-eight columns one">
+      <a class="cursor" href="index.html">
       <img class="logo" src="images/topbar/mb.png" alt="">
-    </a>
-  </div>
+      </a>
+    </div>
 
-  <div class="row uxdesign">
-    <a href="#">
-      <h2>UX design</h2>
-    </a>
   </div>
-
   <!-- ----------INTRO THEFORK------------ -->
 
+  <div class="top-area">
     <div class="row">
       <div class="columns twelve intro">
-        <h1>Redesign of thefork's mobile application</h1>
+        <h1>thefork</h1>
+        <h5>Redesign of thefork's mobile application</h5>
       </div>
     </div>
 
     <div class="row">
-      <div class="columns four">
-        <p>Thefork is an online 
-          restaurant booking application which offers 
-          discounts and other services related to 
-          booking a restaurant table digitally. The aim of this 
-          redesign was to make it easy for the user to 
-          quickly book a table and to assist the user to find 
-          their preferred choices of place, taste and 
-          atmosphere as smoothly and quickly as possible. 
-        </p>
-        <p class="mobile"><br><br>Below you'll find three new userflows for thefork.<br><br><br><br></p>
-
-
- <!-- ----------USER FLOWS BUTTONS---------- -->
-
-        <section id="button-area">
-          <h5>User flows</h5>
-          <button onclick="playPause()" id="btnStartpage" class="tn active" href="">&#10141; Start page</button>
-          <!-- <button onclick="playPause()">Play/Pause</button> <br> -->
-          <button onclick="playPause()" id="btnBooking" class="tn active" href="">&#10141; Booking a table</button>
-          <button onclick="playPause()" id="btnPay" class="tn active" href="">&#10141; Create your account</button>
-        </section>
-
+      <div class="columns six intro-thefork">
+        <p>
+          Thefork is an online restaurant booking 
+          application which offers discounts and 
+          other services related to booking a 
+          restaurant table digitally. The aim of 
+          this redesign was to make it easy for the 
+          user to quickly book a table and to assist 
+          the user to find their preferred choices 
+          of place, taste and atmosphere as smoothly 
+          and quickly as possible. In the process of 
+          work benchmarking, workshops, user researches 
+          in forms of interviews, user tests, personas, 
+          ideating, user flows and specifications as 
+          well as prototyping was performed.  <br><br>
+          <a class="thefork-p-link" href="thefork.html">&#10141; <span class="bold-medium">Click here</span> 
+            to see more about the process work.</a> 
+        <br><br>&#10141; Or, <span class="bold-medium">Scroll down</span>, to see three redesigned userflows for thefork.</p>
+      </div>
+      <div class="columns five topimage desktop">
+        <img src="images/uxdesign/theforkpf/topimage.png" alt="">
       </div>
     </div>
-
+  </div>
 <!-- -----USER FLOWS DISPLAY------ -->
 
-  <div class="row" id="video-area">
-    <div class="offset-by-seven columns five userflow userflowbtnStartpage desktop" id="userflow1">
-      <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/startpage.mp4"></video>
-      <!-- <video id="video1" class="thefork-video">
-        <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
-      </video> -->
-    </div>
-    <div class="offset-by-seven columns five userflow userflowbtnBooking desktop" id="userflow2">
-      <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/booking.mp4"></video>
-      <!-- <video id="video2" class="thefork-video">
-        <source src="images/uxdesign/booking.mp4" type="video/mp4">
-      </video> -->
-    </div>
-    <div class="offset-by-seven columns five userflow userflowbtnPay desktop" id="userflow3">
-      <!-- <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/myaccountyellow.mp4"></video> -->
-      <video class="thefork-video" loop="" autoplay="" muted="" src="images/uxdesign/myaccount.mp4"></video>
+  <div class="row desktop"  id="video-area">
+
+    <div class="columns nine videos">
+
+      <div class="userflow userflowbtnStartpage desktop" id="userflow1">
+        <video id="video1" class="thefork-video">
+          <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseOne()" id="btnStartpage" class="tn active" href="">&#x2023; /  II</button>
+
+      </div>
+
+      <div class="userflow userflowbtnBooking desktop" id="userflow2">
+        <!-- <video class="thefork-video-two" loop="" autoplay="" muted="" src="images/uxdesign/booking.mp4"></video> -->
+        <video id="video2" class="thefork-video-two">
+          <source src="images/uxdesign/booking.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseTwo()" id="btnBooking" class="tn active" href="">&#x2023; / II</button>
+      </div>
+
+      <div class="userflow userflowbtnPay desktop" id="userflow3">
+        <video id="video3" class="thefork-video-three">
+          <source src="images/uxdesign/myaccount.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseThree()" id="btnPay" class="tn active" href="">&#x2023; /  II</button>
+      </div>
+
     </div>
 
-    <!-- -------moblie--------- -->
+    <section class="user-flow-p desktop">
+      <h5>Userflows</h5>
+      <p>In these three videos, 
+        you'll see the below listed main flows.<br> From the left:<br>
+        &#x2776; Start page for a non-member user <br>&#x2777; Booking a table
+        <br>&#x2778; Creating my account<br>
+      </p>
+    </section>
+
+  </div>
+    <!-- -------mobile--------- -->
 
     <div class="mobile userflow">
       <div class="container-flex">
@@ -175,132 +208,6 @@
     </a>     -->
   </div>
 
-  <!-- ----------INTRO RAYBAN------------ -->
-
-  <div class="row">
-    <div class="columns twelve intro">
-      <h1>Prescription flow <br>for RayBan</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="columns four">
-      <p>
-        The aim of this project was to improve 
-        the user experience of buying a pair of 
-        glasses with a prescription on RayBan's website. 
-        Previously, it was difficult for the user to understand 
-        the different steps of the flow. RayBan also 
-        wanted to be able to provide the customers with 
-        feedback regarding availability of glasses based 
-        on the information provided in their prescriptions. 
-        To the right you'll see 
-        a new, improved prescription flow where all 
-        the above requirements are met. The design of 
-        visuals and layout are following Rayban's current 
-        line of design to maintain the site's 
-        overall standardizations. 
-        <br> <br> <br> 
-      </p>
-    </div>
-<!-- -----USER FLOW DISPLAY------ -->
-
-    <div class="offset-by-one columns six desktop" id="rayban">
-      <video class="rayban-video" loop="" autoplay="" muted="" src="images/uxdesign/prescriptionflow.mp4"></video>  <a class="cursor workprocess-arrow" href="comingsoon.html">
-        <!-- <a class="cursor rayban-arrow" href="comingsoon.html">
-          <h2>Work process</h2>
-          <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
-        </a>     -->
-    </div>
-
-    <div class="mobile userflow prescriptionflow">
-      <div class="container-flex">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/prescription/01prescription.png" alt="startpage">
-            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/prescription/02prescription.png" alt="startpage">
-            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/prescription/03prescription.png" alt="startpage">
-            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/prescription/04prescription.png" alt="startpage">
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-      <!-- <a class="cursor workprocess-arrow" href="comingsoon.html">
-        <h2>Work process</h2>
-        <div class="arrow-mobile"><img src="images/all/arrowmobile.png" alt=""></div>
-      </a>     -->
-    </div>
-    
-    </div>
-
-  </div>
-
-
-<!-- -------PROCESS ARROW--------- -->
-
-
-
-<!-- ----------INTRO ANANTAYA------------ -->
-<!-- <div id="anantaya">
-
-  <div class="row">
-    <div class="columns twelve intro">
-      <h1>Anantaya tradefare application</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="columns four">
-      <p>
-        This application is part of a
-        project, in which Anantaya's branding
-        and identity was strengthened through various
-        communication activities. This mobile application 
-        is created for a tradefare 
-        of arts and crafts held by
-        Anantaya. It gives the visitor of the tradefare an opportunity
-        to see what events that are included and where to find them.
-        <br> <br> <br> 
-      </p>
-    </div>
-
------USER FLOW DISPLAY------ 
-
-    <div class="offset-by-one columns five userflow userflowbtnStartpage desktop" id="userflow1">
-      <video class="anantaya-video desktop" loop="" autoplay="" muted="" src="images/uxdesign/anantaya.mp4"></video>
-    </div>
-  </div>
-</div>  -->
-
-
-  <div class="mobile userflow">
-    <div class="container-flex">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/01anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/02anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/03anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/04anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/05anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/06anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/07anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/08anantaya.png" alt="startpage">
-          <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/anantaya/09anantaya.png" alt="startpage">
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </div>
-
-
-<!-- -------PROCESS ARROW--------- -->
-
-  <!-- <a class="cursor workprocess-arrow" href="comingsoon.html">
-    <h2>Anantaya project</h2>
-    <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
-    <div class="arrow-mobile"><img src="images/all/arrowmobile.png" alt=""></div>
-  </a>     -->
-</div>
 
 
 
@@ -312,7 +219,7 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 
-  <script>
+  <!-- <script>
     document.getElementById('btnStartpage').addEventListener('click', changeGraph);
     document.getElementById('btnBooking').addEventListener('click', changeGraph);
     document.getElementById('btnPay').addEventListener('click', changeGraph);
@@ -325,43 +232,62 @@
       console.log(event);
 
       var tl = gsap.timeline();
-      tl.to('.userflow', {opacity:0, duration: .1});
+      tl.to('.userflow', {opacity:1, duration: .1});
       tl.to(elementToShow, {opacity: 1, duration: .3, delay: .3});
       tl.staggerFrom('.top', 0.2, {x: 50}, 0.3);
 
       }
-  </script>
+  </script> -->
   <script>
     var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
 
-  pagination: {
-    el: '.swiper-pagination',
-  },
-  })
-  
-  // <!-- -------Play pause for video--------- -->
-    var myVideo = document.getElementById("video2"); 
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    })
+  </script> 
+
+  <!-- -------Play pause for video--------- -->
+  <script>
+
+    var myVideo = document.getElementById("video1"); 
     
-    function playPause() { 
+    function playPauseOne() { 
       if (myVideo.paused) 
         myVideo.play(); 
       else 
         myVideo.pause(); 
     } 
+
+  </script> 
+  <script>
+
+    var myVideoTwo = document.getElementById("video2"); 
     
-    // var myVideoSecond = document.getElementById("video2"); 
+    function playPauseTwo() { 
+      if (myVideoTwo.paused) 
+        myVideoTwo.play(); 
+      else 
+        myVideoTwo.pause(); 
+    } 
 
-    // function playPause() { 
-    //   if (myVideoSecond.paused) 
-    //     myVideoSecond.play(); 
-    //   else 
-    //     myVideoSecond.pause(); 
-    // } 
+  </script> 
+  <script>
 
-    </script> 
+    var myVideoThree = document.getElementById("video3"); 
+    
+    function playPauseThree() { 
+      if (myVideoThree.paused) 
+        myVideoThree.play(); 
+      else 
+        myVideoThree.pause(); 
+    } 
+
+  </script> 
+  
 
 </body>
 
