@@ -9,6 +9,7 @@
 @yellow-color: #e5ea77;
 // @yellow-color: #b7b8b4;
 @blue-color: #23222a;
+@grey-color: #414142;
 @white-color: #eff3f4;
 @black-color: #202124;
 @darkblue: #0b0a14;
@@ -22,6 +23,7 @@
 @inner-shadow: 0px 0px 50px 50px #d8d7d7 inset;
 @shadow-light: 1px 1px 100px 0.5px #c2c1c1;
 @bg-gradient: linear-gradient(#1a1a24, @darkblue);
+@bg-gradient-radial: radial-gradient(circle, rgba(216,216,221,1) 0%, rgb(141, 145, 146) 100%, rgba(216,216,221,1) 100%);
 
 
 // ---------------MIXINS-------------------------
@@ -54,7 +56,7 @@ body{
 .desktop{
   display: inline-block;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 400px){
   .desktop{
     display: none;
   }
@@ -91,6 +93,16 @@ h4{
     color: @yellow-color;
   }
 }
+h5{
+  font-size: @font-size;
+  font-family: @main-font;
+  color: @yellow-color;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: 4%;
+  margin-top: -1%;
+  margin-bottom: 4.5%;
+}
 p{
   font-size: @font-size;
   font-family: @main-font;
@@ -123,6 +135,9 @@ a{
 .bold{
   font-weight: 600;
 }
+.bold-medium{
+  font-weight: 500;
+}
 .italic{
   font-style: italic;
 }
@@ -132,24 +147,56 @@ a{
 
 // ----------------------NAV BAR-------------------------
 
-.logo{
-  width: 2.2em;
-  box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-  border-radius: 50px;
-  display: inline-block;
+.nav-bg-blue{
+  position: fixed;
+  width: 100vw;
+  height: 4em; 
+  background-color: @darkblue;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 8;
+  .back{
+    width: 2.15em;
+    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+    border-radius: 50px;
+    margin-left: 1.8rem;
+    margin-top: 1.4rem;
+  }
+  .category{
+    h2{
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 4%;
+      margin-left: -8%;
+    }
+    .mobile{
+      display: none;
+    }
+  }
+  .next-project{
+    h2{
+    width: 20em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: @font-size;
+    margin-top: 7.7%;
+    margin-left: 11%;
+    }
+  }
+  .logo{
+    width: 2.2em;
+    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+    border-radius: 50px;
+    margin-left: 8.18rem;
+    margin-top: 1.5rem;
+  }
 }
-// .menu{
-//   width: 2.2em;
-//   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-//   border-radius: 50px;
-//   display: inline-block;
-// }
-.back{
-  width: 2.2em;
-  box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-  border-radius: 50px;
-  display: inline-block;
-}
+
+
 .nav-bar-projectspage{
   position: fixed;
   height: 1em;
@@ -160,53 +207,124 @@ a{
     margin-left: 134rem;
   }
 }
-.nav-bar{
-  position: fixed;
-  width: 100vw;
-  background-color: @darkblue;
-  z-index: 8;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  a{
-    display: inline-block;
-    margin: 1% 2% .2% 1%;
-  }
-}
-.area h2{
-  position: fixed;
-  top: -1.1em;
-  left: 3em;
-  color: @yellow-color;
-  font-size: 16px;
-  line-height: 1.2em;
-  text-align: left;
-  display: inline-block;
-  z-index: 10;
-}    
+
+
+// ----------------------NAV BAR - IPAD-------------------------
+
 @media only screen and (max-width: 800px){
-  .nav-bar-projectspage{
+  .nav-bg-blue{
     position: fixed;
-    height: 2.7em;
-    width: 97%;
-    top: 0%;
+    width: 100vw;
+    height: 4em; 
     background-color: @darkblue;
-    padding: 1.8%;
-    display: flex;
-    justify-content: space-between;
-    .right-align-topbar{
-      margin-left: 0rem;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 0;
+    .back{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 1.9rem;
+      margin-top: 1.4rem;
+    }
+    .category{
+      h2{
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 30em;
+        margin-top: 4%;
+        margin-left: 3%;
+      }
+      .mobile{
+        display: none;
+      }
+    }
+    .next-project{
+      h2{
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 1px;
+      font-size: @font-size;
+      margin-top: 6.9%;
+      margin-left: 50%;
+      }
     }
     .logo{
-      margin-top: 8%;
-    }
-    .menu{
-      margin-left: 15%;
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 1.4rem;
+      margin-top: 1.4rem;
     }
   }
 }
 
-// ---------------------------------------------------------------
+// ----------------------NAV BAR - MOBILE-------------------------
+
+  @media only screen and (max-width: 400px){
+    .mobile{
+      display: inline-block;
+    }
+    .desktop{
+      display:none;
+    }
+    .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 5.5em; 
+      background-color: @darkblue;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 68%;
+      }
+      .category{
+        h2{
+          position: absolute;
+          background-color: transparent;
+          font-size: @font-size;
+          font-size: 16px;
+          line-height: 1.2em;
+          text-align: left;
+          width: 10em;
+          top: 2%;
+          left: 2.7%;
+        }
+        .mobile{
+          display: inline-block;
+        }
+      }
+      .next-project{
+        h2{
+        position: absolute;
+        width: 20em;
+        text-transform: none;
+        letter-spacing: 1px;
+        font-size: @font-size;
+        top: 28%;
+        left: -44.3%;
+        }
+      }
+      .logo{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 82%;
+      }
+    }
+  }    
+
 // ----------------START PAGE-------------------
 
 .intro{
@@ -279,6 +397,7 @@ a{
   p{
     margin-left: 0%;
     max-width: 25em;
+    margin-top: -5%;
   }
   h2{
     width: 30rem;
@@ -286,28 +405,28 @@ a{
 }
 .video-area{
   .startpage-video{
-    max-width: 54.4em;
-    max-height: 80em;
+    max-width: 40em;
+    max-height: 90em;
     float: right;
-    margin-top: 8%;
-    margin-left: 40%;
+    margin-top: 21%;
+    margin-left: 0%;
     margin-bottom: 3%;
     &:hover{
       opacity: 1;
     }  
   }
   .arrow{
-    width: 97%;
-    margin-left: -.12%;  
+    width: 85%;
+    margin-left: -5.32%;  
     }
   h2{
-    margin-left: 0%;
+    margin-left: -5.32%;
     margin-bottom: 0.5%;
     margin-top: 30%;
     background-color: @darkblue;
   }
   a{
-    margin-left: 7.5%;
+    margin-left: -7.5%;
     display: inline-block;
   }
 }
@@ -318,7 +437,7 @@ a{
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 2.5%;
-  margin-top: 130%;
+  margin-top: 10%;
   a{
     display: inline-block;
   }
@@ -338,406 +457,91 @@ a{
   }
 }
 }
+// -------------START PAGE - MOBILE----------
 
 @media only screen and (max-width: 400px){
   .intro{
     padding: 5%;
     p{
       margin-left: 0%;
+      margin-bottom: 0%;
+      margin-top: -.3%;
     }
   }
   h1{
-    margin-top: -1%;
+    margin-top: 1%;
   }
   .video-area{
     margin-left: 4.3%;
     margin-right: 0%;
+    .mobile{
+      display: inline-block;
+    }
     .startpage-video{
-      max-width: 95%;
-      margin-top: 2%;
-      margin-bottom: 5%;
+      max-width: 86%;
+      margin-top: -80%;
+      margin-bottom: -10%;
     }
     h2{
       margin-bottom: 0%;
       font-size: 16px;
-      margin-left: 0%;
+      margin-left: 14.3%;
+      margin-top: -10%;
     }
   .arrow{
-    width: 90%;
-    margin-left: 0%;  
+    width: 78%;
+    margin-left: 14.3%;
   }
 }
 .mail-and-cv{
   max-width: 85vw;
   justify-content: start;
-}
-.startpage-mailcv{ 
   margin-left: 2.5%;
-  margin-top: 12%;
+  margin-top: 92%;
   width: 90vw;
-  a h2{
+  a h3{
     font-size: 16px;
-    margin-right: 2em;
+    margin-right: 3em;
+    margin-top: 12rem;
+    letter-spacing: 1.2px;
   }
 }
 }
 
 
-// ----------------PROJECTS PAGE-----------------
-
-.projects-page .row{
-  margin-bottom: -16px;
-}
-a{
-  display: inline-block;
-}
-.thumbnail{
-  width: 49.73vw;
-  height: 80vh;
-  overflow: hidden;
-  margin-left: 0%;
-  margin-bottom: 6px;
-  background-color: @darkblue;
-  video{
-    border-radius: 20px;
-  }
-  h4{
-    margin-left: 7%;
-  }
-}
-
-#uxdesign{
-  video{
-    width: 14em;
-    margin-top: 18%;
-    margin-left: 35%;
-  }
-  h4{
-    margin-top: 4%;
-    margin-bottom: 15%;
-  }
-}
-
-#slownews{
-  .grey-bg{
-    background-color: @light-grey;
-    box-shadow: @inner-shadow;
-  }
-  img{
-    margin-top: 40%;
-    margin-left: 38%;
-    border-radius: 38px;
-    box-shadow: @shadow-light;
-    max-width: 25%;
-  }
-  h4{
-    color: @darkblue;
-    margin-top: 29%;
-    margin-bottom: 10%;
-    font-weight: 900;
-    letter-spacing: -.4px;
-  }
-}
-// #infodesign{
-//   width: 100%;
-//   background-image: url('../images/projectpage/infodesign.png');
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
-#infodesign{
-  .grey-bg{
-    background-color: @light-grey;
-    box-shadow: @inner-shadow;
-  }
-  img{
-    margin-top: 27%;
-    margin-left: 18%;
-    border-radius: 38px;
-    max-width: 70%;
-  }
-  h4{
-    color: @darkblue;
-    margin-top: 18%;
-    margin-left: 6%;
-    margin-bottom: 10%;
-    font-weight: 900;
-    letter-spacing: -.4px;
-  }
-}
-#digartdir, #editorialdesign{
-  video{
-    width: 28em;
-    margin-top: 24%;
-    margin-left: 20%;
-  }
-  h4{
-    margin-top: 10.1%;
-    margin-bottom: 5%;
-  }
-}
-
-// #branding{
-//   width: 100%;
-//   background-image: url('../images/projectpage/branding.png');
-//   // background-attachment: fixed;
-//   // background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-#branding{
-  .grey-bg{
-    background-color: @light-grey;
-    box-shadow: @inner-shadow;
-  }
-  img{
-    margin-top: 25%;
-    margin-left: 36%;
-    max-width: 29%;
-  }
-  h4{
-    color: @darkblue;
-    margin-top: 10%;
-    margin-left: 6%;
-    margin-bottom: 10%;
-    font-weight: 900;
-    letter-spacing: -.4px;
-  }
-}
-#illustrations{
-  .grey-bg{
-    background-image: none;
-    background-color: @light-grey;
-    box-shadow: @inner-shadow;
-
-  }
-  video{
-    display: inline-block;
-    margin-top: 18%;
-    margin-left: 30%;
-    width: 18em;  
-    border-radius: 0px;
-    box-shadow: @shadow-light;
-  }
-  h4{
-    margin-top: 2.8%;
-    margin-bottom: 10%;
-    color: @darkblue;
-    font-weight: 900;
-  } 
-}
-#animations-video{
-  h4{
-  display: block;
-  margin-top: -16.8%;
-  margin-bottom: 7%;
-  }
-  .lady{
-    margin-top: 30%;
-    margin-left: 43%;
-    display:inline-block; 
-
-    height: 436px;
-    width: 110px;
-    z-index: 12;
-
-    background-image: url(../images/animations/lady2.jpg);
-    background-size: 1000%;
-    background-repeat: no-repeat;
-    animation: movietime 17s both 1 2s, 
-              jumpinglady 1.2s infinite linear;
-    animation-timing-function: steps(8);
-  }
-  @keyframes jumpinglady
-  {
-  from{background-position-x: 0;}
-  to{background-position-x: -870px;}
-  }
-}
-
-// ----------------PROJECTS PAGE - MOBILE-----------------
-
-@media only screen and (max-width: 800px){
-  .projects-page .row{
-    margin-bottom: -16px;
-  }
-  .page-title{
-    h2{
-    position: fixed;
-    top: 1.2em;
-    left: 8.2em;
-    letter-spacing: .2em;
-    font-size: 16px;
-    }
-  }
-  .row-one{
-    margin-top: -5%;
-    }
-  a{
-    display: inline-block;
-  }
-  .thumbnail{
-    width: 90vw;
-    height: 80vh;
-    overflow: hidden;
-    margin-left: 7.5%;
-    margin-bottom: .7em;
-    background-color: @light-grey;
-    box-shadow: @inner-shadow;
-    h4{
-      margin-bottom: 10%;
-      color: @darkblue;
-      font-size: @font-size+4;
-      font-weight: 900;
-      letter-spacing: -.4px;
-    }
-  }
-  #uxdesign{
-    video{
-      width: 12em;
-      margin-top: 25%;
-      margin-left: 23%;
-      border-radius: 20px;
-    }
-    h4{
-      margin-left: 36%;
-      margin-top: -5%;
-    }
-  }
-  #slownews{
-    margin-bottom: 1em;
-    img{
-      margin-top: 65%;
-      margin-left: 25%;
-      border-radius: 38px;
-      max-width: 50%;
-      box-shadow: @shadow-light;
-    }
-    h4{
-      color: @darkblue;
-      margin-top: 45%;
-      margin-left: 25%;
-    }
-  }
-  #infodesign{
-    img{
-      margin-top: 45%;
-      margin-left: 13%;
-      border-radius: 38px;
-      max-width: 105%;
-    }
-    h4{
-      color: @darkblue;
-      margin-top: 35%;
-      margin-left: 25%;
-      margin-bottom: 10%;
-    }
-  }
-  #digartdir, #editorialdesign{
-    margin-bottom: 1em;
-    img{
-      width: 19em;
-      margin-top: 44%;
-      border-radius: 12px;
-    }
-    h4{
-      margin-top: 10%;
-      margin-bottom: 10%;
-      margin-left: 25%;
-    }
-  }
-  #editorialdesign{
-    margin-bottom: 0em;
-    h4{
-      margin-left: 29%;
-    }
-  }
-  #branding{
-    margin-bottom: 1em;
-    img{
-      margin-top: 36%;
-      margin-left: 22%;
-      max-width: 55%;
-    }
-    h4{
-      margin-top: 10%;
-      margin-left: 23.5%;
-      margin-bottom: 10%;
-      font-weight: 900;
-      letter-spacing: -.4px;
-    }
-  }
-  #illustrations{
-    video{
-      display: inline-block;
-      margin-top: 30%;
-      margin-left: 18%;
-      width: 14em; 
-      border-radius: 0px;
-      box-shadow: @shadow-light;
-    }
-    h4{
-      margin-top: 8%;
-      margin-bottom: 10%;
-      margin-left: 33%;
-      color: @darkblue;
-      font-weight: 900;
-    } 
-  }
-  #animations-video{
-    .lady{
-      margin-top: 38%;
-      margin-left: 34%;
-      display:inline-block; 
-
-      height: 436px;
-      width: 110px;
-      z-index: 12;
-
-      background-image: url(../images/animations/lady2.jpg);
-      background-size: 1000%;
-      background-repeat: no-repeat;
-      animation: movietime 17s both 1 2s, 
-                jumpinglady 1.2s infinite linear;
-      animation-timing-function: steps(8);
-    }
-
-    @keyframes jumpinglady
-    {
-    from{background-position-x: 0;}
-    to{background-position-x: -870px;}
-    }
-    h4{
-    display: block;
-    margin-top: -45%;
-    margin-bottom: 10%;
-    margin-left: 34%;
-    }
-  }
-}
-
-.contact-arrow{
-  .contact-txt{
-    transform: rotate(-90deg);
-    margin-top: 190%;
-    margin-left: 50%;
-    margin-bottom: 5%;
-  }
-  .arrow-down{
-    margin: -230% auto auto 27%;
-  }
-}
 
 // -----------------------SUBJECT PAGES------------------------
 //------------Information design------------------------------
 
-.subject-page{
+#information-design{
+  .nav-bg-blue{
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 20.8rem;
+      margin-top: 1.55rem;
+    }
+    .category{
+      h2{
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 30em;
+        margin-top: 4%;
+        margin-left: -9%;
+        }
+      }
+    }
+
   h1{
     line-height: 1.2em;
     margin-top: 5%;
     margin-bottom: 2%;
     font-size: @font-size+10;
     margin-left: 5.5%;
-    // max-width: 10em;
   }
   h5{
     font-size: @font-size;
@@ -832,8 +636,178 @@ a{
   }
   .erased-p{
     margin-left: 1%;
-    margin-left: -15%;
+    margin-left: -10.5%;
+    max-width: 30em;
+    margin-bottom: -35%;
+  }
+  .second-p{
+    margin-left: -20%;
     max-width: 20em;
+  }
+  .mobile-paragraph{
+    opacity: 0;
+  }
+}
+#devastating{
+  .bg-posters{
+    margin-top: 2.5em;
+  }
+  p{
+    width: 30em;
+  }
+}
+#social{
+  h1{
+    margin-bottom: .2%;
+    margin-top: 10%;
+  }
+  h5{
+    margin-bottom: -.4%;
+    margin-top: .5%;
+    margin-left: 3.5%;
+  }
+  p{
+    margin-left: -15%;
+    max-width: 30em;
+    margin-bottom: -40%;
+  }
+}
+.workprocess-arrow{
+  margin-left: 39.3%;
+  margin-bottom: 10%;
+}
+// -------------INFORMATION DESIGN - IPAD------------------
+
+@media only screen and (max-width: 800px){
+
+#information-design{
+  .nav-bg-blue{
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 8.5rem;
+      margin-top: 1.5rem;
+  }
+  .category{
+    h2{
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 30em;
+      margin-top: 4.5%;
+      margin-left: 0%;
+      }
+    }
+  }
+
+  h1{
+    line-height: 1.2em;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: @font-size+10;
+    margin-left: 5.5%;
+  }
+  h5{
+    font-size: @font-size;
+    font-family: @main-font;
+    color: @yellow-color;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-left: 4%;
+    margin-top: -1%;
+    margin-bottom: 4.5%;
+  }
+  p{
+    color: @yellow-color;
+    max-width: 35em;
+    margin-left: 18%;
+    margin-bottom: -10em;
+    margin-top: -10%;
+  }
+  .arrow{
+    width: 100%;
+    margin-left: 2%;
+    }
+    .arrow-down{
+      transform: rotate(90deg);  
+      width: 2.5em;
+      height: 1em;
+    } 
+  h2{
+    margin-top: 2.7%;
+    margin-bottom: -.2%;
+    font-size: 16px;
+    letter-spacing: .2em;
+    margin-left: 2%;
+  }
+}
+.bg-posters{
+  margin-top: 8em;
+  background-image: url('../images/infodesign/granite_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .erasedplans-video{
+    width: 40vw;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: -1.5%;
+    border-radius: 4px;
+  }
+  img{
+    width: 28%;
+    margin-top: 9%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+    box-shadow: @shadow-img;
+  }
+  .posters{
+    margin-left: 8.8%;
+  }
+  .posterone{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 70%;
+    margin-left: 14.8%;
+    transform: rotate(90deg);   
+    box-shadow: @shadow-img;   
+  }
+  .postertwo{
+    margin-top: 14em;
+    margin-bottom: 14em;
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: @shadow-img;   
+  }
+}
+.bg-poster-third{
+  height: 100vh;
+}
+
+#devastating, #erasedplans, #social{
+  h1{
+    margin-bottom: 1%;
+    max-width: 12em;
+    margin-left: 6%;
+  }
+  .devastating-h1{
+    margin-bottom: -.8%;
+    margin-top: 10%;
+  }
+  p{
+    margin-left: 22%;
+    margin-top: -8%;
+    margin-bottom: -5%;
+    a{
+      margin-left: 1px;
+    }
+  }
+  .erased-p{
+    margin-left: 1%;
+    margin-left: -4%;
+    max-width: 40em;
     margin-bottom: -35%;
   }
   .second-p{
@@ -857,11 +831,11 @@ a{
   h5{
     margin-bottom: -.4%;
     margin-top: .5%;
-    margin-left: 3.5%;
+    margin-left: 6.2%;
   }
   p{
-    margin-left: -20%;
-    max-width: 25em;
+    margin-left: -8%;
+    max-width: 50em;
     margin-bottom: -40%;
   }
 }
@@ -869,9 +843,58 @@ a{
   margin-left: 39.3%;
   margin-bottom: 10%;
 }
+}
+// -------------INFORMATION DESIGN - MOBILE------------------
 
-@media only screen and (max-width: 800px){
-  .subject-page{
+@media only screen and (max-width: 400px){
+  #information-design{
+    .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 5.5em; 
+      background-color: @darkblue;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 68%;
+      }
+      .cat-long{
+        position: absolute;
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 30em;
+        top: -24%;
+        left: -2%;
+      }
+      .next-project{
+        h2{
+        position: absolute;
+        width: 20em;
+        text-transform: none;
+        letter-spacing: 1px;
+        font-size: @font-size;
+        top: 28%;
+        left: -44.3%;
+        }
+      }
+      .logo{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 64%;
+      }
+    }
     h1{
       line-height: 1.2em;
     }
@@ -899,7 +922,7 @@ a{
       border: 1px solid @yellow-color;
       padding: 6% 5% 10%;
       text-align: center;
-      border-radius: 25px;
+      border-radius: 1px;
       margin-top: 13%;
       margin-left: 0%;
     }
@@ -948,8 +971,8 @@ a{
       margin-left: 8.8%;
     }
     .posterone{
-      margin-top: -10em;
-      margin-bottom: .5em;
+      margin-top: -15rem;
+      margin-bottom: 0em;
       width: 70%;
       margin-left: 14.8%;
       transform: rotate(90deg);   
@@ -968,6 +991,7 @@ a{
     h1{
       margin-top: 20%;
       margin-bottom: 1%;
+      margin-left: -.9%;
       width: 12em;
     }
     .devastating-h1{
@@ -975,13 +999,13 @@ a{
       margin-top: 20%;
     }
     p{
-      margin-left: 3.5%;
-      max-width: 34em;
+      margin-left: -.2%;
+      max-width: 20em;
       margin-top: -5%;
       margin-bottom: 30%;
     }
     .erased-p{
-      margin-left: 8%;
+      margin-left: 4%;
       margin-top: -3%;
       margin-right: 9%;
     }
@@ -1004,300 +1028,498 @@ a{
       margin-top: -10%;
     }
     h5{
-      margin-bottom: -.4%;
+      margin-bottom: -2%;
+      margin-top: 1.5%;
+      margin-left: -.5%;
     }
     .bg-posters{
       background-image: none;
     }
   }
+  p{
+    margin-bottom: -180%;
+  }
   .workprocess-arrow{
     margin-left: 39.3%;
   }
 }
-//------------UXDESIGN PAGE------------------------------
-.subject-page{
-  h1{
-    margin-left: 3.6%;
-    width: 12em;
-  }
-  p{
-    max-width: 22em;
-  }
-  .uxdesign{
-    h2{
-      position: fixed;
-      top: -1.8%;
-      left: 3.5%;
-      width: 20em;
-      z-index: 10;
-    }
-  }
-  section{
-    margin-left: 15%;
-    margin-top: 13em;
-    color: @yellow-color;
-    list-style: none;
-    font-family: @main-font;
-    width: 23em;
-  }
-  button{
-    list-style: none;
-    color: @yellow-color;
-    margin-left: -3%;
-    margin-top: -2%;
-    display: inline-block;
-    text-decoration: none;
-    color: @yellow-color;
-    font-size: @font-size;
-    font-weight: 300;
-    border: none;
-    text-transform: none;
-    &:hover{
-      font-style: italic;
-      }
-  }
-  .userflows{
-    font-size: @font-size+2;
-  }
-}
-.thefork-video{
-  width: 18em;
-  // width: 14em;
-  margin-top: -76%;
-  // margin-top: -56%;
-  margin-bottom: 8%;
-  // margin-bottom: 18%;
-  margin-left: -17%;
-  // border: 12px solid @yellow-color;
-  border-radius: 3px;
-  // border-radius: 1px;
-  background-color: @white-color;
-}
-#userflow2{
-  opacity: 0;
-  margin-top: -6%;
- }
- #userflow3{
-   opacity: 0;
-   margin-top: -7%;
- }
- .rayban-video{
-   margin-top: -5.7%;
-   margin-bottom: 4%;
-   margin-left: 3%;
-   width: 50em;
-   border-radius: 2px;
- }
- .anantaya-video{
-   width: 18em;
-   margin-top: -14%;
-   margin-left: -17%;
-   margin-bottom: 10%;
-   border-radius: 2px;
- }
- .arrow-mobile{
-  display:none;
-}
-.rayban-arrow{
-  width: 120%;
-  margin-top: -100%;
-  margin-left: 0%;
-}
-#anantaya{
-  .subject-page{
+
+
+//------------UXDESIGN PAGES------------------------------
+
+//-------------UXDESIGN - THEFORK - DESKTOP-----------------------
+
+#uxdesign-thefork{
+  .top-area{
+    background-image: url(../images/uxdesign/bgdarkblue.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     h1{
-      margin-left: 0%;
+      margin-left: 9%;
+      margin-top: 12%;
       width: 12em;
+      font-size: 32px;
     }
-    p{
-      max-width: 22em;
+    h5{
+      margin-left: 9%;
+      margin-top: 0%;
+    }
+    .intro-thefork{
+      p{
+        max-width: 45em;
+        margin-left: 22.5%;
+        margin-top: -12%;
+      }
+      .thefork-p-link{
+        margin-left: .5%;
+      }
+    }
+    .topimage{
+      img{
+        width: 90%;
+        margin-top: -43%;
+        margin-left: 0%;
+        margin-bottom: 38%;
+        z-index: 1;
+      }
     }
   }
-}
+    #video-area{
+      // background: @bg-gradient-radial;
+      background-image: url(../images/uxdesign/bggrey.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      // height: 85vh;
+      height: 100vh;
+      // width: 73vw;
+      width: 100vw;
+      margin-top: -11.9%;
+      z-index: -3;
+    }
+    .videos{
+      width: 100%;
+      margin-left: 8%;
+      margin-top: 15%;
+    }
+    .userflows{
+      font-size: @font-size+2;
+    }
+    .userflow{
+      margin-right: -2%;
+    }
+    .thefork-video{
+      width: 14em;
+      border-radius: 11px;
+      border: 13px solid @darkblue;
+      background-color: @darkblue;
+    }
+    .thefork-video-two{
+      width: 14em;
+      margin-left: 0%;
+      border-radius: 11px;
+      border: 13px solid @darkblue;
+      background-color: @darkblue;
+    }
+    .thefork-video-three{
+      width: 14em;
+      margin-left: 0%;
+      border-radius: 11px;
+      border: 13px solid @darkblue;
+      background-color: @darkblue;
+    }
+    button{
+      list-style: none;
+      // display: inline-block;
+      text-decoration: none;
+      color: @darkblue;
+      background-color: transparent;
+      font-size: @font-size+10;
+      font-family: @main-font;
+      font-weight: 800;
+      border: none;
+      border-radius: 0%;
+      text-transform: none;
+      padding: 1px 20px 10px 15px;
+      margin-left: 20%;
+      margin-top: 4%;
+      &:hover{
+        font-style: none;
+        opacity: 63%;
+      }
+    }
+    .user-flow-p{
+      position: absolute;
+      top: 152%;
+      left: 72%;
+      font-size: @font-size+30;
+      h5{
+        letter-spacing: .2px;
+        font-size: 20px;
+        color: @darkblue;
+        font-weight: 700;
+      }
+      p{
+        margin-left: 3.7%;
+        max-width: 18em;
+        color: @darkblue;
+        font-weight: 350;
+        font-family: @main-font;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
 
+    }
 
- //------------UXDESIGN PAGE - MOBILE------------------------------
+  
+//-------------UXDESIGN - THEFORK - IPAD-----------------------
 
 @media only screen and (max-width: 800px){
-    body{
-      overflow-x: hidden;
+
+#uxdesign-thefork{
+  .top-area{
+    background-image: url(../images/uxdesign/bgdarkblue.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    h1{
+      margin-left: 2.5%;
+      margin-top: 7%;
+      width: 12em;
+      font-size: 32px;
     }
-    // #uxdesign-page{
-      .subject-page{
-        h2{
-          margin-top: 3.2%;
-          margin-left: 8%;
-        }
-        .uxdesign{
-          h2{
-            position: fixed;
-            top: 0.6%;
-            left: 24%;
-            width: 20em;
-            z-index: 10;
+    h5{
+      margin-left: 2.5%;
+      margin-top: 0%;
+    }
+    .intro-thefork{
+      p{
+        max-width: 45em;
+        margin-left: 10%;
+        margin-top: -12%;
+      }
+      .thefork-p-link{
+        margin-left: .5%;
+      }
+    }
+    .topimage{
+      img{
+        margin-top: -23%;
+        margin-left: 4%;
+        margin-bottom: 26%;
+        width: 98%;
+        z-index: 1;
+      }
+    }
+  }
+    #video-area{
+      background: @bg-gradient-radial;
+      // background-image: url(../images/uxdesign/bggrey.png);
+      // background-attachment: fixed;
+      // background-position: center;
+      // background-repeat: no-repeat;
+      // background-size: cover;
+      height: 100vh;
+      width: 100vw;
+      margin-top: -47%;
+      z-index: -1;
+    }
+    .videos{
+      width: 100%;
+      margin-left: 8.5%;
+      margin-top: 40%;
+    }
+    .userflows{
+      font-size: @font-size+2;
+    }
+    .userflow{
+      margin-right: -7%;
+    }
+    .thefork-video{
+      width: 10em;
+      border-radius: 11px;
+      border: 10px solid @darkblue;
+      background-color: @darkblue;
+    }
+    .thefork-video-two{
+      width: 10em;
+      margin-left: 0%;
+      border-radius: 11px;
+      border: 10px solid @darkblue;
+      background-color: @darkblue;
+    }
+    .thefork-video-three{
+      width: 10em;
+      margin-left: 0%;
+      border-radius: 11px;
+      border: 10px solid @darkblue;
+      background-color: @darkblue;
+    }
+    button{
+      list-style: none;
+      // display: inline-block;
+      text-decoration: none;
+      color: @darkblue;
+      background-color: transparent;
+      font-size: @font-size+10;
+      font-family: @main-font;
+      font-weight: 800;
+      border: none;
+      border-radius: 0%;
+      text-transform: none;
+      padding: 1px 20px 10px 15px;
+      margin-left: 15%;
+      margin-top: 4%;
+      &:hover{
+        font-style: none;
+        opacity: 63%;
+      }
+    }
+    .user-flow-p{
+      position: absolute;
+      top: 69%;
+      left: 5%;
+      font-size: @font-size+30;
+      h5{
+        letter-spacing: .2px;
+        font-size: 20px;
+        color: @darkblue;
+        font-weight: 700;
+      }
+      p{
+        margin-left: 3%;
+        max-width: 17em;
+        color: @darkblue;
+        font-weight: 350;
+        font-family: @main-font;
+        font-size: 16px;
+      }
+    }
+
+    }
+  }
+
+//------------UXDESIGN - THEFORK - MOBILE------------------------------
+
+@media only screen and (max-width: 400px){
+
+  #uxdesign-thefork{
+        .top-area{
+          h1{
+            margin-left: 1%;
+            margin-top: 25%;
+            width: 12em;
+            font-size: 32px;
           }
-        }
-        h1{
-          margin-left: 3.5%;
-          width: 10em;
-        }
-        p{
-          margin-right: 6%;
-          width: 17em;
-        }
-        section{
-          margin-left: 15%;
-          margin-top: 9em;
-          color: @yellow-color;
-          list-style: none;
-          font-family: @main-font;
-          width: 23em;
-        }
-        #button-area{
-          display: none;
-        }
-        #video-area{
-          margin-top: 0%;
-        }
-        .mobile{
-          display: inline-block;
-        }
-        .userflow{
-          .container-flex{
-            display: flex;
-            width: 70vw;
-            flex-direction: row;
-            flex-wrap: wrap;
-            .flex-item{
-              display: inline-block;
-              width: 100vw;
-              margin: 0;
-            }
-            .swiper-container {
-              width: 60.5vw;
-              margin-top: 0%;
-              margin-left: 20%;
-              margin-bottom: 5%;
-              .swiper-wrapper{
-                width: 100%;
-              img{
-                max-width: 100%;
-                margin-left: .1%;
-                border-radius: 10px;      
-                }
-              }
-              .swiper-pagination{
-                top: 92%;
-                z-index: 12;
-              }
-              .swiper-pagination-bullet-active{
-                background-color: @darkblue;
-              }
-            }
-            .up-bg{
-              width: 100vw;
-            }
-            a {
-              margin-left: 45%;
-      
-              .up{
-                margin-bottom: 5%;
-                width: 2.4em;
-                display: inline-block;
-              }
-            }
-          }
-          h6{
-            text-align: center;
-          }
-          .thefork-uf-one{
-            margin-left: 20%;
-          }
-          .thefork-uf-two{
-            margin-left: 20%;
-          }
-        }
-        .prescriptionflow{
-          .container-flex{
-            width: 95vw;
-            margin-left: -15.5%;
-            .swiper-container{
-              width: 100vw;
-              height: 100%;
-            }
-            img{
-              border-radius: 0px; 
-              margin-left: -.8px;
-            }
-            .swiper-pagination{
-              margin-top: -5%;
-            }
+          h5{
+            margin-left: 1%;
+            margin-top: -5%;
+            letter-spacing: .3px;
 
           }
+          .intro-thefork{
+            p{
+              max-width: 89vw;
+              margin-left: 6%;
+              margin-top: -6%;
+              letter-spacing: .3px;
+            }
+            .thefork-p-link{
+              margin-left: .5%;
+            }
+          }
         }
-        .userflows{
-          font-size: @font-size+2;
-        }
-        #userflow2{
-          opacity: 1;
-          margin-top: 100%;
-        }
-        #userflow3{
-          opacity: 1;
-          margin-top: 100%;
-        }
-        .rayban-video{
-          margin-top: 0%;
-          margin-left: 8%;
-          margin-bottom: 4%;
-          width: 20em;
-          border: 10px solid @yellow-color;
-          border-radius: 15px;
-        }
-        .anantaya-video{
-          width: 15em;
-          margin-top: 0%;
-          margin-left: 16%;
-          margin-bottom: 10%;
-          border: 10px solid @yellow-color;
-          border-radius: 15px;
-          background-color: @white-color;
-        }
+      #button-area{
+        display: none;
+      }
+      #video-area{
+        margin-top: 0%;
       }
       .mobile{
         display: inline-block;
-        color: @yellow-color;
-        font-family: @main-font;
-        margin: 1% 5% 10% 8%;
-        li{
-          list-style: none;
+      }
+      .userflow{
+        .container-flex{
+          display: flex;
+          width: 70vw;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .flex-item{
+            display: inline-block;
+            width: 100vw;
+            margin: 0;
+          }
+          .swiper-container {
+            width: 60.5vw;
+            margin-top: 0%;
+            margin-left: 20%;
+            margin-bottom: 5%;
+            .swiper-wrapper{
+              width: 100%;
+            img{
+              max-width: 100%;
+              margin-left: 0%;
+              border-radius: 10px;      
+              }
+            }
+            .swiper-pagination{
+              top: 92%;
+              z-index: 12;
+            }
+            .swiper-pagination-bullet-active{
+              background-color: @darkblue;
+            }
+          }
+          .up-bg{
+            width: 100vw;
+          }
+          a {
+            margin-left: 45%;
+    
+            .up{
+              margin-bottom: 5%;
+              width: 2.4em;
+              display: inline-block;
+            }
+          }
+        }
+        h6{
+          text-align: center;
+        }
+        .thefork-uf-one{
+          margin-left: 20%;
+        }
+        .thefork-uf-two{
+          margin-left: 20%;
         }
       }
-      .thefork-video{
+      .prescriptionflow{
+        .container-flex{
+          width: 95vw;
+          margin-left: -15.5%;
+          .swiper-container{
+            width: 100vw;
+            height: 100%;
+          }
+          img{
+            border-radius: 0px; 
+            margin-left: -.8px;
+          }
+          .swiper-pagination{
+            margin-top: -5%;
+          }
+
+        }
+      }
+      .userflows{
+        font-size: @font-size+2;
+      }
+      #userflow2{
+        opacity: 1;
+        margin-top: 100%;
+      }
+      #userflow3{
+        opacity: 1;
+        margin-top: 100%;
+      }
+      .rayban-video{
+        margin-top: 0%;
+        margin-left: 8%;
+        margin-bottom: 4%;
+        width: 20em;
+        border: 10px solid @yellow-color;
+        border-radius: 15px;
+      }
+      .anantaya-video{
         width: 15em;
-        margin-top: -95%;
+        margin-top: 0%;
         margin-left: 16%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
         border: 10px solid @yellow-color;
         border-radius: 15px;
         background-color: @white-color;
       }
-      .workprocess-arrow{
-        margin-left: 11.3%;
-        margin-top: 5%;
-        width: 15em;
-        h2{
-          margin-left: 0%;
-        }
-      .arrow-mobile{
-        // width: 2em;
-        display: inline;
-        margin-top: 1%;
+    .mobile{
+      display: inline-block;
+      color: @yellow-color;
+      font-family: @main-font;
+      margin: 1% 5% 10% 8%;
+      li{
+        list-style: none;
+      }
+    }
+    .thefork-video{
+      width: 15em;
+      margin-top: -95%;
+      margin-left: 16%;
+      margin-bottom: 5%;
+      border: 10px solid @yellow-color;
+      border-radius: 15px;
+      background-color: @white-color;
+    }
+    .workprocess-arrow{
+      margin-left: 11.3%;
+      margin-top: 5%;
+      width: 15em;
+      h2{
         margin-left: 0%;
       }
-    }  
-  }
-// }
+    .arrow-mobile{
+      // width: 2em;
+      display: inline;
+      margin-top: 1%;
+      margin-left: 0%;
+    }
+    }}
+}
+
+    //  ------RayBan---------
+    .rayban-video{
+      margin-top: -5.7%;
+      margin-bottom: 4%;
+      margin-left: 3%;
+      width: 50em;
+      border-radius: 2px;
+    }
+   
+ 
+ 
+   //  ------Anantaya---------
+   .anantaya-video{
+      width: 18em;
+      margin-top: -14%;
+      margin-left: -17%;
+      margin-bottom: 10%;
+      border-radius: 2px;
+    }
+    .arrow-mobile{
+     display:none;
+   }
+   .rayban-arrow{
+     width: 120%;
+     margin-top: -100%;
+     margin-left: 0%;
+   }
+   #anantaya{
+     .subject-page{
+       h1{
+         margin-left: 0%;
+         width: 12em;
+       }
+       p{
+         max-width: 22em;
+       }
+     }
+   }
+ 
 
 //------------DIGITAL ART AND STRATEGY------------------------------
 
@@ -1437,16 +1659,28 @@ a{
 // -----------------BRANDING & IDENTITY-------------------
 
 #brandingidentity{
+  .nav-bg-blue{
+    .next-project{
+      h2{
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 1px;
+      font-size: @font-size;
+      margin-top: 7.7%;
+      margin-left: 61%;
+      }
+    }
+  }
   #top-branding{
     height: 100vh;
   }
   h1{
-    margin-top: 2.5%;
-    margin-left: 5.4%;
+    margin-top: 5.5%;
+    margin-left: 5%;
   }
   p{
-    margin-top: -6.5%;
-    margin-left: 24.8%;
+    margin-top: -3%;
+    margin-left: 23.5%;
     max-width: 15em;
   }
   .vertical-arrow{
@@ -1457,6 +1691,7 @@ a{
       writing-mode: vertical-lr;
       margin-right: 0em;
       margin-bottom: 3em;
+      margin-left: -.5%;
     }
     img{
       width: 25%;
@@ -1495,8 +1730,8 @@ a{
   }
   .swiper-container {
     width: 60em;
-    margin-top: -1%;
-    margin-left: 29%;
+    margin-top: -7.8%;
+    margin-left: 38%;
     margin-bottom: 10%;
     video{
       width: 100%;
@@ -1539,30 +1774,196 @@ a{
   
 }
 
-// -----------------BRANDING & IDENTITY - MOBILE-------------------
-
+// -----------------BRANDING & IDENTITY - IPAD-------------------
 
 @media only screen and (max-width: 800px){
   #brandingidentity{
-    .area h2{
-      position: fixed;
-      top: .05%;
-      left: 2.3em;
-    } 
+    .nav-bg-blue{
+      .next-project{
+        h2{
+        width: 20em;
+        text-transform: none;
+        letter-spacing: 1px;
+        font-size: @font-size;
+        margin-top: 7.1%;
+        margin-left: 108%;
+        }
+      }
+    }
     #top-branding{
       height: 100vh;
     }
     h1{
-      margin-top: 25%;
-      margin-left: 6.4%;
+      margin-top: 10.5%;
+      margin-left: 10%;
     }
     p{
-      margin-top: 0%;
-      margin-left: 7%;
-      max-width: 25em;
+      margin-top: -3%;
+      margin-left: 46%;
+      width: 50em; 
     }
     .vertical-arrow{
-      top: 89%;
+      position: absolute;
+      left: 2.9%;
+      top: 17%;
+      h2{
+        writing-mode: vertical-lr;
+        margin-right: 0em;
+        margin-bottom: 3em;
+        margin-left: -.5%;
+      }
+      img{
+        width: 25%;
+        margin-top: 41.5em;
+        margin-left: -34%;
+      }
+  
+    }
+    #k-bg{
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../images/brandingidentity/kbg.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+    #app-bg{
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../images/brandingidentity/bg_sore.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .mockup{
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 17em;
+      }
+      .kitaapp-arrow{
+        width: 50%;
+        margin-top: 5%;
+        margin-left: 48%;
+      }
+    }
+    .swiper-container {
+      width: 50em;
+      margin-top: 5%;
+      margin-left: 8%;
+      margin-bottom: 10%;
+      video{
+        width: 100%;
+      }
+    }
+    
+    .swiper-button-next, .swiper-button-prev {
+      position: absolute;
+      top: 22px !important;
+      width: 50% !important;
+      height: 100% !important;
+      cursor: url('https://image.shutterstock.com/image-vector/share-icon-arrow-white-shadow-260nw-1098423941.jpg'), auto;
+    }
+    
+    .swiper-button-next {
+      right: 0 !important;
+    }
+    
+    .swiper-button-prev {
+      left: 0 !important;
+    }
+    
+    .swiper-button-next:hover {
+      right: 0 !important;
+      cursor: url('../images/brandingidentity/slideshow/doublearrow_right.png'), auto;
+    }
+    
+    .swiper-button-prev:hover {
+      cursor: url('../images/brandingidentity/slideshow/doublearrow_left.png'), auto;
+    }
+    
+    .swiper-button-next:after, .swiper-button-prev:after {
+      display: none;
+    }
+    
+    .swiper-button-next img, .swiper-button-prev img {
+      width: 100%;
+      height: auto;
+    }
+    
+  }
+}
+
+// -----------------BRANDING & IDENTITY - MOBILE-------------------
+
+@media only screen and (max-width: 400px){
+  #brandingidentity{
+    .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 7em; 
+      background-color: @darkblue;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 68%;
+      }
+      .category{
+        h2{
+          position: absolute;
+          background-color: transparent;
+          font-size: @font-size;
+          font-size: 16px;
+          line-height: 1.2em;
+          text-align: left;
+          width: 11em;
+          top: 2%;
+          left: 2.7%;
+        }
+        .mobile{
+          display: inline-block;
+        }
+      }
+      .next-project{
+        h2{
+        position: absolute;
+        width: 20em;
+        text-transform: none;
+        letter-spacing: 1px;
+        font-size: @font-size;
+        top: 47%;
+        left: -44.3%;
+        }
+      }
+      .logo{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 84%;
+      }
+    }
+    #top-branding{
+      height: 100vh;
+    }
+    h1{
+      margin-top: 34%;
+      margin-left: 5.5%;
+    }
+    p{
+      margin-top: -2%;
+      margin-left: 5%;
+      max-width: 93vw;
+    }
+    .vertical-arrow{
+      top: 20%;
       margin-left: 2%;
     }
     #k-bg{
@@ -1595,7 +1996,7 @@ a{
     }
     .swiper-container {
       width: 100vw;
-      margin-top: 18%;
+      margin-top: 25%;
       margin-left: 0%;
       margin-bottom: 20%;
       video{
@@ -1648,10 +2049,7 @@ a{
         margin-left: -7%;
       }
     }
-
   }
-  
-  
 }
 
 // -----------------PROJECTS PAGE LIST-------------------
@@ -1927,38 +2325,22 @@ a{
 
 
 #slownews-page{
-
   .nav-bg-blue{
-  position:fixed;
-  width: 100vw;
-  height: 5em; 
-  background-color: @darkblue;
-  margin-top: 0;
-  margin-left: 0;
-  .nav-bar{
-    max-width: 6em;
-    margin-top: 1%;
-    margin-left: 93%;
-    }
-    .top-bar-slownews a{
-      .mobile{
-        display: none;
-      }
-      h2{
-        margin-left: 1.8%;
-        margin-top: 3%;
-        background-color: @darkblue;
-        font-size: @font-size;
-      }
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 20.8rem;
+      margin-top: 1.55rem;
     }
   }
   .intro-slownews{
     position: fixed;
   }
   .intro-slownews-first{
-    margin-top: 10%;
+    margin-top: 14%;
     margin-bottom: 0%;
-    margin-left: -3.2%;
+    margin-left: 2%;
     a{
       text-decoration: underline;
       margin-left: .2%;
@@ -1967,312 +2349,307 @@ a{
       text-decoration: none;
     }
   }
-#slownews-top{
-  img{
-    width: 100%;
-    margin-top: 32%;
-    margin-left: 14%;
-    margin-bottom: 8%;
+  #slownews-top{
+    background-image: url(../images/slownews/bgslownews.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    img{
+      width: 101%;
+      margin-top: 50%;
+      margin-left: 8%;
+      margin-bottom: 8%;
+    }
+    p{
+      max-width: 30em;
+      margin-top: 4%;
+      margin-left: 20%;
+    }
   }
-  p{
-    max-width: 30em;
+  .at-area{
+    p{
+      font-size: @font-size+8;
+      font-weight: bold;
+      margin-top: 3%;
+      margin-bottom: 1%;
+      margin-left: 2.7%;
+    }
   }
-}
-.at-area{
-  p{
-    font-size: @font-size+8;
-    font-weight: bold;
-    margin-top: 3%;
-    margin-bottom: 1%;
-    margin-left: 2.7%;
+  #logo-slownews{
+    width: 100vw;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/logo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    img{
+      margin-top: 158%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#logo-slownews{
-  width: 100vw;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/logo.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 95%;
-  img{
-    margin-top: 158%;
-    margin-left: 1.8%;
-    width: .95em;
+  #articlepage{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/articlemob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0%;
+    img{
+      margin-top: 103%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#articlepage{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/articlemob.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-top: 10%;
-  img{
-    margin-top: 103%;
-    margin-left: 1.8%;
-    width: .95em;
+  #modules{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/modulesmob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#modules{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/modulesmob.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  img{
-    margin-top: 53%;
-    margin-left: 1.8%;
-    width: .95em;
+  #masterclass{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/masterclassmob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#masterclass{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/masterclassmob.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  img{
-    margin-top: 53%;
-    margin-left: 1.8%;
-    width: .95em;
+  #newworld{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/ilmondomob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#newworld{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/ilmondomob.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  img{
-    margin-top: 53%;
-    margin-left: 1.8%;
-    width: .95em;
+  #newworld-mockup{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/newworldmockups.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
-#newworld-mockup{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/newworldmockups.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 95%;
-  img{
-    margin-top: 53%;
-    margin-left: 1.8%;
-    width: .95em;
+  .fullreportarea{
+    background-color: @darkblue;
+    max-height: 10vh;
   }
-}
-.fullreportarea{
-  background-color: @darkblue;
-  max-height: 10vh;
-}
-#sheldon-studio{
-  width: 100vw;
-  height: 100vh;
-  background-color: @darkblue;
-  background-image: url(../images/slownews/aselect/sheldonstudio.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 95%;
-  cursor: pointer;
-  img{
-    margin-top: 53%;
-    margin-left: 1.8%;
-    width: .95em;
+  #sheldon-studio{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/sheldonstudio.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    cursor: pointer;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
+    }
   }
-}
 }
 // -----------------SLOW NEWS PAGE - IPAD-------------------
 
 @media only screen and (max-width: 800px){
 
 #slownews-page{
-
   .nav-bg-blue{
-    position:fixed;
+    .logo{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 2.4rem;
+      margin-top: 1.5rem;
+    }
+  }
+  .intro-slownews{
+    position: fixed;
+  }
+  .intro-slownews-first{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    a{
+      text-decoration: underline;
+      margin-left: .2%;
+    }
+    .slownews-link{
+      text-decoration: none;
+    }
+  }
+  #slownews-top{
+    img{
+      width: 150%;
+      margin-top: 60%;
+      margin-left: -15%;
+      margin-bottom: 0%;
+    }
+    p{
+      max-width: 18em;
+      margin-top: 7%;
+      margin-left: 20%;
+
+    }
+  }
+  .at-area{
+    p{
+      font-size: @font-size+8;
+      font-weight: bold;
+      margin-top: 3%;
+      margin-bottom: 1%;
+      margin-left: 2.7%;
+    }
+  }
+  #logo-slownews{
     width: 100vw;
-    height: 3em; 
     background-color: @darkblue;
-    margin-top: 0;
-    margin-left: 0;
-    .nav-bar{
-      max-width: 6em;
-      margin-top: 1.2%;
-      margin-left: 87%;
-      }
-      .top-bar-slownews a{
-        .mobile{
-          display: none;
-        }
-        h2{
-          margin-left: -3%;
-          margin-top: 4.8%;
-          background-color: @darkblue;
-          font-size: @font-size;
-        }
-      }
+    background-image: url(../images/slownews/aselect/logo.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    img{
+      margin-top: 18%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-      .intro-slownews{
-      position: fixed;
+  }
+  #articlepage{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/articlemob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
+    img{
+      margin-top: 3%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    .intro-slownews-first{
-      margin-top: 10%;
-      margin-bottom: 10%;
-      margin-left: 0%;
-      a{
-        text-decoration: underline;
-        margin-left: .2%;
-      }
-      .slownews-link{
-        text-decoration: none;
-      }
+  }
+  #modules{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/modulesmob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    #slownews-top{
-      img{
-        width: 150%;
-        margin-top: 60%;
-        margin-left: -15%;
-        margin-bottom: 0%;
-      }
-      p{
-        max-width: 18em;
-      }
+  }
+  #masterclass{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/masterclassmob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    .at-area{
-      p{
-        font-size: @font-size+8;
-        font-weight: bold;
-        margin-top: 3%;
-        margin-bottom: 1%;
-        margin-left: 2.7%;
-      }
+  }
+  #newworld{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/ilmondomob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    #logo-slownews{
-      width: 100vw;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/logo.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 95%;
-      img{
-        margin-top: 18%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
+  }
+  #newworld-mockup{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/newworldmockups.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    #articlepage{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/articlemob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      margin-top: 10%;
-      img{
-        margin-top: 3%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
+  }
+  .fullreportarea{
+    background-color: @darkblue;
+    max-height: 10vh;
+  }
+  #sheldon-studio{
+    width: 100vw;
+    height: 100vh;
+    background-color: @darkblue;
+    background-image: url(../images/slownews/aselect/sheldonstudio.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    cursor: pointer;
+    img{
+      margin-top: 53%;
+      margin-left: 1.8%;
+      width: .95em;
     }
-    #modules{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/modulesmob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      img{
-        margin-top: 53%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
-    }
-    #masterclass{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/masterclassmob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      img{
-        margin-top: 53%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
-    }
-    #newworld{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/ilmondomob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      img{
-        margin-top: 53%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
-    }
-    #newworld-mockup{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/newworldmockups.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 95%;
-      img{
-        margin-top: 53%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
-    }
-    .fullreportarea{
-      background-color: @darkblue;
-      max-height: 10vh;
-    }
-    #sheldon-studio{
-      width: 100vw;
-      height: 100vh;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/aselect/sheldonstudio.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 95%;
-      cursor: pointer;
-      img{
-        margin-top: 53%;
-        margin-left: 1.8%;
-        width: .95em;
-      }
-    }
+  }
   }
 }
 
@@ -2282,40 +2659,43 @@ a{
 @media only screen and (max-width: 400px){
 
   #slownews-page{
-    // overflow-x: hidden;
     .nav-bg-blue{
-      position:fixed;
+      position: fixed;
       width: 100vw;
-      height: 4.4em; 
+      height: 5em; 
       background-color: @darkblue;
-      margin-top: 0;
-      margin-left: 0;
-        .nav-bar{
-          max-width: 6em;
-          margin-top: 3%;
-          margin-left: 76.5%;
-          }
-          .top-bar-slownews{
-            a{
-              .desktop{
-                display: none;
-              }
-              .mobile{
-                display: inline-block;
-                position: fixed;
-                top: .5em;
-                left: 7%;
-                z-index: 11;
-                text-align: left;
-              }
-              h2{
-                margin-left: 0%;
-                margin-top: 1%;
-                font-size: @font-size;
-              }
-            }
-          }
-        } 
+      top: 0;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 69%;
+      }
+      .cat-long{
+        position: absolute;
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 15px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 30em;
+        top: 18%;
+        left: 5.5%;
+      }
+
+      .logo{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: 0%;
+        left: 81%;
+      }
+    }
     .intro-slownews{
       position: fixed;
     }
@@ -2338,24 +2718,21 @@ a{
       img{
         display: none;
       }
+      p{
+        max-width: 18em;
+        font-size: 18px;
+        margin-top: -6%;
+        margin-left: 6%;
+      }
     }
     .at-area{
       p{
         font-size: @font-size+8;
         font-weight: bold;
         margin-top: 3%;
-        margin-bottom: 1%;
-        margin-left: 5.7%;
+        margin-bottom: 3%;
+        margin-left: 5%;
       }
-    }
-    #logo-slownews{
-      width: 100vw;
-      background-color: @darkblue;
-      background-image: url(../images/slownews/logomob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: 100%;
     }
     #newworld{
       width: 100vw;
@@ -2365,10 +2742,11 @@ a{
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 100%;
-    }
+      background-size: 90%;
+      margin-left: 0%;
+      }
     #newworld-mockup{
-      width: 100vw;
+      width: 90vw;
       height: 100vh;
       background-color: @darkblue;
       background-image: url(../images/slownews/ilmondotwomob.png);
@@ -2376,16 +2754,18 @@ a{
       background-position: center;
       background-repeat: no-repeat;
       background-size: 90%;
+      margin-left: 5%;
     }
     #articlepage{
       width: 100vw;
       height: 100vh;
       background-color: @darkblue;
-      background-image: url(../images/slownews/articlepagemob.png);
+      background-image: url(../images/slownews/aselect/articlemob.png);
       background-attachment: absolute;
       background-position: center;
       background-repeat: no-repeat;
       background-size: 90%;
+      margin-left: 5%;
     }
     
     #modules{
@@ -2397,6 +2777,7 @@ a{
       background-position: center;
       background-repeat: no-repeat;
       background-size: 90%;
+      margin-left: 5%;
     }
     #masterclass{
       width: 100vw;
@@ -2407,9 +2788,22 @@ a{
       background-position: center;
       background-repeat: no-repeat;
       background-size: 90%;
+      margin-left: 5%;
     }
+    #logo-slownews{
+      width: 90vw;
+      height: 100vh;
+      background-color: @darkblue;
+      background-image: url(../images/slownews/logomob.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin-left: 5%;
+    }
+
     #sheldon-studio{
-      width: 100vw;
+      width: 90vw;
       height: 100vh;
       background-color: @darkblue;
       background-image: url(../images/slownews/sheldonstudiomob.png);
@@ -2417,8 +2811,7 @@ a{
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
-      cursor: pointer;
-      margin-left: 8%;
+      margin-left: 5%;
     }
   }
 }
@@ -2432,19 +2825,7 @@ a{
     margin-top: .1%;
     .right-align-topbar{
       margin-left: 137.8rem;
-    }
-  }
-  .area{
-    h2{
-      position: fixed;
-      top: 1.45em;
-      left: 5em;
-      color: @yellow-color;
-      font-size: 16px;
-      line-height: 1.2em;
-      text-align: left;
-      display: inline-block;
-      z-index: 10;
+      width: 2.2em;
     }
   }
   h3{
@@ -2520,9 +2901,9 @@ a{
   #dt-projectspage-temp{
     .nav-bar-projectspage{
       margin-left: .4%;
-      margin-top: -.1%;
+      margin-top: 1.5%;
       .right-align-topbar{
-        margin-left: 71rem;
+        margin-left: 70.7rem;
         margin-top: .2%;
       }
     }
@@ -2569,7 +2950,7 @@ a{
     }
     .project-areas{
       margin-left: -2%;
-      margin-top: 5em;
+      margin-top: 11em;
       max-width: 80em;
       display: flex;
       flex-wrap: wrap;
@@ -2614,6 +2995,7 @@ a{
       p{
         margin-left: 8%;
         margin-right: 8%;
+        margin-top: -10%;
       }
       img{
         margin: 0 auto auto 35%;
@@ -2633,7 +3015,7 @@ a{
   #dt-projectspage-temp{
     .nav-bar-projectspage{
       margin-left: .4%;
-      margin-top: -.1%;
+      margin-top: 1%;
       .right-align-topbar{
         margin-left: 88vw;
         margin-top: .6%;
@@ -2664,7 +3046,7 @@ a{
     }
     .project-areas{
       margin-left: 5.5%;
-      margin-top: -10%;
+      margin-top: -1%;
       max-width: 80em;
       display: flex;
       flex-wrap: wrap;
@@ -2698,7 +3080,7 @@ a{
         font-size: @font-size+6;
         font-weight: 600;
         margin-top: 12%;
-        margin-left: 7%;
+        margin-left: 5%;
         text-align: left;
         text-transform: none;
         background-color: transparent;
@@ -2710,7 +3092,7 @@ a{
         margin-top: 18%;
       }
       p{
-        margin-left: 8%;
+        margin-left: 5%;
         margin-right: 8%;
         margin-top: -6%;
         text-align: left;
