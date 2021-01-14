@@ -6606,11 +6606,37 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/slownews/articlepagemobmob.png": {
+		"ft": 32768,
+		"iS": 217890,
+		"oA": 0,
+		"oAP": "/images/slownews/articlepagemobmob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/slownews/aselect/articlemob.png": {
 		"ft": 32768,
 		"iS": 856188,
 		"oA": 0,
 		"oAP": "/images/slownews/aselect/articlemob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/aselect/articlemobmob.png": {
+		"ft": 32768,
+		"iS": 856188,
+		"oA": 0,
+		"oAP": "/images/slownews/aselect/articlemobmob.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6851,6 +6877,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/slownews/bgslownewsmob.png": {
+		"ft": 32768,
+		"iS": 691684,
+		"oA": 0,
+		"oAP": "/images/slownews/bgslownewsmob.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/slownews/ilmondo.psd": {
 		"cB": 0,
 		"ft": 8192,
@@ -6885,6 +6924,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/slownews/Layer 1.png": {
+		"ft": 32768,
+		"iS": 276271,
+		"oA": 0,
+		"oAP": "/images/slownews/Layer 1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/Layer 3.png": {
+		"ft": 32768,
+		"iS": 6170,
+		"oA": 0,
+		"oAP": "/images/slownews/Layer 3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/slownews/logo.png": {
 		"ft": 32768,
 		"iS": 102979,
@@ -6898,11 +6963,32 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/slownews/logomob.png": {
+	"/images/slownews/logomob.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/slownews/logomob.psd",
+		"oF": 0
+		},
+	"/images/slownews/logomobs.png": {
+		"ft": 32768,
+		"iS": 26802,
+		"oA": 0,
+		"oAP": "/images/slownews/logomobs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/logomobx.png": {
 		"ft": 32768,
 		"iS": 49515,
 		"oA": 0,
-		"oAP": "/images/slownews/logomob.png",
+		"oAP": "/images/slownews/logomobx.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -6911,11 +6997,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/slownews/masterclassmockup.png": {
+	"/images/slownews/masterclassmob.png": {
 		"ft": 32768,
-		"iS": 398958,
+		"iS": 288767,
 		"oA": 0,
-		"oAP": "/images/slownews/masterclassmockup.png",
+		"oAP": "/images/slownews/masterclassmob.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6923,6 +7009,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/slownews/masterclassmob.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/slownews/masterclassmob.psd",
+		"oF": 0
 		},
 	"/images/slownews/masterclassmockupgrey.png": {
 		"ft": 32768,
@@ -6945,6 +7039,53 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/masterclassmockupredbggreymob.png": {
+		"ft": 32768,
+		"iS": 61711,
+		"oA": 0,
+		"oAP": "/images/slownews/masterclassmockupredbggreymob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/masterclassmockupredmob.png": {
+		"ft": 32768,
+		"iS": 145534,
+		"oA": 0,
+		"oAP": "/images/slownews/masterclassmockupredmob.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/slownews/masterclassmockupredmob.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/slownews/masterclassmockupredmob.psd",
+		"oF": 0
+		},
+	"/images/slownews/modulespagemob.png": {
+		"ft": 32768,
+		"iS": 424727,
+		"oA": 0,
+		"oAP": "/images/slownews/modulespagemob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
