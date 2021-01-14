@@ -7381,6 +7381,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/uxdesign/bgdarkbluemob.png": {
+		"ft": 32768,
+		"iS": 14918,
+		"oA": 0,
+		"oAP": "/images/uxdesign/bgdarkbluemob.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/uxdesign/bggreen.png": {
 		"ft": 32768,
 		"iS": 1226110,
@@ -7699,102 +7712,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/01booking.png": {
-		"ft": 32768,
-		"iS": 239779,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/01booking.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/01startpage.png": {
-		"ft": 32768,
-		"iS": 13333,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/01startpage.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/02booking.png": {
-		"ft": 32768,
-		"iS": 239983,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/02booking.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/02startpage.png": {
-		"ft": 32768,
-		"iS": 17847,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/02startpage.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/03booking.png": {
-		"ft": 32768,
-		"iS": 159446,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/03booking.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/03startpage.png": {
-		"ft": 32768,
-		"iS": 180028,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/03startpage.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/04booking.png": {
-		"ft": 32768,
-		"iS": 64251,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/04booking.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/05booking.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingfive.png": {
 		"ft": 32768,
 		"iS": 95133,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/05booking.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingfive.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7803,11 +7725,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/06booking.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingfour.png": {
 		"ft": 32768,
-		"iS": 84550,
+		"iS": 64251,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/06booking.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingfour.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7816,11 +7738,24 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/07booking.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingone.png": {
+		"ft": 32768,
+		"iS": 239779,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/bookingseven.png": {
 		"ft": 32768,
 		"iS": 98715,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/07booking.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingseven.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7829,11 +7764,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount01.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingsix.png": {
 		"ft": 32768,
-		"iS": 25422,
+		"iS": 84550,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount01.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingsix.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7842,11 +7777,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount02.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingthree.png": {
 		"ft": 32768,
-		"iS": 25221,
+		"iS": 159446,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount02.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingthree.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7855,11 +7790,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount03.png": {
+	"/images/uxdesign/mobileflows/thefork/bookingtwo.png": {
 		"ft": 32768,
-		"iS": 51475,
+		"iS": 239983,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount03.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/bookingtwo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7868,24 +7803,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount04.png": {
-		"ft": 32768,
-		"iS": 42599,
-		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount04.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/uxdesign/mobileflows/thefork/myaccount05.png": {
+	"/images/uxdesign/mobileflows/thefork/myaccountfive.png": {
 		"ft": 32768,
 		"iS": 40275,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount05.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountfive.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7894,11 +7816,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount06.png": {
+	"/images/uxdesign/mobileflows/thefork/myaccountfour.png": {
 		"ft": 32768,
-		"iS": 33611,
+		"iS": 42599,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount06.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountfour.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7907,11 +7829,102 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/uxdesign/mobileflows/thefork/myaccount07.png": {
+	"/images/uxdesign/mobileflows/thefork/myaccountone.png": {
+		"ft": 32768,
+		"iS": 25422,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/myaccountseven.png": {
 		"ft": 32768,
 		"iS": 26424,
 		"oA": 0,
-		"oAP": "/images/uxdesign/mobileflows/thefork/myaccount07.png",
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountseven.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/myaccountsix.png": {
+		"ft": 32768,
+		"iS": 33611,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountsix.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/myaccountthree.png": {
+		"ft": 32768,
+		"iS": 51475,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountthree.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/myaccountwo.png": {
+		"ft": 32768,
+		"iS": 25221,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/myaccountwo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/startpageone.png": {
+		"ft": 32768,
+		"iS": 13333,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/startpageone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/startpagethree.png": {
+		"ft": 32768,
+		"iS": 180028,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/startpagethree.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/startpagetwo.png": {
+		"ft": 32768,
+		"iS": 17847,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/startpagetwo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
