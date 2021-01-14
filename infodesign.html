@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -88,6 +91,7 @@
     </div>
 
     <div class="row">
+
       <div class="offset-by-one columns four">
         <p class="erased-p">Due to COVID-19 most students' 
           plans and expectations have changed. 
@@ -95,12 +99,15 @@
           idea of how students experience the situation.
         </p>
       </div>
+
       <div class="columns seven">
         <p class="second-p">
           </p>
-        </div>
       </div>
+
     </div>
+
+  </div>
 
     <!-- <div class="row">
       <div class="offset-by-six columns six erasedplansvideo-area">
@@ -116,18 +123,36 @@
       </div>
     </div> -->
 
-  </div>
+
 
   <div class="row bg-posters">
-    <div class="offset-by-six columns six">
-      <video class="erasedplans-video desktop" loop="" autoplay="" muted="" src="images/infodesign/erasedplansx.mov"></video>
+
+    <div class="offset-by-six columns six desktop">
+      <video class="erasedplans-video" loop="" autoplay="" muted="" src="images/infodesign/erasedplansx.mov"></video>
     </div>
-    <div class="posters">
+    <div class="posters desktop">
       <img src="images/infodesign/posterone_erased.png" alt="">
       <img src="images/infodesign/postertwo_erased.png" alt="">
       <img src="images/infodesign/posterthree_erased.png" alt="">
     </div>
+
+    <div class="mobile">
+      <!-- <img class="poster-erasers" src="images/infodesign/posterone_erased.png" alt="maya angelou"> -->
+      <div class="container-flex"> -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">  
+            <img class="flex-item swiper-slide" src="images/infodesign/posterone_erased.png" alt="maya angelou">
+            <img class="flex-item swiper-slide" src="images/infodesign/postertwo_erased.png" alt="maya angelou">
+            <img class="flex-item swiper-slide" src="images/infodesign/posterthree_erased.png" alt="maya angelou">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+
   <a class="cursor workprocess-arrow" href="id_studentplansexp.html">
     <h2 class="mob-btn">Work process</h2>
     <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
@@ -135,84 +160,85 @@
   </a>    
 
   
-<div id="devastating">
-  <div class="row">
-    <div class="columns twelve intro">
-      <h1 class="devastating-h1">Devastating infectious diseases</h1>
+  <div id="devastating">
+    <div class="row">
+      <div class="columns twelve intro">
+        <h1 class="devastating-h1">Devastating infectious diseases</h1>
+      </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="columns four intro desktop">
-      <p>In the poster below<span class="italic"><a href="https://app.rawgraphs.io/"> Rawgraph*</a></span>  
-        was used as an aid and inspiration. The poster is 
-        broken down into three sections - Time & Duration,
-        Infectiousness & 
-        Fatality rate, and Media Coverage to present the major 
-        factors that makes an impact of how devastating 
-        the infection or pandemic was (and, in some cases, still is). 
-      </p>
-    </div>
-
-    <div class="columns five intro mobile-paragraph">
-      <p>In the poster below<span class="italic"><a href="https://app.rawgraphs.io/"> Rawgraph*</a></span>  
-        was used as an aid and inspiration. The poster is 
-        broken down into three sections - Time & Duration,
-        Infectiousness & 
-        Fatality rate, and Media Coverage to present the major 
-        factors that makes an impact of how devastating 
-        the infection or pandemic was (and, in some cases, still is). 
-      </p>
-    </div>
-  </div>
-  <div class="row  bg-posters">
-    <div class="offset-by-one columns ten">
-        <img class="postertwo" src="images/infodesign/Poster2_Devestating.png" alt="">
-    </div>
-  </div>
-</div>
-
-<div id="social">
-  <div class="row">
-    <div class="columns twelve intro">
-      <h1>Social behavior trends + pandemics</h1>
-      <h5>A guide of how to live alongside COVID-19</h5>
-    </div>
-  </div>
-  <div class="row">
-    <div class="offset-by-one columns five intro">
-      <p>In the poster below comparisons are shown between
-        COVID-19 and other infections and pandemic outbursts
-        from the past. You can obtain information from the past, the 
-        situation of today, and lastly actions 
-        and lifestyle you should aim for, going forward. 
-      </p>
-    </div>
-    <!-- <div class="columns four intro">
-      <p class="second-p"> Trends + Pandemics  poster. We chose to dig deeper into this section and include more 
-        detailed information. The poster is again broken down 
-        into three sections Time & Duration, Infectiousness & 
-        Fatality rate, and Media Coverage. 
+    <div class="row">
+      <div class="columns four intro desktop">
+        <p>In the poster below<span class="italic"><a href="https://app.rawgraphs.io/"> Rawgraph*</a></span>  
+          was used as an aid and inspiration. The poster is 
+          broken down into three sections - Time & Duration,
+          Infectiousness & 
+          Fatality rate, and Media Coverage to present the major 
+          factors that makes an impact of how devastating 
+          the infection or pandemic was (and, in some cases, still is). 
         </p>
-    </div> -->
-  </div>
-  <div class="row  bg-posters bg-poster-third">
-    <div class="offset-by-one columns ten">
-        <img class="posterone" src="images/infodesign/posterone.png" alt="">
+      </div>
+
+      <div class="columns five intro mobile-paragraph">
+        <p>In the poster below<span class="italic"><a href="https://app.rawgraphs.io/"> Rawgraph*</a></span>  
+          was used as an aid and inspiration. The poster is 
+          broken down into three sections - Time & Duration,
+          Infectiousness & 
+          Fatality rate, and Media Coverage to present the major 
+          factors that makes an impact of how devastating 
+          the infection or pandemic was (and, in some cases, still is). 
+        </p>
+      </div>
+    </div>
+    <div class="row  bg-posters">
+      <div class="offset-by-one columns ten">
+          <img class="postertwo" src="images/infodesign/Poster2_Devestating.png" alt="">
+      </div>
     </div>
   </div>
-</div>
 
-
-  
-
-
-  <!-- <footer>
-    <div class="mail-and-cv">
-      <a href="mailto:marbra@live.se"><h2>EMAIL</h2></a>
-      <a href="images/pdf/CVMariaBramer.pdf"><h2>CV</h2></a>
+  <div id="social">
+    <div class="row">
+      <div class="columns twelve intro">
+        <h1>Social behavior trends + pandemics</h1>
+        <h5>A guide of how to live alongside COVID-19</h5>
+      </div>
     </div>
-  </footer>  -->
+    <div class="row">
+      <div class="offset-by-one columns five intro">
+        <p>In the poster below comparisons are shown between
+          COVID-19 and other infections and pandemic outbursts
+          from the past. You can obtain information from the past, the 
+          situation of today, and lastly actions 
+          and lifestyle you should aim for, going forward. 
+        </p>
+      </div>
+    </div>
+    <div class="row  bg-posters bg-poster-third">
+      <div class="offset-by-one columns ten">
+          <img class="posterone" src="images/infodesign/posterone.png" alt="">
+      </div>
+    </div>
+  </div>
 
+  <!-- ----------JAVA SCRIPTS----------- -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    })
+  </script> 
 
 </body>
 
