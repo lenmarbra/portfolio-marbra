@@ -7212,6 +7212,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/frontimagemobtwo.png": {
+		"ft": 32768,
+		"iS": 736985,
+		"oA": 0,
+		"oAP": "/images/startpage/frontimagemobtwo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/pasta.png": {
 		"ft": 32768,
 		"iS": 150465,
