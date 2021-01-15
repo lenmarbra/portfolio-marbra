@@ -7199,14 +7199,14 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/startpage/mailbox_beach.png": {
+	"/images/startpage/frontimagemob.png": {
 		"ft": 32768,
-		"iS": 254765,
+		"iS": 28535,
 		"oA": 0,
-		"oAP": "/images/startpage/mailbox_beach.png",
+		"oAP": "/images/startpage/frontimagemob.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
