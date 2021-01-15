@@ -9,6 +9,20 @@
 @white-color: #F7F5F4;
 @black-color: #202124;
 
+// --------------VARIABLES PALETTE----------------
+@yellow-color: #e5ea77;
+@yellow-color: #e9ee8a;
+// @yellow-color: #b7b8b4;
+@blue-color: #23222a;
+@grey-color: #414142;
+@white-color: #eff3f4;
+@black-color: #202124;
+@darkblue: #0b0a14;
+@white-color-second: #e7e7e7;
+// @appricot-color: #da816b;
+@appricot-color: #b84554;;
+@light-grey: #e7e7e7;
+
 //variables other
 @shadow-btn: 1px 3px 6px #bdb9b9cb;
 @shadow-img: 0 4px 8px 0 rgba(202, 202, 202, 0.2), 0 6px 20px 0 rgba(73, 72, 72, 0.19);
@@ -277,8 +291,8 @@ p{
   font-weight: 550;
   letter-spacing: 10px;
   margin-left: .2em;
-  margin-top: 2%;
-  margin-bottom: -1%;
+  margin-top: -6%;
+  margin-bottom: 0%;
   }
   h6{
     font-family: @second-font;
@@ -820,7 +834,7 @@ p{
     height: 40vh;
     display: flex;
     justify-content: space-around;
-    margin: auto 5%;
+    margin: auto auto auto 4%;
     .ball-and-txt{
       display: inline-block;
       margin-left: 0%;
@@ -858,7 +872,7 @@ p{
   img{
     width: 40%;
     margin: 8% 30%;
-    box-shadow: @shadow-img;
+    box-shadow: none;
   }
 }
 #icons{
@@ -868,78 +882,205 @@ p{
   }
   .menuicons{
     margin-top: 15%;
+    margin-bottom: 20%;
     img{
       margin-top: 0;
+      box-shadow: none;
     }
   }
 }
 
 @media only screen and (max-width: 600px){
   #typography, #icons{
-    height: 60vh;
+    height: 40vh;
     p{
       margin-left: 10%;
     }
     img{
       width: 80%;
       margin: 8% 9.5%;
-      box-shadow: @shadow-img;
     }
   }
   #icons{
-
+    margin-top: 5%;
       img{
         box-shadow: none;
       }
+  }
+  .menuicons{
+    img{
+      box-shadow: none;
+    }
   }
 }
 
 // ---------------------FINAL OUTCOME-----------------------
 
+.desktop{
+  display: inline-block;
+}
 #final{
-  img{
-    height: 20%;
+  margin-top: 10%;
+  .user-flow-p{
+    font-size: @font-size+30;
+    margin-left: -.8%;
+    p{
+      margin-left: 3.7%;
+      max-width: 18em;
+      margin-bottom: 10%;
+      margin-top: 0%;
+    }
+  }
+  
+}
+#video-area{
+  background-image: url(../images/uxdesign/bggreen.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0%;
+  z-index: -3;
+
+.videos{
+  width: 100%;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+.userflows{
+  font-size: @font-size+2;
+}
+.userflow{
+  margin-right: -2%;
+}
+.thefork-video{
+  width: 14em;
+  border-radius: 11px;
+  border: 13px solid @darkblue;
+  background-color: @darkblue;
+}
+.thefork-video-two{
+  width: 14em;
+  margin-left: 0%;
+  border-radius: 11px;
+  border: 13px solid @darkblue;
+  background-color: @darkblue;
+}
+.thefork-video-three{
+  width: 14em;
+  margin-left: 0%;
+  border-radius: 11px;
+  border: 13px solid @darkblue;
+  background-color: @darkblue;
+}
+button{
+  list-style: none;
+  // display: inline-block;
+  text-decoration: none;
+  color: @darkblue;
+  background-color: transparent;
+  font-size: @font-size+10;
+  font-family: @main-font;
+  font-weight: 800;
+  border: none;
+  border-radius: 0%;
+  text-transform: none;
+  padding: 1px 20px 10px 15px;
+  margin-left: 20%;
+  margin-top: 4%;
+  &:hover{
+    font-style: none;
+    opacity: 63%;
   }
 }
-.booking{
-  p{
-    margin-top: 5%;
-  }
 }
-.filter{
-  p{
-    margin-top: 5%;
-  }
-}
-.myaccount{
-  p{
-    margin-top: 5%;
-  }
-}
-.payment{
-  p{
-    margin-top: 5%;
-  }
+.mobile{
+  display: none;
 }
 @media only screen and (max-width: 600px){
+  .desktop{
+    display: none;
+  }
   #final{
     p{
       margin-left: 7%;
     }
-    img{
-      height: 20%;
-      margin-left: 19%;
+  }
+  .mobile{
+    display: inline-block;
+  }
+  .userflow{
+    .container-flex{
+      display: flex;
+      width: 75vw;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .flex-item{
+        display: inline-block;
+        width: 80vw;
+        margin: 0;
+      }
+      .swiper-container {
+        width: 75vw;
+        margin-top: 11%;
+        margin-left: 35%;
+        margin-bottom: 15%;
+        border: 10px solid @darkblue;
+        border-radius: 12px;
+        background-color: @darkblue;
+        .swiper-wrapper{
+          width: 100%;
+        img{
+          max-width: 100%;
+          margin-left: .1%;
+          border-radius: 0px;      
+          }
+        }
+        .swiper-pagination{
+          top: 92%;
+          z-index: 12;
+        }
+        .swiper-pagination-bullet-active{
+          background-color: @darkblue;
+        }
+      }
+      .up-bg{
+        width: 100vw;
+      }
+      a {
+        margin-left: 45%;
+
+        .up{
+          margin-bottom: 5%;
+          width: 2.4em;
+          display: inline-block;
+        }
+      }
+    }
+    h6{
+      text-align: center;
+    }
+    .thefork-uf-one{
+      margin-left: 37%;
+      margin-bottom: 10%;
+    }
+    .thefork-uf-two{
+      margin-left: 37%;
     }
   }
 }
+
+
 
 // ---------------------GO TO TOP-----------------------
 
 .go-to-top{
   margin-top: 0%;
-  margin-bottom: 2%;
-  height: 20vh;
-  padding-top: 20%;
+  height: 2vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
   a{
     text-decoration: none;
     font-family: @main-font;
@@ -948,6 +1089,7 @@ p{
     line-height: 1.70em;
     letter-spacing: .2px;
     color: @black-color;  
+    margin-left: 3%;
   }
 }
 

@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/thefork.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -53,7 +56,7 @@
   </div>
 
   <div class="row">
-    <div class="offset-by-one columns eleven subject">
+    <div class="offset-by-one columns eleven subject" id="top">
       <h3>UX Design</h3>
       <P><span class="bold">Professor:</span> Marco Catani<br>
       <span class="bold">Team players:</span> Rujuta Pande &
@@ -62,7 +65,7 @@
   </div>
 
   <div class="row">
-    <div class="offset-by-one columns five screen-view" id="top">
+    <div class="offset-by-one columns five screen-view">
       <h5>UX Use Case</h5> 
       <h2>Redesign <br> of <span class="green">thefork</span></h2>
     </div>
@@ -435,7 +438,7 @@
       <p><span class="bold">Typography</span></p>
     </div>
     <div class="u-max-full-width align-center typo">
-      <img src="images/uxdesign/thefork/typography/typography.png" alt="">
+      <img src="images/uxdesign/thefork/typography/typography.svg" alt="">
     </div>
   </div>
   <div class="row" id="icons">
@@ -453,72 +456,110 @@
   
   <div class="row" id="final">
     <div class="offset-by-one columns eleven"> 
-      <h3>Prototypes</h3>
-      <p><span class="bold">Start page</span></p>
-    </div>
-    <div class="offset-by-one columns ten"> 
-      <img src="images/uxdesign/thefork/final/startpage/onestartpage.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/startpage/twostartpage.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/startpage/threestartpage.png" alt="prototype">
-    </div>
-    <div class="row booking">
-      <div class="offset-by-one columns eleveng"> 
-        <p><span class="bold">Booking a table without logging in </span></p>
-      </div>
-    </div>
-    <div class="offset-by-one columns ten"> 
-      <img src="images/uxdesign/thefork/final/booking/onebooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/twobooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/threebooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/fourbooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/fivebooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/sixbooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/sevenbooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/eightbooking.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/booking/ninebooking.png" alt="prototype">
-    </div>
-    <div class="row filter">
-      <div class="offset-by-one columns eleveng"> 
-        <p><span class="bold">Filter</span></p>
-      </div>
-      <div class="offset-by-one columns ten"> 
-        <img src="images/uxdesign/thefork/final/filter/onefilter.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/filter/twofilter.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/filter/threefilter.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/filter/fourfilter.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/filter/fivefilter.png" alt="prototype">
-      </div>
-    </div>
-    <div class="row myaccount">
-      <div class="offset-by-one columns eleveng"> 
-        <p><span class="bold">Myaccount</span></p>
-      </div>
-    </div>
-    <div class="offset-by-one columns ten"> 
-      <img src="images/uxdesign/thefork/final/myaccount/onemyaccount.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/myaccount/twomyaccount.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/myaccount/threemyaccount.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/myaccount/fourmyaccount.png" alt="prototype">
-      <img src="images/uxdesign/thefork/final/myaccount/fivemyaccount.png" alt="prototype">
-    </div>
-    <div class="row payment">
-      <div class="offset-by-one columns eleveng"> 
-        <p><span class="bold">Payment through the app service</span></p>
-        </div>
-      </div>
-      <div class="offset-by-one columns ten"> 
-        <img src="images/uxdesign/thefork/final/payment/onepay.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/payment/twopay.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/payment/threepay.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/payment/fourpay.png" alt="prototype">
-        <img src="images/uxdesign/thefork/final/payment/fivepay.png" alt="prototype">
-      </div>
+      <h3>Final Prototypes</h3>
+      <section class="user-flow-p desktop">
+        <p><span class="bold">Userflows</span><br>
+        In these three videos, 
+          you'll see the below listed main flows.<br> From the left:<br>
+          <span class="bold">1.</span> Start page for a non-member user <br><span class="bold">2.</span> Booking a table
+          <br><span class="bold">3.</span> Creating my account<br>
+        </p>
+      </section>
     </div>
   </div>
 
 
+  <div class="row desktop"  id="video-area">
+
+    <div class="columns nine videos">
+
+      <div class="userflow userflowbtnStartpage desktop" id="userflow1">
+        <video id="video1" class="thefork-video">
+          <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseOne()" id="btnStartpage" class="tn active" href="">&#x2023; /  II</button>
+
+      </div>
+
+      <div class="userflow userflowbtnBooking desktop" id="userflow2">
+        <!-- <video class="thefork-video-two" loop="" autoplay="" muted="" src="images/uxdesign/booking.mp4"></video> -->
+        <video id="video2" class="thefork-video-two">
+          <source src="images/uxdesign/booking.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseTwo()" id="btnBooking" class="tn active" href="">&#x2023; / II</button>
+      </div>
+
+      <div class="userflow userflowbtnPay desktop" id="userflow3">
+        <video id="video3" class="thefork-video-three">
+          <source src="images/uxdesign/myaccount.mp4" type="video/mp4">
+        </video>
+        <button onclick="playPauseThree()" id="btnPay" class="tn active" href="">&#x2023; /  II</button>
+      </div>
+  
+
+      </div>
+  
+
+  
+    </div>
+    <!-- -------mobile--------- -->
+
+    <div class="mobile userflow">
+      <div class="container-flex">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/startpageone.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/startpagetwo.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/startpagethree.png" alt="startpage">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <h6 class="thefork-uf-one"><span class="bold">User flow 1:</span><br> Start page for non-members</h6>
+    </div>
+
+    <div class="mobile userflow">
+      <div class="container-flex">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingone.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingtwo.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingthree.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingfour.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingfive.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingsix.png" alt="booking flow">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/bookingseven.png" alt="booking flow">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <h6 class="thefork-uf-two"><span class="bold">User flow 2:</span> <br>Booking a table</h6>
+    </div>
+    
+    <div class="mobile userflow">
+      <div class="container-flex">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountone.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountwo.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountthree.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountfour.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountfive.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountsix.png" alt="startpage">
+            <img class="flex-item swiper-slide yellow-frame" src="images/uxdesign/mobileflows/thefork/myaccountseven.png" alt="startpage">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <h6 class="thefork-uf-two"><span class="bold">User flow 3:</span><br> Creating an account</h6>
+    </div>
+    
+
+  </div>
+
+
     <div class="row go-to-top">
-      <div class="offset-by-one columns eleven"> 
+      <div class="columns twelve"> 
         <a href="#top">Back to top</a>
       </div>
       </div>
@@ -551,6 +592,25 @@
       </div>
     </div>
   </div> -->
+
+    <!-- ----------JAVA SCRIPTS----------- -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+    <script>
+      var mySwiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+  
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      })
+    </script> 
 
 </body>
 
