@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1050" height="296" viewBox="0 0 1050 296">
+  <defs>
+    <clipPath id="clip-Artboard_7">
+      <rect width="1050" height="296"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_7" data-name="Artboard – 7" clip-path="url(#clip-Artboard_7)">
+    <rect width="1050" height="296" fill="#fff"/>
+    <g id="Group_6657" data-name="Group 6657" transform="translate(30)">
+      <text id="Titles_buttons" data-name="Titles &amp; buttons" transform="translate(216 116)" font-size="40" font-family="Lato-Regular, Lato"><tspan x="-138.58" y="0">Titles &amp; buttons</tspan></text>
+      <text id="Paragraph_text" data-name="Paragraph text" transform="translate(206 210)" font-size="40" font-family="Lato-Regular, Lato"><tspan x="-128.62" y="0">Paragraph text</tspan></text>
+      <text id="Cera_Pro" data-name="Cera Pro" transform="translate(792 117)" font-size="40" font-family="CeraPro-Medium, Cera Pro" font-weight="500"><tspan x="-80.28" y="0">Cera Pro</tspan></text>
+      <text id="Roboto" transform="translate(778 209)" font-size="40" font-family="Roboto-Regular, Roboto"><tspan x="-64.092" y="0">Roboto</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -8974,6 +8974,19 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/uxdesign/thefork/icons/menuicons.png": {
+		"ft": 32768,
+		"iS": 5301,
+		"oA": 0,
+		"oAP": "/images/uxdesign/thefork/icons/menuicons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/uxdesign/thefork/icons/menuicons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8983,19 +8996,6 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/images/uxdesign/thefork/icons/mobile-icons.png": {
-		"ft": 32768,
-		"iS": 9165,
-		"oA": 0,
-		"oAP": "/images/uxdesign/thefork/icons/mobile-icons.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
 		},
 	"/images/uxdesign/thefork/ideating/wsone.png": {
 		"ft": 32768,
@@ -9542,6 +9542,16 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/thefork/typography/typography.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/uxdesign/thefork/typography/typography.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/uxdesign/thefork/userflows/userflowone.png": {
 		"ft": 32768,
