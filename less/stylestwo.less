@@ -287,6 +287,7 @@ p{
   }
 }
 #nav-bar{
+  z-index: 10;
   display:flex;
   position: fixed;
 }
@@ -352,7 +353,6 @@ p{
   box-shadow: @shadow-img;
 }
 
-
 #digital-version h4{
   font-size: @font-size+2;
   font-family: @second-font;  
@@ -375,9 +375,9 @@ p{
     &:hover{
       opacity: .8;
     }
-  
-    }
+  }
 }
+
 .process-btns img{
   display: inline-block;
   margin-right: .5%;
@@ -638,38 +638,8 @@ margin-left: -10%;
       margin-top: 2em;
     }
   }
-
-#dig-pres{
-    height: 100vh;
-    h4{
-      margin-top: 4em;
-      margin-left: 6.5%;
-      color: #583e38;
-      font-weight: 600;
-      font-size: 45px;
-    }
-  }
-  .dig-prototypes{
-    margin-left: -20%;
-  video{
-    width: 60em;
-    z-index: -1;
-    margin-left: -1%;
-    margin-bottom: 10%;
-    margin-top: -2%;
-    border-radius: 30px;
-    border: 1.5em solid #0b0a14; 
-    }
-  img{
-    z-index: 5;
-    margin-top: 20%;
-    box-shadow: none;
-  }
-}
-
-@media only screen and (max-width: 800px){
   #dig-pres{
-    height: 100vh;
+    height: 80vh;
     h4{
       margin-top: 3em;
       margin-left: 6.5%;
@@ -687,8 +657,8 @@ margin-left: -10%;
     margin-left: .8%;
     margin-bottom: 10%;
     margin-top: -2%;
-    border-radius: 30px;
-    border: .8em solid #0b0a14; 
+    border-radius: 10px;
+    border: 10px solid #0b0a14; 
     }
   img{
     z-index: 5;
@@ -698,4 +668,4 @@ margin-left: -10%;
 }
 
 
-}
+
