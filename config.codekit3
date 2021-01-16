@@ -7197,16 +7197,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/startpage/cvbox.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/startpage/cvbox.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/images/startpage/frontimagemob.png": {
 		"ft": 32768,
 		"iS": 28535,
@@ -7246,11 +7236,37 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/starpagemob.png": {
+		"ft": 32768,
+		"iS": 764434,
+		"oA": 0,
+		"oAP": "/images/startpage/starpagemob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/Startpage2_mockup.png": {
 		"ft": 32768,
 		"iS": 283447,
 		"oA": 0,
 		"oAP": "/images/startpage/Startpage2_mockup.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/startpagemob.png": {
+		"ft": 32768,
+		"iS": 767977,
+		"oA": 0,
+		"oAP": "/images/startpage/startpagemob.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

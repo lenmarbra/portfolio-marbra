@@ -81,7 +81,7 @@ h2{
   font-family: @main-font;
   font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: .5em;
+  letter-spacing: .3em;
   line-height: .7em;
   color: @yellow-color;
 }
@@ -168,47 +168,43 @@ a{
     margin-left: 1.8rem;
     margin-top: 1.4rem;
   }
-  .category{
-    h2{
-      background-color: transparent;
-      font-size: @font-size;
-      font-size: 16px;
-      line-height: 1.2em;
-      text-align: left;
-      width: 35em;
-      margin-top: 4%;
-      margin-left: -8%;
-      &:hover{
-        font-style: italic;
-      }
-    }
-    .mobile{
-      display: none;
-    }
+  .mobile{
+    display: none;
   }
-  .next-project{
-    h2{
-    width: 20em;
-    text-transform: none;
-    letter-spacing: 1px;
+  h2{
+    display: inline-block;
+    background-color: transparent;
     font-size: @font-size;
-    margin-top: 7.7%;
-    margin-left: 11%;
+    font-size: 16px;
+    line-height: 1.2em;
+    text-align: left;
+    width: 35em;
+    margin-top: 4.2%;
+    margin-left: -0%;
     &:hover{
       font-style: italic;
     }
+  }
+  .next-project h2{
+    display: inline-block;
+    width: 20em;
+    text-transform: none;
+    letter-spacing: 2.7px;
+    font-size: @font-size;
+    margin-top: 6%;
+    margin-left: -10%;
+    &:hover{
+      font-style: italic;
     }
   }
   .logo{
     width: 2.2em;
     box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
     border-radius: 50px;
-    margin-left: 8.18rem;
-    margin-top: 1.5rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
   }
 }
-
-
 .nav-bar-projectspage{
   position: fixed;
   height: 1em;
@@ -374,7 +370,7 @@ a{
   }
 }
 .mail-and-cv{
-  max-width: 13em;
+  max-width: 14.5em;
   height: 3em;
   display: flex;
   justify-content: space-between;
@@ -446,12 +442,12 @@ a{
   }
 }
 .mail-and-cv{
-  max-width: 13em;
+  max-width: 15em;
   height: 3em;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 2.5%;
+  margin-left: 3%;
   margin-top: 10%;
   a{
     display: inline-block;
@@ -483,7 +479,9 @@ a{
       margin-bottom: 0%;
       margin-top: -.3%;
       max-width: 90vw;
-
+    }
+    h2{
+      margin-top: .8%;
     }
   }
   h1{
@@ -491,8 +489,8 @@ a{
     max-width: 80vw;
   }
   .mail-and-cv{
-    max-width: 85vw;
-    margin-left: 2.5%;
+    max-width: 88vw;
+    margin-left: 2%;
     margin-top: 5%;
     width: 90vw;
     a h3{
@@ -513,13 +511,13 @@ a{
     .startpage-video{
       max-width: 90vw;
       // margin-top: -80%;
-      margin-top: 0%;
-      margin-bottom: 5%;
+      margin-top: -2%;
+      margin-bottom: 4%;
     }
     h2{
       margin-bottom: 0%;
       font-size: 16px;
-      margin-left: 0%;
+      margin-left: .1%;
     }
     .arrow{
       width: 88vw;
@@ -539,7 +537,7 @@ a{
       width: 2.2em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
       border-radius: 50px;
-      margin-left: 20.8rem;
+      margin-left: 19.2rem;
       margin-top: 1.55rem;
     }
     .category{
@@ -550,7 +548,7 @@ a{
         line-height: 1.2em;
         text-align: left;
         width: 30em;
-        margin-top: 4%;
+        margin-top: 4.3%;
         margin-left: -9%;
         }
       }
@@ -1117,15 +1115,62 @@ a{
 //-------------UXDESIGN - THEFORK - DESKTOP-----------------------
 
 #uxdesign-thefork{
+
   .nav-bg-blue{
-    .logo{
-      width: 2.2em;
+    position: fixed;
+    width: 100vw;
+    height: 4em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 8;
+    .back{
+      width: 2.05em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
       border-radius: 50px;
-      margin-left: 20.75rem;
-      margin-top: 1.6rem;
+      margin-left: 1.8rem;
+      margin-top: 1.4rem;
+    }
+    .mobile{
+      display: none;
+    }
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.4%;
+      margin-left: -7%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+    .next-project h2{
+      display: inline-block;
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 2.7px;
+      font-size: @font-size;
+      margin-top: 5.6%;
+      margin-left: -6%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+  .next-project{
+    .mobile{
+      display: none;
     }
   }
+    .logo{
+      margin-left: 5.85rem;
+      margin-top: 13%;
+    }
+  }
+  
   .top-area{
     background-image: url(../images/uxdesign/bgdarkblue.png);
     background-attachment: fixed;
@@ -1261,13 +1306,52 @@ a{
 
 #uxdesign-thefork{
   .nav-bg-blue{
-    .logo{
-      margin-left: 9rem;
+    position: fixed;
+    width: 100vw;
+    height: 4em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 8;
+    .back{
+      width: 2.05em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 1.8rem;
+      margin-top: 1.4rem;
     }
-    .category{
-      h2{
-        margin-left: 1%;
+    .mobile{
+      display: none;
+    }
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.4%;
+      margin-left: 1.9%;
+      &:hover{
+        font-style: italic;
       }
+    }
+    .next-project h2{
+      display: inline-block;
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 2.7px;
+      font-size: @font-size;
+      margin-top: 5.95%;
+      margin-left: 44%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+    .logo{
+      margin-left: 2.5rem;
+      margin-top: 18%;
     }
   }
   .top-area{
@@ -1278,19 +1362,19 @@ a{
     background-size: cover;
     height: 100vh;
     h1{
-      margin-left: 5.1%;
+      margin-left: 5.6%;
       margin-top: 7%;
       width: 12em;
       font-size: 32px;
     }
     h5{
-      margin-left: 5.3%;
+      margin-left: 5.6%;
       margin-top: 0%;
     }
     .intro-thefork{
       p{
         max-width: 45em;
-        margin-left: 19%;
+        margin-left: 19.3%;
         margin-top: -12%;
       }
       .thefork-p-link{
@@ -1401,7 +1485,7 @@ a{
     .nav-bg-blue{
       position: fixed;
       width: 100vw;
-      height: 4.1em; 
+      height: 6em; 
       background-color: @darkblue;
       top: 0;
       left: 0;
@@ -1411,46 +1495,32 @@ a{
         width: 2.2em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: 2%;
+        top: -.6%;
         left: 70%;
-      }      
-      .category{
-        h2{
-          position: absolute;
-          background-color: transparent;
-          font-size: @font-size;
-          font-size: 16px;
-          line-height: 1.2em;
-          text-align: left;
-          width: 10em;
-          top: 8%;
-          left: 5%;
-        }
-        .mobile{
-          display: inline-block;
-        }
       }
-      .next-project{
-        h2{
-        position: absolute;
-        width: 20em;
-        text-transform: none;
-        letter-spacing: 1px;
-        font-size: @font-size;
-        top: 28%;
-        left: -44.3%;
-        }
+      h2{
+        margin-top: 4.5%;
+        margin-left: 3.3%;
+        width: 10em;
       }
       .logo{
         position: absolute;
-        width: 2.2em;
+        width: 2.25em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: -2%;
-        left: 63%;
+        top: -67%;
+        left: 68%;
+      }
+      .mobile{
+        display: inline-block;
+      }
+      .next-project h2{
+        position: absolute;
+        top: 40%;
+        left: 13%;
       }
     }
-    .top-area{
+      .top-area{
       background-image: url(../images/uxdesign/bgdarkbluemob.png);
       background-attachment: fixed;
       background-position: center;
@@ -1458,13 +1528,13 @@ a{
       background-size: cover;
       h1{
         margin-left: 1%;
-        margin-top: 11%;
+        margin-top: 22%;
         width: 12em;
-        font-size: 32px;
+        font-size: 30px;
       }
       h5{
         margin-left: 1%;
-        margin-top: -5%;
+        margin-top: -4%;
         letter-spacing: .3px;
       }
       .intro-thefork{
@@ -1484,7 +1554,19 @@ a{
     }
     #video-area{
       margin-top: 0%;
+      background-image: none;
     }
+    // #video-area{
+    //   // background: @bg-gradient-radial;
+    //   background-image: url(../images/uxdesign/bgdarkblue.png);
+    //   background-attachment: fixed;
+    //   background-position: center;
+    //   background-repeat: no-repeat;
+    //   background-size: cover;
+    //   height: 100vh;
+    //   width: 100vw;
+    //   margin-top: -47%;
+    //   z-index: -1;
     .mobile{
       display: inline-block;
     }
@@ -1516,8 +1598,9 @@ a{
             top: 92%;
             z-index: 12;
           }
-          .swiper-pagination-bullet-active{
+          .swiper-pagination-bullet{
             background-color: @darkblue;
+            z-index: 16;
           }
         }
         .up-bg{
@@ -1802,6 +1885,21 @@ a{
 
 #brandingidentity{
   .nav-bg-blue{
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.5%;
+      margin-left: -7%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+  
     .next-project{
       h2{
       width: 20em;
@@ -1816,7 +1914,7 @@ a{
       width: 2.2em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
       border-radius: 50px;
-      margin-left: 20.75rem;
+      margin-left: 19rem;
       margin-top: 1.6rem;
     }
   }
@@ -1825,11 +1923,11 @@ a{
   }
   h1{
     margin-top: 5.5%;
-    margin-left: 5.9%;
+    margin-left: 5.7%;
   }
   p{
     margin-top: -3%;
-    margin-left: 19.5%;
+    margin-left: 19%;
     max-width: 20em;
   }
   .vertical-arrow{
@@ -1963,7 +2061,7 @@ a{
         width: 2.2em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        margin-left: 14.5rem;
+        margin-left: 9rem;
         margin-top: 1.4rem;
       }
     }
@@ -2088,8 +2186,8 @@ a{
         width: 2.2em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: 0%;
-        left: 70%;
+        top: 1.5%;
+        left: 69%;
       }
       .category{
         h2{
@@ -2123,8 +2221,8 @@ a{
         width: 2.2em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: 0%;
-        left: 49%;
+        top: 2%;
+        left: 63%;
       }
     }
     #top-branding{
@@ -2144,10 +2242,11 @@ a{
       top: 0;
       margin-top: 8%;
       margin-left: -.5%;
+      margin-bottom: 3%;
       img{
         position: absolute;
         width: 129%;
-        top: 17rem;
+        top: 14rem;
         margin-left: -10%;
       }
     }
@@ -2209,7 +2308,7 @@ a{
     }
     .swiper-pagination{
       margin-left: 0%;
-      margin-bottom: 57%;
+      margin-bottom: 50%;
     }
   
     .kitaapp-arrow{
@@ -2512,15 +2611,67 @@ a{
 
 
 #slownews-page{
-  .nav-bg-blue{
-    .logo{
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      margin-left: 19rem;
-      margin-top: 1.55rem;
+  .nav{
+    .row{
+      margin-top: .7%;
     }
   }
+  .nav-bg-blue{
+    position: fixed;
+    width: 100vw;
+    height: 4em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 8;
+    .back{
+      width: 2.05em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 1.8rem;
+      margin-top: 1.4rem;
+    }
+    .mobile{
+      display: none;
+    }
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.4%;
+      margin-left: -7%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+
+    .next-project h2{
+      display: inline-block;
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 2.7px;
+      font-size: @font-size;
+      margin-top: 5.6%;
+      margin-left: -6%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+  .next-project{
+    .mobile{
+      display: none;
+    }
+  }
+    .logo{
+      margin-left: 6rem;
+      margin-top: 12%;
+    }
+  }
+
   .intro-slownews{
     position: fixed;
   }
@@ -2542,26 +2693,29 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 102vh;
     img{
       width: 101%;
       margin-top: 50%;
       margin-left: 8%;
       margin-bottom: 8%;
     }
+    h1{
+      margin-left: 20%;
+    }
     p{
-      max-width: 30em;
+      max-width: 31em;
       margin-top: 4%;
       margin-left: 20%;
     }
   }
   .at-area{
+    margin-left: 2.7%;
+    margin-bottom: .05%;
     p{
       font-size: @font-size+8;
       font-weight: bold;
       margin-top: 3%;
-      margin-bottom: 1%;
-      margin-left: 2.7%;
     }
   }
   #logo-slownews{
@@ -2578,6 +2732,9 @@ a{
       width: .95em;
     }
   }
+  .row{
+    margin-top: -.7%;
+  }
   #articlepage{
     width: 100vw;
     height: 100vh;
@@ -2589,8 +2746,8 @@ a{
     background-size: 100%;
     margin-top: 0%;
     img{
-      margin-top: 103%;
-      margin-left: 1.8%;
+      margin-top: 95%;
+      margin-left: 4%;
       width: .95em;
     }
   }
@@ -2681,6 +2838,13 @@ a{
 
 #slownews-page{
   .nav-bg-blue{
+    position: fixed;
+    width: 100vw;
+    height: 4em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 8;
     .back{
       width: 2.05em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
@@ -2688,14 +2852,41 @@ a{
       margin-left: 2rem;
       margin-top: 1.4rem;
     }
+    .mobile{
+      display: none;
+    }
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.4%;
+      margin-left: 1.9%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+    .next-project h2{
+      display: inline-block;
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 2.7px;
+      font-size: @font-size;
+      margin-top: 5.9%;
+      margin-left: 44%;
+      &:hover{
+        font-style: italic;
+      }
+    }
     .logo{
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      margin-left: 9rem;
-      margin-top: 1.5rem;
+      margin-left: 2.6rem;
+      margin-top: 18%;
     }
   }
+
   .intro-slownews{
     position: fixed;
   }
@@ -2718,10 +2909,14 @@ a{
       margin-left: -15%;
       margin-bottom: 0%;
     }
+    h1{
+      margin-left: 19.6%;
+      margin-top: 4%;
+    }
     p{
       max-width: 18em;
-      margin-top: -2%;
-      margin-left: 20%;
+      margin-top: 0%;
+      margin-left: 19.6%;
     }
   }
   .at-area{
@@ -2856,9 +3051,9 @@ a{
     .nav-bg-blue{
       position: fixed;
       width: 100vw;
-      height: 4em; 
+      height: 6em; 
       background-color: @darkblue;
-      top: 0;
+      top: -.5%;
       left: 0;
       z-index: 10;
       .back{
@@ -2866,35 +3061,43 @@ a{
         width: 2.2em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: 0%;
+        top: -1%;
         left: 69%;
       }
-      .cat-long{
+      .category{
+        h2{
         position: absolute;
         background-color: transparent;
         font-size: @font-size;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.2em;
         text-align: left;
         width: 16em;
-        top: 22%;
-        left: 5.5%;
+        top: 8%;
+        left: 3.8%;
+      }
       }
       .logo{
         position: absolute;
-        width: 2.2em;
+        width: 2.25em;
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
-        top: -2%;
-        left: 63%;
+        top: -68%;
+        left: 67%;
+      }
+      .next-project h2{
+        position: absolute;
+        top: 40%;
+        left: 13%;
       }
     }
     .intro-slownews{
       position: fixed;
     }
     .intro-slownews-first{
-      margin-top: 26%;
+      margin-top: 38%;
       margin-bottom: 15%;
+
       p{
         width: 100vw;
       }
@@ -2916,10 +3119,16 @@ a{
       img{
           display:none;
       }
+      h1{
+        margin-left: 6%;
+        margin-top: -12%;
+        margin-bottom: 3%;
+        font-size: 30px;
+      }
       p{
         max-width: 18em;
         font-size: 18px;
-        margin-top: -10%;
+        margin-top: 0%;
         margin-left: 6%;
         margin-bottom: 5%;
       }
@@ -3056,23 +3265,20 @@ a{
     }
   }
   h1{
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 0%;
     display: inline-block;
+    width: 20em;
   }
-  h3{
-    display: inline-block;
-    color: @yellow-color;
-    font-size: 14px;
-    line-height: 1.2em;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    font-family: @main-font;
+  p{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: -5%;
+    max-width: 25em;
   }
-  .project-areas{
-    margin-left: 6%;
-    margin-top: 7.5em;
+  .project-area{
+    margin-left: -17%;
+    margin-top: 20%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -3083,7 +3289,7 @@ a{
     text-decoration: none;
   }
   .card {
-    margin-right: 3%;
+    margin-right: 2%;
     margin-bottom: 2%;
     background-color: #1e1d25;
     padding: 1.5em;
@@ -3110,11 +3316,6 @@ a{
     .one-row{
       margin-top: 5%;
     }
-    p{
-      margin-left: 8%;
-      margin-right: 8%;
-      margin-top: -5%;
-    }
     img{
       margin: 0 auto auto 35%;
       width: 65%;
@@ -3122,6 +3323,23 @@ a{
     .long-title{
       margin-top: -10%;
     }
+  }
+  .startpage-mailcv{
+    margin-top: 104%;
+    h3{
+      display: inline-block;
+      color: @yellow-color;
+      font-size: 14px;
+      line-height: 1.2em;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      font-family: @main-font;
+      max-width: 8em;
+    }
+    // .contact{
+    //   margin-left: 10%;
+    // }
   }
 }
 
@@ -3189,7 +3407,7 @@ a{
       // margin-top: 3em;
       h1{
         margin-left: -2%;
-        margin-top: 15%;
+        margin-top: 22%;
       }
       p{
         width: 13em;
@@ -3216,10 +3434,10 @@ a{
         display: inline-block;
       }
     }
-    .project-areas{
-      margin-left: -2%;
-      margin-top: 4.1em;
-      max-width: 80em;
+    .project-area{
+      margin-left: -17%;
+      margin-top: 11em;
+      max-width: 100em;
       display: flex;
       flex-wrap: wrap;
     }
@@ -3234,8 +3452,8 @@ a{
       margin-bottom: 2%;
       background-color: #1e1d25;
       padding: 1.5em;
-      width: 11.3em;
-      height: 9em;
+      width: 10.3em;
+      height: 8em;
       border-radius: 1.5%;
       &:hover{
         opacity: 88%;
@@ -3249,7 +3467,7 @@ a{
         font-family: @main-font;
         line-height: 1.3em;
         letter-spacing: 1.5px;
-        font-size: @font-size+6;
+        font-size: @font-size+4;
         font-weight: 600;
         margin-top: 5%;
         margin-left: 7%;
@@ -3359,9 +3577,9 @@ a{
     .mail-and-cv{
       display: none;
     }
-    .project-areas{
+    .project-area{
       margin-left: 5.5%;
-      margin-top: -1%;
+      margin-top: -1.5%;
       max-width: 80em;
       display: flex;
       flex-wrap: wrap;
