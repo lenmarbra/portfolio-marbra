@@ -1845,14 +1845,14 @@ a{
     .comment-choices{
       position: relative;
       top: 2%;
-      left: 44%;
+      left: 45%;
       max-width: 15em;
     }
     .comment-steps{
       position: relative;
-      top: -32%;
+      top: -36%;
       left: 75%;
-      max-width: 11em;
+      max-width: 10em;
       background-color: @darkblue;
     }
     img{
@@ -2176,6 +2176,239 @@ a{
   }
 }
 }
+
+//-------------UXDESIGN - RAYBAN - MOBILE-----------------------
+
+@media only screen and (max-width: 400px){
+
+  #uxdesign-rayban{
+    body{
+      overflow-x: hidden;
+    }
+    .nav-bg-blue{
+      position: fixed;
+      width: 100vw;
+      height: 6em; 
+      background-color: @darkblue;
+      top: -.5%;
+      left: 0;
+      z-index: 10;
+      .back{
+        position: absolute;
+        width: 2.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: -1%;
+        left: 69%;
+      }
+      .category{
+        h2{
+        position: absolute;
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 16em;
+        top: 8%;
+        left: 3.8%;
+      }
+      }
+      .logo{
+        position: absolute;
+        width: 2.25em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        top: -68%;
+        left: 67%;
+      }
+      .next-project h2{
+        position: absolute;
+        top: 40%;
+        left: 13%;
+      }
+    }
+    .top-area{
+      background-image: none;
+      height: 100vh;
+      width: 100vw;
+      h1{
+        margin-left: 1%;
+        margin-top: 22%;
+        width: 12em;
+        font-size: 32px;
+      }
+      .intro-rayban{
+        p{
+          max-width: 86vw;
+          margin-left: 6.5%;
+          margin-top: -7%;
+          margin-bottom: 30%;
+          background-color: transparent;
+        }
+      }
+      // .topimage{
+      //   img{
+      //     width: 57%;
+      //     margin-top: 16%;
+      //     margin-left: 20%;
+      //     margin-bottom: 38%;
+      //     z-index: 1;
+      //   }
+      // }
+      #userflow-rayban{
+        height: 100vh;
+        width: 100vw;
+        background-color: @darkblue;
+        background-image: none;
+        h5{
+          font-size: 26px;
+          margin-top: 0%;
+          margin-left: 6.5%;
+        }
+        img{
+          max-width: 100%;
+          margin-top: 0%;
+          margin-left: -2%;
+        }
+      }
+    }
+    #featuredetails{
+      height: 300vh;
+      width: 100vw;
+      background-color: @darkblue;
+      background-image: none;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h5{
+        font-size: 26px;
+        margin-top: 5%;
+        margin-left: 6.5%;
+        margin-bottom: -5%;
+      }
+      p{
+        font-size: 14px;
+      }
+      .desktop{
+        display: none;
+      }
+      .comment-custservice{
+        position: relative;
+        top: 11%;
+        left: 7%;
+        max-width: 8.4em;
+      }
+      .img-custservice{
+        max-width: 70vw;
+        margin-top: -15%;
+        margin-left: 40%;
+      }
+      .comment-choices{
+        position: relative;
+        top: 4%;
+        left: 30%;
+        max-width: 15em;
+      }
+      .img-choices{
+        position: relative;
+        max-width: 100vw;
+        top: 3.6%;
+        left: -24%;
+      }
+      .comment-steps{
+        position: relative;
+        top: 12%;
+        left: 0%;
+        max-width: 10em;
+        background-color: @darkblue;
+      }
+      .img-steps{
+        position: relative;
+        top: 12%;
+        left: 0%;
+
+
+      }
+
+    }
+    #featuredetailstwo{
+      height: 100vh;
+      width: 100vw;
+      background-color: @darkblue;
+      background-image: none;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      h5{
+        font-size: 26px;
+        margin-top: 0%;
+        margin-left: 6.5%;
+        margin-bottom: 5%;
+      }
+      p{
+        font-size: 14px;
+      }
+      .comment-buy{
+        display: none;
+      }
+      img{
+        max-width: 105vw;
+        margin-top: 0%;
+        margin-left: 4.27%;
+      }
+    }
+
+    #rayban-video-flow{
+      height: 100vh;
+      width: 100vw;
+      background-color: @darkblue;
+      background-image: none;
+      h5{
+        font-size: 26px;
+        margin-top: 30%;
+        margin-left: 0%;
+      }
+      .rayban-video{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+        width: 82vw;
+        border-radius: 2px;
+      }
+      button{
+        list-style: none;
+        // display: inline-block;
+        text-decoration: none;
+        color: @yellow-color;
+        opacity: 70%;
+        background-color: transparent;
+        font-size: @font-size+10;
+        font-family: @main-font;
+        font-weight: 800;
+        border: none;
+        border-radius: 0%;
+        text-transform: none;
+        padding: 1px 20px 10px 15px;
+        margin-left: -2.5%;
+        margin-top: 0%;
+        margin-bottom: 12%;
+          &:hover{
+            font-style: none;
+            opacity: 63%;
+          }
+        }
+      }
+      #bottom-section{
+        background-image: none;
+        height: 30vh;
+        width: 100vw;
+      }
+    }
+  }
+  
  
    //  ------Anantaya---------
    .anantaya-video{
