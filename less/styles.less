@@ -2271,14 +2271,9 @@ a{
       }
     }
     #featuredetails{
-      height: 280vh;
+      height: 60vh;
       width: 100vw;
-      background-color: @darkblue;
-      background-image: none;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      // background-color: @darkblue;
       h5{
         font-size: 26px;
         margin-top: 5%;
@@ -2293,7 +2288,7 @@ a{
       }
       .comment-custservice{
         position: relative;
-        top: 14%;
+        top: 54%;
         left: 7%;
         max-width: 8.4em;
       }
@@ -2303,28 +2298,32 @@ a{
         margin-left: 40%;
       }
       .comment-choices{
-        position: relative;
-        top: 12%;
-        left: 24%;
-        max-width: 15em;
+        display: none;
+        // position: relative;
+        // top: 12%;
+        // left: 24%;
+        // max-width: 15em;
       }
       .img-choices{
-        position: relative;
-        max-width: 100vw;
-        top: 12.6%;
-        left: -24%;
+        display: none;
+        // position: relative;
+        // max-width: 100vw;
+        // top: 12.6%;
+        // left: -24%;
         }
       .comment-steps{
-        position: relative;
-        top: 27%;
-        left: 52%;
-        max-width: 10em;
-        background-color: @darkblue;
+        display: none;
+        // position: relative;
+        // top: 27%;
+        // left: 52%;
+        // max-width: 10em;
+        // background-color: @darkblue;
       }
       .img-steps{
-        position: relative;
-        top: 20%;
-        left: -24.5%;
+        display: none;
+        // position: relative;
+        // top: 20%;
+        // left: -24.5%;
       }
     }
     #featuredetailstwo{
@@ -2411,7 +2410,100 @@ a{
     display:none;
   }
 }
+
+//-----------UXDESIGN - ANIMATIONS - DESKTOP-----------------------
   
+#uxdesign-animations{
+
+  .nav-bg-blue{
+    position: fixed;
+    width: 100vw;
+    height: 4em; 
+    background-color: @darkblue;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 8;
+    .back{
+      width: 2.05em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      margin-left: 1.8rem;
+      margin-top: 1.4rem;
+    }
+    .mobile{
+      display: none;
+    }
+    h2{
+      display: inline-block;
+      background-color: transparent;
+      font-size: @font-size;
+      font-size: 16px;
+      line-height: 1.2em;
+      text-align: left;
+      width: 35em;
+      margin-top: 3.4%;
+      margin-left: -7%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+    .next-project h2{
+      display: inline-block;
+      width: 20em;
+      text-transform: none;
+      letter-spacing: 2.7px;
+      font-size: @font-size;
+      margin-top: 5.6%;
+      margin-left: -6%;
+      &:hover{
+        font-style: italic;
+      }
+    }
+  .next-project{
+    .mobile{
+      display: none;
+    }
+  }
+    .logo{
+      margin-left: 6rem;
+      margin-top: 13%;
+    }
+  }
+  
+  .top-area{
+    h1{
+      margin-left: 9%;
+      margin-top: 12%;
+      width: 12em;
+      font-size: 32px;
+    }
+    h5{
+      margin-left: 9.1%;
+      margin-top: 0%;
+    }
+    .intro-animations{
+      p{
+        max-width: 20em;
+        margin-left: 22.5%;
+        margin-top: -12%;
+      }
+      .animations-p-link{
+        margin-left: .5%;
+      }
+    }
+    .topimage{
+      img{
+        width: 90%;
+        margin-top: -43%;
+        margin-left: 0%;
+        margin-bottom: 38%;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+
  
    //  ------Anantaya---------
    .anantaya-video{
@@ -3333,9 +3425,6 @@ a{
       .mobile{
         display: inline-block;
       }
-      // video{
-      //   width: 100%;
-      // }
     }
     .swiper-button-next, .swiper-button-prev {
       position: absolute;
