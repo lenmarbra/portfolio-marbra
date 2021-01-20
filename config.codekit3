@@ -17,6 +17,14 @@
 		"oAP": "/animations.html",
 		"oF": 0
 		},
+	"/brandingidentity-cookbook.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brandingidentity-cookbook.html",
+		"oF": 0
+		},
 	"/brandingidentity.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -302,6 +310,32 @@
 		"iS": 676,
 		"oA": 0,
 		"oAP": "/images/all/listarrow.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/slidernextleft.png": {
+		"ft": 32768,
+		"iS": 1900,
+		"oA": 0,
+		"oAP": "/images/all/slidernextleft.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/slidernextright.png": {
+		"ft": 32768,
+		"iS": 1868,
+		"oA": 0,
+		"oAP": "/images/all/slidernextright.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -1170,6 +1204,56 @@
 		"iS": 765170,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/bgsoremob.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/cookbook2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/cookbook2.mp4",
+		"oF": 0
+		},
+	"/images/brandingidentity/cookbook/cookbookvideo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/cookbookvideo.mp4",
+		"oF": 0
+		},
+	"/images/brandingidentity/cookbook/cookbookvideoalt.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/cookbookvideoalt.mp4",
+		"oF": 0
+		},
+	"/images/brandingidentity/cookbook/spread.jpg": {
+		"ft": 16384,
+		"iS": 1538825,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/spread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/spreadtwo.png": {
+		"ft": 32768,
+		"iS": 1831589,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/spreadtwo.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
