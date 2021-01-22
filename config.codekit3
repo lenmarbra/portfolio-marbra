@@ -7502,6 +7502,19 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/startpage/brandingcard.png": {
+		"ft": 32768,
+		"iS": 56261,
+		"oA": 0,
+		"oAP": "/images/startpage/brandingcard.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/cardbranding.png": {
 		"ft": 32768,
 		"iS": 106902,
@@ -7593,6 +7606,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/infodesigncard.png": {
+		"ft": 32768,
+		"iS": 12754,
+		"oA": 0,
+		"oAP": "/images/startpage/infodesigncard.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/pasta.png": {
 		"ft": 32768,
 		"iS": 150465,
@@ -7652,6 +7678,19 @@
 		"oA": 0,
 		"oAP": "/images/startpage/startpagevideo.mp4",
 		"oF": 0
+		},
+	"/images/startpage/uxdesigncard.png": {
+		"ft": 32768,
+		"iS": 17587,
+		"oA": 0,
+		"oAP": "/images/startpage/uxdesigncard.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
 		},
 	"/images/topbar/archive/back.png": {
 		"ft": 32768,
