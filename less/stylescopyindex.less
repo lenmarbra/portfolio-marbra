@@ -335,6 +335,7 @@ a{
 
 // ----------------START PAGE-------------------
 
+#startpage{
 .intro{
   padding: 2%;
   p{
@@ -398,10 +399,12 @@ a{
     font-family: @main-font;
   }
 }
+}
 
 // -------------START PAGE - IPAD----------
 
 @media only screen and (max-width: 800px){
+  #startpage{
 
 .intro{
   padding: 4%;
@@ -468,40 +471,94 @@ a{
   }
 }
 }
+}
 
 // -------------START PAGE - MOBILE----------
 
 @media only screen and (max-width: 400px){
+  #startpage{
+  
+  .close{
+    img{
+    position: absolute;
+    width: 2.2em;
+    top: 2%;
+    left: 88%;
+    }
+  }
+  .profile-img img{
+    position: absolute;
+    top: 14.6%;
+    left: 35%;
+    width: 7em;
+  }
+  .intro-about{
+    padding: 5%;
+    p{
+      margin-left: 7%;
+      max-width: 17em;
+      margin-top: 7%;
+      text-align: center;
+    }
+    h2{
+      margin-top: -6.2%;
+      margin-left: 1%;
+      writing-mode: vertical-lr;
+    }
+
+  }
   .intro{
     padding: 5%;
     p{
-      margin-left: 0%;
-      margin-bottom: 0%;
-      margin-top: -.3%;
-      max-width: 90vw;
+      display: none;
     }
     h2{
-      margin-top: .8%;
+      margin-top: 1%;
+      margin-left: 1%;
+      writing-mode: vertical-lr;
     }
   }
   h1{
-    margin-top: 1%;
+    margin-top: -61%;
+    margin-left: 8.7%;
     max-width: 80vw;
+    font-size: 62px;
+    line-height: 1em;
+    letter-spacing: 3px;
+    font-weight: 700;
+
   }
   .mail-and-cv{
-    max-width: 88vw;
-    margin-left: 2%;
-    margin-top: 5%;
-    width: 90vw;
-    a h3{
+    max-width: 7em;
+    height: 3em;
+    display: inline-table;
+    position: absolute;
+    top: -2.5%;
+    left: 64%;
+    text-align: right;
+    a{
+      display: inline-block;
+    }
+    h2{
+      letter-spacing: 1.5px;
       font-size: 16px;
-      margin-right: 0em;
-      margin-top: 0rem;
-      letter-spacing: 1.2px;
+      margin-top: -10%;
+    }
+    h3{
+      display: inline-block;
+      color: @yellow-color;
+      // font-size: 18px;
+      font-size: 16px;
+      line-height: .9em;
+      text-align: left;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-family: @main-font;
+      // font-weight: 400;
     }
   }
   .video-area{
-    margin-top: -7%;
+    margin-top: 0%;
     margin-left: 11.5%;
     margin-right: 0%;
     max-width: 90vw;
@@ -511,8 +568,12 @@ a{
     .startpage-video{
       max-width: 90vw;
       // margin-top: -80%;
-      margin-top: -2%;
-      margin-bottom: 4%;
+      margin-top: -5%;
+      margin-bottom: 5.4%;
+    }
+    img{
+      box-shadow: 0 2px 4px 0 rgba(13, 7, 36, 0.2), 0 6px 20px 0 rgba(15, 6, 31, 0.19);
+      border-radius: 3px;
     }
     h2{
       margin-bottom: 0%;
@@ -524,6 +585,7 @@ a{
       margin-left: 1%;
     }
   }
+}
 }
 
 
