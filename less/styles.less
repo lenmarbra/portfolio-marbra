@@ -590,7 +590,7 @@ a{
         margin-left: 1%;
       }
     }
-    .card {
+    .card-uxdesign {
       margin-right: 0%;
       margin-bottom: 4%;
       margin-left: 5%;
@@ -599,48 +599,86 @@ a{
       width: 79vw;
       height: 9em;
       border-radius: 1.5%;
-      background-image: url('../images/startpage/cards.png');
-      background-attachment: fixed;
+      background-image: url('../images/startpage/uxdesigncard.png');
+      // background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100%;
       &:hover{
         opacity: 88%;
       }
-      .cursor {cursor: url(../images/pointer.svg),auto;}
-      h2{
-        color: @yellow-color;
-        font-family: @main-font;
-        line-height: 1.3em;
-        letter-spacing: 1.5px;
-        font-size: @font-size+6;
-        font-weight: 600;
-        margin-top: 12%;
-        margin-left: 5%;
-        text-align: left;
-        text-transform: none;
-        background-color: transparent;
-      } 
-      .with-p{
-        margin-top: 10%;
-      }
-      .one-row{
-        margin-top: 18%;
-      }
-      p{
-        margin-left: 5%;
-        margin-right: 8%;
-        margin-top: -6%;
-        text-align: left;
-      }
-      img{
-        margin: 0 auto auto 35%;
-        width: 65%;
-      }
-      .long-title{
-        margin-top: -10%;
+    }
+    .card-infodesign {
+      margin-right: 0%;
+      margin-bottom: 4%;
+      margin-left: 5%;
+      background-color: #1e1d25;
+      padding: 1.5em;
+      width: 79vw;
+      height: 9em;
+      border-radius: 1.5%;
+      background-image: url('../images/startpage/infodesigncard.png');
+      // background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      &:hover{
+        opacity: 88%;
       }
     }
+  .card-branding {
+    margin-right: 0%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    background-color: #1e1d25;
+    padding: 1.5em;
+    width: 79vw;
+    height: 9em;
+    border-radius: 1.5%;
+    background-image: url('../images/startpage/brandingcard.png');
+    // background-attachment: fixed;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &:hover{
+      opacity: 88%;
+    }
+  }
+  .cursor {cursor: url(../images/pointer.svg),auto;}
+  .card{
+  h2{
+    color: @yellow-color;
+    font-family: @main-font;
+    line-height: 1.3em;
+    letter-spacing: 1.5px;
+    font-size: @font-size+6;
+    font-weight: 600;
+    margin-top: 12%;
+    margin-left: 5%;
+    text-align: left;
+    text-transform: none;
+    background-color: transparent;
+  } 
+  .with-p{
+    margin-top: 10%;
+  }
+  .one-row{
+    margin-top: 18%;
+  }
+  p{
+    margin-left: 5%;
+    margin-right: 8%;
+    margin-top: -6%;
+    text-align: left;
+  }
+  img{
+    margin: 0 auto auto 35%;
+    width: 65%;
+  }
+  .long-title{
+    margin-top: -10%;
+  }
+} 
   }
 }
 
@@ -1253,10 +1291,6 @@ a{
     }
     .next-project h2{
       display: inline-block;
-      // width: 10em;
-      // height: 2em;
-      // background-color: #e9ee8a9a;
-      // color: @darkblue;
       text-transform: none;
       letter-spacing: 2.7px;
       font-size: @font-size;
