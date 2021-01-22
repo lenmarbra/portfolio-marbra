@@ -7484,11 +7484,24 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/startpage/frontpagemob.png": {
+	"/images/startpage/frontpageimage.png": {
 		"ft": 32768,
-		"iS": 759948,
+		"iS": 126644,
 		"oA": 0,
-		"oAP": "/images/startpage/frontpagemob.png",
+		"oAP": "/images/startpage/frontpageimage.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/frontpageimagemob.png": {
+		"ft": 32768,
+		"iS": 131079,
+		"oA": 0,
+		"oAP": "/images/startpage/frontpageimagemob.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -10215,6 +10228,14 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/index copy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index copy.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -10295,6 +10316,22 @@
 		"mS": 0,
 		"oA": 0,
 		"oAP": "/css/stylescopy.css",
+		"oF": 0,
+		"oS": 1,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/less/stylescopyindex.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"iI": 0,
+		"ma": 0,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/css/stylescopyindex.css",
 		"oF": 0,
 		"oS": 1,
 		"rwU": 0,
