@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/animations.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -128,6 +136,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/stylescopy-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/stylescopyindex.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/stylescopyindex-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -279,6 +297,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/all/close.png": {
+		"ft": 32768,
+		"iS": 2573,
+		"oA": 0,
+		"oAP": "/images/all/close.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/all/downarrowblue.png": {
 		"ft": 32768,
 		"iS": 933,
@@ -313,6 +344,19 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/profilbild.png": {
+		"ft": 32768,
+		"iS": 3143467,
+		"oA": 0,
+		"oAP": "/images/all/profilbild.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
