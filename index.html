@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="offset-by-one columns six video-area">
+    <div class="offset-by-one columns six video-area desktop">
       <a href="dt_projects_page.html">
         <img class="startpage-video mobile" src="images/startpage/frontpageimage.png" alt="">
         <video class="startpage-video desktop" loop="" autoplay="" muted="" src="images/startpage/startpagevideo.mp4"></video>
@@ -64,6 +64,21 @@
         <img class="arrow" src="images/startpage/arrowtwo.svg" alt="">
       </a>
     </div>
+
+    <div class="offset-by-one columns six mobile">
+      <div class="project-area">
+        <a class="card card-uxdesign cursor" href="slownews.html">
+          <h2 class="one-row">UX design</h2>
+        </a>
+        <a class="card card-infodesign cursor" href="infodesign.html">
+          <h2>Information<br> Design</h2>
+        </a>
+        <a class="card card-branding cursor" href="brandingidentity.html">
+          <h2>Branding & <br>identity</h2>
+        </a>
+      </div>
+    </div>
+
   </div>
 
   <!-- <div class="row">
@@ -72,6 +87,17 @@
       <img class="arrow-down contact-arrow" src="images/startpage/arrow-down.svg" alt="">
     </div>
   </div> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+  <script>
+      var tl = gsap.timeline();
+      tl.from(".card-uxdesign", {y: -4, rotation: -8, x: 40, duration: 1.5, ease: "back"});
+      tl.from(".card-infodesign", {y: -4, rotation: -8, x: 40, duration: 1.5, ease: "back"}, "-=1.5");
+      tl.from(".card-branding", {y: -4, rotation: -8, x: 40, duration: 1.5, ease: "back"}, "-=1.5");
+    
+  </script>
 
 
 </body>

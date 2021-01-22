@@ -7502,6 +7502,45 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/startpage/cardbranding.png": {
+		"ft": 32768,
+		"iS": 106902,
+		"oA": 0,
+		"oAP": "/images/startpage/cardbranding.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/cards.png": {
+		"ft": 32768,
+		"iS": 329071,
+		"oA": 0,
+		"oAP": "/images/startpage/cards.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/carduxdesign.png": {
+		"ft": 32768,
+		"iS": 44299,
+		"oA": 0,
+		"oAP": "/images/startpage/carduxdesign.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/frontimagemob.png": {
 		"ft": 32768,
 		"iS": 28535,
