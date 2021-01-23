@@ -1347,6 +1347,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/brandingidentity/cookbook/carouselmobiletwo/cb04txt copy.png": {
+		"ft": 32768,
+		"iS": 17975,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/carouselmobiletwo/cb04txt copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/brandingidentity/cookbook/carouselmobiletwo/cb04txt.png": {
 		"ft": 32768,
 		"iS": 29444,
@@ -1476,8 +1489,8 @@
 		"oA": 0,
 		"oAP": "/images/brandingidentity/cookbook/spreadtwomobgrey.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
