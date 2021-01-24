@@ -5316,6 +5316,14 @@
 		"oAP": "/images/infodesign/students_plans_exp/suddi.psd",
 		"oF": 0
 		},
+	"/images/pdf/CV_MariaBramer.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/pdf/CV_MariaBramer.pdf",
+		"oF": 0
+		},
 	"/images/pdf/CVMariaBramer.indd": {
 		"cB": 0,
 		"ft": 8192,
@@ -7671,6 +7679,14 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/startpage_alt.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/startpage/startpage_alt.mp4",
+		"oF": 0
+		},
 	"/images/startpage/startpagemob.png": {
 		"ft": 32768,
 		"iS": 767977,
@@ -7690,6 +7706,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/images/startpage/startpagevideo.mp4",
+		"oF": 0
+		},
+	"/images/startpage/startpagevideo_alt.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/startpage/startpagevideo_alt.mp4",
 		"oF": 0
 		},
 	"/images/startpage/uxdesigncard.png": {
