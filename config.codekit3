@@ -303,6 +303,19 @@
 		"oA": 0,
 		"oAP": "/images/all/close.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/down.png": {
+		"ft": 32768,
+		"iS": 2677,
+		"oA": 0,
+		"oAP": "/images/all/down.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -336,6 +349,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/all/info.png": {
+		"ft": 32768,
+		"iS": 2188,
+		"oA": 0,
+		"oAP": "/images/all/info.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/all/listarrow.png": {
 		"ft": 32768,
 		"iS": 676,
@@ -344,6 +370,32 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/next.png": {
+		"ft": 32768,
+		"iS": 2801,
+		"oA": 0,
+		"oAP": "/images/all/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/previous.png": {
+		"ft": 32768,
+		"iS": 2774,
+		"oA": 0,
+		"oAP": "/images/all/previous.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1284,7 +1336,7 @@
 		},
 	"/images/brandingidentity/cookbook/carouselmobiletwo/cb02.png": {
 		"ft": 32768,
-		"iS": 89524,
+		"iS": 38868,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/cookbook/carouselmobiletwo/cb02.png",
 		"oF": 0,
@@ -1307,6 +1359,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/carouselmobiletwo/cb02txt.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/carouselmobiletwo/cb02txt.psd",
+		"oF": 0
 		},
 	"/images/brandingidentity/cookbook/carouselmobiletwo/cb03.png": {
 		"ft": 32768,
@@ -1423,6 +1483,27 @@
 		"oAP": "/images/brandingidentity/cookbook/cookbookvideoalt.mp4",
 		"oF": 0
 		},
+	"/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.JPG": {
+		"ft": 16384,
+		"iS": 64862,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.psd",
+		"oF": 0
+		},
 	"/images/brandingidentity/cookbook/spread.jpg": {
 		"ft": 16384,
 		"iS": 1538825,
@@ -1435,6 +1516,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/spread.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/spread.psd",
+		"oF": 0
 		},
 	"/images/brandingidentity/cookbook/spreadmob.png": {
 		"ft": 32768,
@@ -1459,7 +1548,7 @@
 		},
 	"/images/brandingidentity/cookbook/spreadtwo.png": {
 		"ft": 32768,
-		"iS": 1831589,
+		"iS": 263981,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/cookbook/spreadtwo.png",
 		"oF": 0,
@@ -1470,11 +1559,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/brandingidentity/cookbook/spreadtwomob.png": {
+	"/images/brandingidentity/cookbook/spreadtwocopy.png": {
 		"ft": 32768,
-		"iS": 263981,
+		"iS": 59563,
 		"oA": 0,
-		"oAP": "/images/brandingidentity/cookbook/spreadtwomob.png",
+		"oAP": "/images/brandingidentity/cookbook/spreadtwocopy.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7297,6 +7386,19 @@
 		"oAP": "/images/slownews/ilmondo.psd",
 		"oF": 0
 		},
+	"/images/slownews/ilmondo_two.png": {
+		"ft": 32768,
+		"iS": 460067,
+		"oA": 0,
+		"oAP": "/images/slownews/ilmondo_two.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/slownews/ilmondomob.png": {
 		"ft": 32768,
 		"iS": 634571,
@@ -10618,6 +10720,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/uxdesign_animations.html",
+		"oF": 0
+		},
+	"/uxdesign_animations_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_animations_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_slownews_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_slownews_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_thefork_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_thefork_txt.html",
 		"oF": 0
 		}
 	},
