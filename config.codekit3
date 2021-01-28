@@ -7638,6 +7638,19 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/brandingcard_dt.png": {
+		"ft": 32768,
+		"iS": 99495,
+		"oA": 0,
+		"oAP": "/images/startpage/brandingcard_dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/cardbranding.png": {
 		"ft": 32768,
 		"iS": 106902,
@@ -7742,6 +7755,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/infodesigncard_dt.png": {
+		"ft": 32768,
+		"iS": 12700,
+		"oA": 0,
+		"oAP": "/images/startpage/infodesigncard_dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/infodesigncards_dt.png": {
+		"ft": 32768,
+		"iS": 24981,
+		"oA": 0,
+		"oAP": "/images/startpage/infodesigncards_dt.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/pasta.png": {
 		"ft": 32768,
 		"iS": 150465,
@@ -7818,6 +7857,19 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/uxdesigncard_dt.png": {
+		"ft": 32768,
+		"iS": 32027,
+		"oA": 0,
+		"oAP": "/images/startpage/uxdesigncard_dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -8767,6 +8819,27 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/prescription/hero.png": {
+		"ft": 32768,
+		"iS": 298963,
+		"oA": 0,
+		"oAP": "/images/uxdesign/prescription/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/prescription/playpause.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/prescription/playpause.psd",
+		"oF": 0
 		},
 	"/images/uxdesign/prescription/ray-ban.svg": {
 		"ft": 2097152,
@@ -10728,6 +10801,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/uxdesign_animations_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_rayban_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_rayban_txt.html",
 		"oF": 0
 		},
 	"/uxdesign_slownews_txt.html": {
