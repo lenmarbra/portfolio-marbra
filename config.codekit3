@@ -25,6 +25,14 @@
 		"oAP": "/animations.html",
 		"oF": 0
 		},
+	"/branding_kita_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/branding_kita_txt.html",
+		"oF": 0
+		},
 	"/brandingidentity-cookbook.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -39,14 +47,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/brandingidentity.html",
-		"oF": 0
-		},
-	"/comingsoon.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/comingsoon.html",
 		"oF": 0
 		},
 	"/css/animations-min.css": {
@@ -303,8 +303,8 @@
 		"oA": 0,
 		"oAP": "/images/all/close.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -336,6 +336,32 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/all/dowsn.png": {
+		"ft": 32768,
+		"iS": 2677,
+		"oA": 0,
+		"oAP": "/images/all/dowsn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/info.png": {
+		"ft": 32768,
+		"iS": 2188,
+		"oA": 0,
+		"oAP": "/images/all/info.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/all/listarrow.png": {
 		"ft": 32768,
 		"iS": 676,
@@ -344,6 +370,32 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/next.png": {
+		"ft": 32768,
+		"iS": 2801,
+		"oA": 0,
+		"oAP": "/images/all/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/all/previous.png": {
+		"ft": 32768,
+		"iS": 2774,
+		"oA": 0,
+		"oAP": "/images/all/previous.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -1284,7 +1336,7 @@
 		},
 	"/images/brandingidentity/cookbook/carouselmobiletwo/cb02.png": {
 		"ft": 32768,
-		"iS": 89524,
+		"iS": 38868,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/cookbook/carouselmobiletwo/cb02.png",
 		"oF": 0,
@@ -1307,6 +1359,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/carouselmobiletwo/cb02txt.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/carouselmobiletwo/cb02txt.psd",
+		"oF": 0
 		},
 	"/images/brandingidentity/cookbook/carouselmobiletwo/cb03.png": {
 		"ft": 32768,
@@ -1423,6 +1483,27 @@
 		"oAP": "/images/brandingidentity/cookbook/cookbookvideoalt.mp4",
 		"oF": 0
 		},
+	"/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.JPG": {
+		"ft": 16384,
+		"iS": 64862,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/mockup-of-an-open-book-with-customizable-pages-2430-el1.psd",
+		"oF": 0
+		},
 	"/images/brandingidentity/cookbook/spread.jpg": {
 		"ft": 16384,
 		"iS": 1538825,
@@ -1435,6 +1516,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/brandingidentity/cookbook/spread.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/brandingidentity/cookbook/spread.psd",
+		"oF": 0
 		},
 	"/images/brandingidentity/cookbook/spreadmob.png": {
 		"ft": 32768,
@@ -1459,7 +1548,7 @@
 		},
 	"/images/brandingidentity/cookbook/spreadtwo.png": {
 		"ft": 32768,
-		"iS": 1831589,
+		"iS": 263981,
 		"oA": 0,
 		"oAP": "/images/brandingidentity/cookbook/spreadtwo.png",
 		"oF": 0,
@@ -1470,11 +1559,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/brandingidentity/cookbook/spreadtwomob.png": {
+	"/images/brandingidentity/cookbook/spreadtwocopy.png": {
 		"ft": 32768,
-		"iS": 263981,
+		"iS": 59563,
 		"oA": 0,
-		"oAP": "/images/brandingidentity/cookbook/spreadtwomob.png",
+		"oAP": "/images/brandingidentity/cookbook/spreadtwocopy.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7297,6 +7386,19 @@
 		"oAP": "/images/slownews/ilmondo.psd",
 		"oF": 0
 		},
+	"/images/slownews/ilmondo_two.png": {
+		"ft": 32768,
+		"iS": 460067,
+		"oA": 0,
+		"oAP": "/images/slownews/ilmondo_two.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/slownews/ilmondomob.png": {
 		"ft": 32768,
 		"iS": 634571,
@@ -7503,6 +7605,58 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/startpage/archive/frontimagemob.png": {
+		"ft": 32768,
+		"iS": 28535,
+		"oA": 0,
+		"oAP": "/images/startpage/archive/frontimagemob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/archive/frontimagemobtwo.png": {
+		"ft": 32768,
+		"iS": 736985,
+		"oA": 0,
+		"oAP": "/images/startpage/archive/frontimagemobtwo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/archive/frontpageimage.png": {
+		"ft": 32768,
+		"iS": 126644,
+		"oA": 0,
+		"oAP": "/images/startpage/archive/frontpageimage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/archive/frontpageimagemob.png": {
+		"ft": 32768,
+		"iS": 131079,
+		"oA": 0,
+		"oAP": "/images/startpage/archive/frontpageimagemob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/startpage/arrow-down.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -7531,6 +7685,19 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/brandingcard_dt.png": {
+		"ft": 32768,
+		"iS": 99495,
+		"oA": 0,
+		"oAP": "/images/startpage/brandingcard_dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -7575,11 +7742,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/startpage/frontimagemob.png": {
+	"/images/startpage/infodesigncard.png": {
 		"ft": 32768,
-		"iS": 28535,
+		"iS": 12754,
 		"oA": 0,
-		"oAP": "/images/startpage/frontimagemob.png",
+		"oAP": "/images/startpage/infodesigncard.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7588,37 +7755,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/startpage/frontimagemobtwo.png": {
+	"/images/startpage/infodesigncard_dt.png": {
 		"ft": 32768,
-		"iS": 736985,
+		"iS": 12700,
 		"oA": 0,
-		"oAP": "/images/startpage/frontimagemobtwo.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/startpage/frontpageimage.png": {
-		"ft": 32768,
-		"iS": 126644,
-		"oA": 0,
-		"oAP": "/images/startpage/frontpageimage.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/startpage/frontpageimagemob.png": {
-		"ft": 32768,
-		"iS": 131079,
-		"oA": 0,
-		"oAP": "/images/startpage/frontpageimagemob.png",
+		"oAP": "/images/startpage/infodesigncard_dt.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7627,11 +7768,11 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/startpage/infodesigncard.png": {
+	"/images/startpage/infodesigncards_dt.png": {
 		"ft": 32768,
-		"iS": 12754,
+		"iS": 24981,
 		"oA": 0,
-		"oAP": "/images/startpage/infodesigncard.png",
+		"oAP": "/images/startpage/infodesigncards_dt.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -7716,6 +7857,19 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/startpage/uxdesigncard_dt.png": {
+		"ft": 32768,
+		"iS": 32027,
+		"oA": 0,
+		"oAP": "/images/startpage/uxdesigncard_dt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -8434,6 +8588,235 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingfive.png": {
+		"ft": 32768,
+		"iS": 35398,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingfive.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingfour.png": {
+		"ft": 32768,
+		"iS": 25380,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingfour.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingone.png": {
+		"ft": 32768,
+		"iS": 67715,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingseven.png": {
+		"ft": 32768,
+		"iS": 32189,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingseven.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingsix.png": {
+		"ft": 32768,
+		"iS": 31441,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingsix.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingthree.png": {
+		"ft": 32768,
+		"iS": 52983,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingthree.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/bookingtwo.png": {
+		"ft": 32768,
+		"iS": 56869,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/bookingtwo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountfive.png": {
+		"ft": 32768,
+		"iS": 12116,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountfive.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountfour.png": {
+		"ft": 32768,
+		"iS": 13147,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountfour.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountone.png": {
+		"ft": 32768,
+		"iS": 7857,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountseven.png": {
+		"ft": 32768,
+		"iS": 8007,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountseven.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountsix.png": {
+		"ft": 32768,
+		"iS": 10278,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountsix.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountthree.png": {
+		"ft": 32768,
+		"iS": 15194,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountthree.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/myaccountwo.png": {
+		"ft": 32768,
+		"iS": 7376,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/myaccountwo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/startpageone.png": {
+		"ft": 32768,
+		"iS": 3984,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/startpageone.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/startpagethree.png": {
+		"ft": 32768,
+		"iS": 75392,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/startpagethree.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/startpagetwo.png": {
+		"ft": 32768,
+		"iS": 5161,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/startpagetwo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/mobileflows/thefork/processpage/startpagetwo.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/mobileflows/thefork/processpage/startpagetwo.psd",
+		"oF": 0
+		},
 	"/images/uxdesign/mobileflows/thefork/startpageone.png": {
 		"ft": 32768,
 		"iS": 13333,
@@ -8665,6 +9048,27 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/prescription/hero.png": {
+		"ft": 32768,
+		"iS": 298963,
+		"oA": 0,
+		"oAP": "/images/uxdesign/prescription/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/uxdesign/prescription/playpause.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/prescription/playpause.psd",
+		"oF": 0
 		},
 	"/images/uxdesign/prescription/ray-ban.svg": {
 		"ft": 2097152,
@@ -10618,6 +11022,38 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/uxdesign_animations.html",
+		"oF": 0
+		},
+	"/uxdesign_animations_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_animations_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_rayban_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_rayban_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_slownews_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_slownews_txt.html",
+		"oF": 0
+		},
+	"/uxdesign_thefork_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/uxdesign_thefork_txt.html",
 		"oF": 0
 		}
 	},

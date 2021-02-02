@@ -48,34 +48,33 @@
 
 <body class="subject-page cursor" id="brandingidentity">
 
-  <div class="row nav-bg-blue">
+  <div class="nav">
+    <div class="row nav-bg-blue">
 
-    <div class="columns one">
-      <a class="cursor" href="dt_projects_page.html">
-        <img class="back" src="images/topbar/back2.png" alt="Back">
-      </a>
-
+      <div class="columns one category">
+        <a href="#">
+          <h2>Branding & Identity</h2>
+        </a>
+      </div>
+  
+      <div class="offset-by-nine columns two nav-btns">   
+        <a class="desktop" href="brandingidentity-cookbook.html">
+          <img class="nav-btn prev" src="images/all/previous.png" alt="">
+        </a>
+        <a class="desktop" href="brandingidentity-cookbook.html">
+          <img class="nav-btn next" src="images/all/next.png" alt="">
+        </a>     
+        <a href="index.html">
+          <img class="nav-btn close" src="images/all/close.png" alt="">
+        </a>
+      </div>
+  
     </div>
+  </div>  
 
-    <div class="columns one category">
-      <a href="#">
-        <h2>Branding & Identity</h2>
-      </a>
-    </div>
+  <div class="info-btn"><a href="branding_kita_txt.html"><img class="nav-btn" src="images/all/info.png" alt=""></a></div>
+  <div class="down-btn arrowdown"><a href="#k-bg"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
 
-    <div class="offset-by-one columns one">
-      <a class="next-project" href="brandingidentity-cookbook.html">
-        <h2 class="desktop">Next project &#x279D;</h2>
-      </a>
-    </div>
-
-    <div class="offset-by-seven columns one">
-      <a class="cursor logo" href="index.html">
-      <img class="logo" src="images/topbar/mb.png" alt="">
-      </a>
-    </div>
-
-  </div>
 
   <div id="top-branding">
     <div class="row">
@@ -85,14 +84,7 @@
     </div>
 
     <div class="row">
-      <div class="columns four p-width">
-        <p>With this project KITA became the identity 
-          and branding for Keeling Islands. 
-          A distant island in the middle of the 
-          Indian ocean. 
-        </p>
-      </div>
-      <div class="columns eight swiper-container">
+      <div class="offset-by-five columns seven swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="images/brandingidentity/slideshow/about.png" style="width:100%"></div>
           <div class="swiper-slide"><img src="images/brandingidentity/slideshow/kk.png" style="width:100%"></div>
@@ -109,14 +101,9 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="mobile swiper-pagination"></div>
-        <div class="vertical-arrow mobile">
-          <h2>More kita &#x279D;</h2>
-          <!-- <img src="images/all/downarrowyellow.png" alt=""> -->
-        </div>
-      </div>
-      <div class="vertical-arrow desktop">
-        <h2>More kita &#x279D;</h2>
-        <!-- <img src="images/all/downarrowyellow.png" alt=""> -->
+
+        <div class="swiper-pagination mobile ipad"></div>
+
       </div>
     </div>
 
@@ -124,19 +111,38 @@
     <div id="k-bg"></div>
   </div>
 
-  <div class="row">
-    <div id="app-bg">
-      <img class="mockup" src="images/brandingidentity/mockup.png" alt="">
-      <!-- <a class="cursor kitaapp-arrow" href="comingsoon.html">
-        <h2>Kita app</h2>
-        <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
-        <img class="arrow-mobile" src="images/arrrow-mobile.png" alt="">
-      </a>   -->
+  <div class="app-bg-row">
+    <div class="row">
+      <div id="app-bg">
+        <img class="mockup" src="images/brandingidentity/mockup.png" alt="">
+        <!-- <a class="cursor kitaapp-arrow" href="comingsoon.html">
+          <h2>Kita app</h2>
+          <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
+          <img class="arrow-mobile" src="images/arrrow-mobile.png" alt="">
+        </a>   -->
+      </div>
     </div>
+  </div>  
+
+  <!-- -------NEXT PREVIOUS--------- -->
+
+  <div class="prev-next mobile">   
+    <a href="brandingidentity-cookbook.html">
+      <img class="nav-btn prev" src="images/all/previous.png" alt="">
+    </a>
+    <a href="brandingidentity-cookbook.html">
+      <img class="nav-btn next" src="images/all/next.png" alt="">
+    </a>
   </div>
+
 
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+
+  <!-- -------SWIPER-------- -->
   <script>
     var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -155,6 +161,22 @@
 
 })
   </script>  
+
+<!-- ---------DOWN BTN DISAPPEARANCE---------- -->
+<script>
+  gsap.registerPlugin(ScrollTrigger)
+  gsap.to(".arrowdown", {opacity: 0, duration:0.5, scrollTrigger:{
+    trigger: ".arrowdown",
+    start: "top 60%"
+    // markers: true,
+  }});
+</script>  
+
+
 </body>
 
 </html>
+
+
+
+

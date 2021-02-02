@@ -43,40 +43,36 @@
 
 <body class="cursor" id="uxdesign-thefork">
 
-  <div class="row nav-bg-blue">
+  <div class="nav">
+    <div class="row nav-bg-blue">
 
-    <div class="columns one">
-      <a class="cursor" href="dt_projects_page.html">
-        <img class="back" src="images/topbar/back2.png" alt="Back">
-      </a>
-
+      <div class="columns one category">
+        <a href="#">
+          <h2>UX Design</h2>
+        </a>
+      </div>
+  
+      <div class="offset-by-nine columns two nav-btns">   
+        <a class="desktop" href="slownews.html">
+          <img class="nav-btn prev" src="images/all/previous.png" alt="">
+        </a>
+        <a class="desktop" href="uxdesign-rayban.html">
+          <img class="nav-btn next" src="images/all/next.png" alt="">
+        </a>     
+        <a href="index.html">
+          <img class="nav-btn close" src="images/all/close.png" alt="">
+        </a>
+      </div>
+  
     </div>
+  </div>  
 
-    <div class="columns one category">
-      <a href="#">
-        <h2>UX design</h2>
-      </a>
-    </div>
+  <div class="info-btn"><a href="uxdesign_thefork_txt.html"><img class="nav-btn" src="images/all/info.png" alt=""></a></div>
+  <div class="process-btn"><a href="thefork.html"><h2>Process Work</h2></a></div>
+  <div class="down-btn arrowdown"><a href="#video-area"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
 
-    <div class="offset-by-one columns one">
-      <a class="next-project" href="uxdesign-rayban.html">
-        <h2 class="desktop">Next project &#x279D;</h2>
-      </a>
-    </div>
-<!-- 
-    <div class="offset-by-one columns one mobile">
-      <a class="next-project" href="uxdesign-rayban.html">
-        <h2 class="desktop">Next project &#x279D;</h2>
-      </a>
-    </div> -->
 
-    <div class="offset-by-seven columns one">
-      <a class="cursor logo" href="index.html">
-      <img class="logo" src="images/topbar/mb.png" alt="">
-      </a>
-    </div>
-
-  </div>
+  
   <!-- ----------INTRO THEFORK------------ -->
 
   <div class="top-area">
@@ -84,32 +80,12 @@
     <div class="row">
       <div class="columns twelve intro">
         <h1>thefork</h1>
-        <h5>Redesign of thefork's mobile application</h5>
       </div>
     </div>
 
     <div class="row">
-      <div class="columns six intro-thefork">
-        <p>
-          Thefork is an online restaurant booking 
-          application which offers discounts and 
-          other services related to booking a 
-          restaurant table digitally. The aim of 
-          this redesign was to make it easy for the 
-          user to quickly book a table and to assist 
-          the user to find their preferred choices 
-          of place, taste and atmosphere as smoothly 
-          and quickly as possible. In the process of 
-          work benchmarking, workshops, user researches 
-          in forms of interviews, user tests, personas, 
-          ideating, user flows and specifications as 
-          well as prototyping was performed.  <br><br>
-          <a class="thefork-p-link" href="thefork.html">&#10141; <span class="bold-medium">Click here</span> 
-            to see more about the process work.</a> 
-        <br><br>&#10141; Or, <span class="bold-medium">Scroll down</span>, to see three redesigned userflows for thefork.</p>
-      </div>
 
-      <div class="columns five topimage desktop">
+      <div class="offset-by-six columns five topimage">
         <img src="images/uxdesign/theforkpf/topimage.png" alt="">
       </div>
 
@@ -125,9 +101,9 @@
       <div class="userflow userflowbtnStartpage desktop" id="userflow1">
         <video id="video1" class="thefork-video">
           <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
-        </video>
-        <button onclick="playPauseOne()" id="btnStartpage" class="tn active" href="">&#x2023; /  II</button>
-
+          </video>
+          <button onclick="playPauseOne()" id="btnStartpage" class="tn active" href="">&#x2023; /  II</button>
+          <p class="flow-text first-flow">Start page</p>
       </div>
 
       <div class="userflow userflowbtnBooking desktop" id="userflow2">
@@ -136,24 +112,21 @@
           <source src="images/uxdesign/booking.mp4" type="video/mp4">
         </video>
         <button onclick="playPauseTwo()" id="btnBooking" class="tn active" href="">&#x2023; / II</button>
+        <p class="flow-text second-flow">Booking a table<br></p>
       </div>
 
       <div class="userflow userflowbtnPay desktop" id="userflow3">
         <video id="video3" class="thefork-video-three">
           <source src="images/uxdesign/myaccount.mp4" type="video/mp4">
-        </video>
-        <button onclick="playPauseThree()" id="btnPay" class="tn active" href="">&#x2023; /  II</button>
-      </div>
+          </video>
+          <button onclick="playPauseThree()" id="btnPay" class="tn active" href="">&#x2023; /  II</button>
+          <p class="flow-text third-flow">Creating My account<br></p>
+        </div>
 
     </div>
 
     <section class="user-flow-p desktop">
       <h5>Userflows</h5>
-      <p>In these three videos, 
-        you'll see the below listed main flows.<br> From the left:<br>
-        <span class="bold">1.</span> Start page for a non-member user <br><span class="bold">2.</span> Booking a table
-        <br><span class="bold">3.</span> Creating my account<br>
-      </p>
     </section>
 
   </div>
@@ -209,17 +182,16 @@
       <h6 class="thefork-uf-two"><span class="bold">User flow 3:</span><br> Creating an account</h6>
     </div>
 
-<!-- -------PROCESS ARROW--------- -->
+<!-- -------NEXT PREVIOUS--------- -->
 
-    <!-- <a class="cursor workprocess-arrow" href="thefork.html">
-      <h2>Work process</h2>
-      <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
-      <div class="arrow-mobile"><img src="images/all/arrowmobile.png" alt=""></div>
-    </a>     -->
+  <div class="prev-next mobile">   
+    <a href="slownews.html">
+      <img class="nav-btn prev" src="images/all/previous.png" alt="">
+    </a>
+    <a href="uxdesign-rayban.html">
+      <img class="nav-btn next" src="images/all/next.png" alt="">
+    </a>
   </div>
-
-
-
 
   <!-- ----------JAVA SCRIPTS----------- -->
 
@@ -227,27 +199,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
 
-
-  <!-- <script>
-    document.getElementById('btnStartpage').addEventListener('click', changeGraph);
-    document.getElementById('btnBooking').addEventListener('click', changeGraph);
-    document.getElementById('btnPay').addEventListener('click', changeGraph);
-
-    
-    function changeGraph(event){
-    
-      let elementToShow = '.userflow' + event.target.id;
-
-      console.log(event);
-
-      var tl = gsap.timeline();
-      tl.to('.userflow', {opacity:1, duration: .1});
-      tl.to(elementToShow, {opacity: 1, duration: .3, delay: .3});
-      tl.staggerFrom('.top', 0.2, {x: 50}, 0.3);
-
-      }
-  </script> -->
+  <!-- -------SWIPER-------- -->
   <script>
     var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
@@ -297,6 +253,16 @@
     } 
 
   </script> 
+
+  <!-- ---------DOWN BTN DISAPPEARANCE---------- -->
+  <script>
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.to(".arrowdown", {opacity: 0, duration: 1.5, scrollTrigger:{
+      trigger: ".arrowdown",
+      start: "top 60%"
+      // markers: true,
+    }});
+  </script>  
   
 
 </body>
