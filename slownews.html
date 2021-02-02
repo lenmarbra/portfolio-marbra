@@ -59,17 +59,14 @@
       </div>
   
       <div class="offset-by-nine columns two nav-btns">   
-        <a href="uxdesign_animations.html">
+        <a class="desktop" href="uxdesign_animations.html">
           <img class="nav-btn prev" src="images/all/previous.png" alt="">
         </a>
-        <a href="uxdesign.html">
+        <a class="desktop" href="uxdesign.html">
           <img class="nav-btn next" src="images/all/next.png" alt="">
         </a>     
-        <a class="desktop" href="dt_projects_page.html">
-          <img class="nav-btn close" src="images/all/close.png" alt="">
-        </a>
         <a href="index.html">
-          <img class="nav-btn mobile close" src="images/all/close.png" alt="">
+          <img class="nav-btn close" src="images/all/close.png" alt="">
         </a>
       </div>
   
@@ -77,8 +74,8 @@
   </div>  
 
   <div class="info-btn"><a href="uxdesign_slownews_txt.html"><img class="nav-btn" src="images/all/info.png" alt=""></a></div>
-  <div class="process-btn-report"><a href="images/pdf/internship_slownews_sheldonstudio.pdf"><h2>Project report</h2></a></div>
-  <div class="down-btn"><a href="#articlepage"><img class="nav-btn-down prev" src="images/all/down.png" alt=""></a></div>
+  <div class="process-btn-report"><a href="images/pdf/internship_slownews_sheldonstudio.pdf"><h2>Process report</h2></a></div>
+  <div class="down-btn arrowdown"><a href="#articlepage"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
 
 
 <!-- -------------TOP AREA----------------- -->
@@ -105,9 +102,6 @@
   <div class="row desktop" id="newworld">
   </div>
 
-  <!-- <div class="row desktop" id="newworld-mockup">
-  </div> -->
-
   <div class="row desktop" id="logo-slownews">
   </div>
 
@@ -115,7 +109,7 @@
     <p>at</p>
   </div>
 
-  <a href="https://sheldon.studio/" class="row" id="sheldon-studio">
+  <a class="desktop" href="https://sheldon.studio/" class="row" id="sheldon-studio">
   </a>
 
   <div class="mobile mobile-images" id="slownews-images">
@@ -133,14 +127,29 @@
     </div>
   </div>
 
+  <!-- -------NEXT PREVIOUS--------- -->
 
+  <div class="prev-next mobile">   
+    <a href="uxdesign_animations.html">
+      <img class="nav-btn prev" src="images/all/previous.png" alt="">
+    </a>
+    <a href="uxdesign.html">
+      <img class="nav-btn next" src="images/all/next.png" alt="">
+    </a>
   </div>
+
   <!-- ----------JAVA SCRIPTS----------- -->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+
+  
+  <!-- -------SWIPER-------- -->
 
   </script>
   <script>
@@ -154,6 +163,16 @@
     },
     })
   </script> 
+  
+  <!-- ---------DOWN BTN DISAPPEARANCE---------- -->
+  <script>
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.to(".arrowdown", {opacity: 0, duration:0.5, scrollTrigger:{
+      trigger: ".arrowdown",
+      start: "top 60%"
+      // markers: true,
+    }});
+  </script>  
 
 </body>
 

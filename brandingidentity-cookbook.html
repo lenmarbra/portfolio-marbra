@@ -48,22 +48,31 @@
 
 <body class="subject-page cursor" id="brandingidentity-cookbook">
 
-  <div class="row nav-bg-blue">
+  <div class="nav">
+    <div class="row nav-bg-blue">
 
-    <div class="columns one category">
-      <a href="#">
-        <h2>Branding & Identity</h2>
-      </a>
+      <div class="columns one category">
+        <a href="#">
+          <h2>Branding & Identity</h2>
+        </a>
+      </div>
+  
+      <div class="offset-by-nine columns two nav-btns">   
+        <a class="desktop" href="brandingidentity.html">
+          <img class="nav-btn prev" src="images/all/previous.png" alt="">
+        </a>
+        <a class="desktop" href="brandingidentity.html">
+          <img class="nav-btn next" src="images/all/next.png" alt="">
+        </a>     
+        <a href="index.html">
+          <img class="nav-btn close" src="images/all/close.png" alt="">
+        </a>
+      </div>
+  
     </div>
+  </div>  
 
-    <div class="offset-by-nine columns two nav-btns">   
-      <a href="brandingidentity.html"><img class="nav-btn prev" src="images/all/previous.png" alt=""></a>
-      <a href="brandingidentity.html"><img class="nav-btn next" src="images/all/next.png" alt=""></a>
-      <a class="desktop" href="dt_projects_page.html"><img class="nav-btn close" src="images/all/close.png" alt=""></a>
-      <a class="mobile" href="index.html"><img class="nav-btn mobile" src="images/all/close.png" alt=""></a>
-    </div>
-
-  </div>
+  <div class="down-btn arrowdown mobile"><a href="#k-bg"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
 
   <div id="top-branding">
     <div class="row">
@@ -72,12 +81,8 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="columns four p-width">
-        <p>Visuals, layout and icons for an Italian cook book.
-        </p>
-      </div>
-      <div class="columns eight swiper-container desktop">
+    <div class="row">>
+      <div class="offset-by-two columns eight swiper-container desktop">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="images/brandingidentity/cookbook/spread.jpg" style="width:100%"></div>
           <div class="swiper-slide"><video autoplay="" loop="" muted="" src="images/brandingidentity/cookbook/cookbookvideoalt.mp4"></video></div>
@@ -86,6 +91,7 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="mobile swiper-pagination"></div>
+        <div class="swiper-pagination mobile ipad"></div>
         <div class="vertical-arrow mobile"></div>
       </div>
 
@@ -118,15 +124,29 @@
         <div class="mobile swiper-pagination"></div>
         <div class="vertical-arrow mobile"></div>
       </div>
-      <div class="vertical-arrow mobile">
-        <h2>&#x279D;</h2>
-        <!-- <img src="images/all/downarrowyellow.png" alt=""> -->
-      </div>
 
     </div>
 
+      <!-- -------NEXT PREVIOUS--------- -->
+
+  <div class="prev-next mobile">   
+    <a href="brandingidentity.html">
+      <img class="nav-btn prev" src="images/all/previous.png" alt="">
+    </a>
+    <a href="brandingidentity.html">
+      <img class="nav-btn next" src="images/all/next.png" alt="">
+    </a>
+  </div>
+
+
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+
+  
+  <!-- -------SWIPER-------- -->
   <script>
     var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -145,6 +165,17 @@
 
 })
   </script>  
+
+<!-- ---------DOWN BTN DISAPPEARANCE---------- -->
+<script>
+  gsap.registerPlugin(ScrollTrigger)
+  gsap.to(".arrowdown", {opacity: 0, duration:0.5, scrollTrigger:{
+    trigger: ".arrowdown",
+    start: "top 60%"
+    // markers: true,
+  }});
+</script>  
+
 </body>
 
 </html>

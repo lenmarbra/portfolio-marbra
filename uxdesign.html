@@ -53,17 +53,14 @@
       </div>
   
       <div class="offset-by-nine columns two nav-btns">   
-        <a href="slownews.html">
+        <a class="desktop" href="slownews.html">
           <img class="nav-btn prev" src="images/all/previous.png" alt="">
         </a>
-        <a href="uxdesign-rayban.html">
+        <a class="desktop" href="uxdesign-rayban.html">
           <img class="nav-btn next" src="images/all/next.png" alt="">
         </a>     
-        <a class="desktop" href="dt_projects_page.html">
-          <img class="nav-btn close" src="images/all/close.png" alt="">
-        </a>
         <a href="index.html">
-          <img class="nav-btn mobile close" src="images/all/close.png" alt="">
+          <img class="nav-btn close" src="images/all/close.png" alt="">
         </a>
       </div>
   
@@ -72,7 +69,8 @@
 
   <div class="info-btn"><a href="uxdesign_thefork_txt.html"><img class="nav-btn" src="images/all/info.png" alt=""></a></div>
   <div class="process-btn"><a href="thefork.html"><h2>Process Work</h2></a></div>
-  <div class="down-btn"><a href="#video-area"><img class="nav-btn-down prev" src="images/all/down.png" alt=""></a></div>
+  <div class="down-btn arrowdown"><a href="#video-area"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
+
 
   
   <!-- ----------INTRO THEFORK------------ -->
@@ -87,7 +85,7 @@
 
     <div class="row">
 
-      <div class="offset-by-six columns five topimage desktop">
+      <div class="offset-by-six columns five topimage">
         <img src="images/uxdesign/theforkpf/topimage.png" alt="">
       </div>
 
@@ -105,7 +103,7 @@
           <source src="images/uxdesign/instagram/startpage.mp4" type="video/mp4">
           </video>
           <button onclick="playPauseOne()" id="btnStartpage" class="tn active" href="">&#x2023; /  II</button>
-          <p class="flow-text first-flow">Start page (non-members)</p>
+          <p class="flow-text first-flow">Start page</p>
       </div>
 
       <div class="userflow userflowbtnBooking desktop" id="userflow2">
@@ -114,7 +112,7 @@
           <source src="images/uxdesign/booking.mp4" type="video/mp4">
         </video>
         <button onclick="playPauseTwo()" id="btnBooking" class="tn active" href="">&#x2023; / II</button>
-        <p class="flow-text second-flow">Booking a table</p>
+        <p class="flow-text second-flow">Booking a table<br></p>
       </div>
 
       <div class="userflow userflowbtnPay desktop" id="userflow3">
@@ -122,7 +120,7 @@
           <source src="images/uxdesign/myaccount.mp4" type="video/mp4">
           </video>
           <button onclick="playPauseThree()" id="btnPay" class="tn active" href="">&#x2023; /  II</button>
-          <p class="flow-text third-flow">Creating my account</p>
+          <p class="flow-text third-flow">Creating My account<br></p>
         </div>
 
     </div>
@@ -184,17 +182,16 @@
       <h6 class="thefork-uf-two"><span class="bold">User flow 3:</span><br> Creating an account</h6>
     </div>
 
-<!-- -------PROCESS ARROW--------- -->
+<!-- -------NEXT PREVIOUS--------- -->
 
-    <!-- <a class="cursor workprocess-arrow" href="thefork.html">
-      <h2>Work process</h2>
-      <img class="arrow" src="images/infodesign/arrowhorizontal.png" alt="">
-      <div class="arrow-mobile"><img src="images/all/arrowmobile.png" alt=""></div>
-    </a>     -->
+  <div class="prev-next mobile">   
+    <a href="slownews.html">
+      <img class="nav-btn prev" src="images/all/previous.png" alt="">
+    </a>
+    <a href="uxdesign-rayban.html">
+      <img class="nav-btn next" src="images/all/next.png" alt="">
+    </a>
   </div>
-
-
-
 
   <!-- ----------JAVA SCRIPTS----------- -->
 
@@ -202,27 +199,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
 
-
-  <!-- <script>
-    document.getElementById('btnStartpage').addEventListener('click', changeGraph);
-    document.getElementById('btnBooking').addEventListener('click', changeGraph);
-    document.getElementById('btnPay').addEventListener('click', changeGraph);
-
-    
-    function changeGraph(event){
-    
-      let elementToShow = '.userflow' + event.target.id;
-
-      console.log(event);
-
-      var tl = gsap.timeline();
-      tl.to('.userflow', {opacity:1, duration: .1});
-      tl.to(elementToShow, {opacity: 1, duration: .3, delay: .3});
-      tl.staggerFrom('.top', 0.2, {x: 50}, 0.3);
-
-      }
-  </script> -->
+  <!-- -------SWIPER-------- -->
   <script>
     var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
@@ -272,6 +253,16 @@
     } 
 
   </script> 
+
+  <!-- ---------DOWN BTN DISAPPEARANCE---------- -->
+  <script>
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.to(".arrowdown", {opacity: 0, duration: 1.5, scrollTrigger:{
+      trigger: ".arrowdown",
+      start: "top 60%"
+      // markers: true,
+    }});
+  </script>  
   
 
 </body>
