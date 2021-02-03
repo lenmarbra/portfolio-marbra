@@ -621,7 +621,7 @@ a{
       text-align: left;
       width: 35em;
       margin-top: 4%;
-      margin-left: 5.5%;
+      margin-left: 3.5%;
       &:hover{
         font-style: italic;
       }
@@ -786,12 +786,26 @@ a{
 } 
 }
 
-
-
 // -------------START PAGE - IPAD----------
 
 @media only screen and (max-width: 800px){
   #startpage{
+    .nav-bg-blue{
+      h2{
+        display: inline-block;
+        background-color: transparent;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.2em;
+        text-align: left;
+        width: 15em;
+        margin-top: 7%;
+        margin-left: 7%;
+        &:hover{
+          font-style: italic;
+        }
+      }
+    }
   .intro{
     padding: 4%;
     h1{
@@ -917,13 +931,13 @@ a{
       margin-left: 0;
       z-index: 8;
       h2{
-        margin-top: 5%;
-        margin-left: 4%;
-        margin-right: 0%;
+        margin-top: 16%;
+        margin-left: 9%;
+        // margin-right: 0%;
         font-size: 16px;
         font-weight: 300;
+        width: 100vw;
         writing-mode: vertical-lr;
-
         &:hover{
           font-style: italic;
         }
@@ -970,7 +984,7 @@ a{
         margin-top: 1.5%;
         margin-left: 9%;
         max-width: 80vw;
-        font-size: 68px;
+        font-size: 63px;
         line-height: 1em;
         letter-spacing: 3px;
         font-weight: 700;
@@ -979,7 +993,7 @@ a{
         display: none;
       }
       h2{
-        margin-top: 6.5%;
+        margin-top: 6.3%;
         margin-left: 1%;
         writing-mode: vertical-lr;
       }
@@ -1015,7 +1029,7 @@ a{
     }
     .project-area{
       width: 96vw;
-      margin-top: -9%;
+      margin-top: -11%;
       margin-left: 0%;
       .ipad{
         display: none;

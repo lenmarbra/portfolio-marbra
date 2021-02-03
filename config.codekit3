@@ -9140,14 +9140,6 @@
 		"oAP": "/images/uxdesign/prescriptionflow.mp4",
 		"oF": 0
 		},
-	"/images/uxdesign/startpage.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/uxdesign/startpage.mp4",
-		"oF": 0
-		},
 	"/images/uxdesign/thefork/archive/allergies.png": {
 		"ft": 32768,
 		"iS": 73755,
@@ -10769,6 +10761,14 @@
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
+		},
+	"/images/uxdesign/theforkpf/startpaget.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/uxdesign/theforkpf/startpaget.mp4",
+		"oF": 0
 		},
 	"/images/uxdesign/theforkpf/topimage.png": {
 		"ft": 32768,
