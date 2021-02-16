@@ -179,6 +179,30 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/datavisualization_infectiousdiseases.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/datavisualization_infectiousdiseases.html",
+		"oF": 0
+		},
+	"/datavisualization_socialbehaviour.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/datavisualization_socialbehaviour.html",
+		"oF": 0
+		},
+	"/datavisualization_studentplans.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/datavisualization_studentplans.html",
+		"oF": 0
+		},
 	"/digartdir.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5403,6 +5427,48 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/images/infodesign/students_plans_exp/suddi.psd",
+		"oF": 0
+		},
+	"/images/infodesign/threeposters.png": {
+		"ft": 32768,
+		"iS": 1031437,
+		"oA": 0,
+		"oAP": "/images/infodesign/threeposters.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/infodesign/threepostersnobg.png": {
+		"ft": 32768,
+		"iS": 1045902,
+		"oA": 0,
+		"oAP": "/images/infodesign/threepostersnobg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/infodesign/threepostersnobg.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/infodesign/threepostersnobg.psd",
+		"oF": 0
+		},
+	"/images/infodesign/threepostersnoskewed.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/infodesign/threepostersnoskewed.psd",
 		"oF": 0
 		},
 	"/images/pdf/CV_MariaBramer.pdf": {
@@ -10805,6 +10871,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/infodesign.html",
+		"oF": 0
+		},
+	"/infodesign_infectiousdiseases_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/infodesign_infectiousdiseases_txt.html",
+		"oF": 0
+		},
+	"/infodesign_socialbehaviour_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/infodesign_socialbehaviour_txt.html",
+		"oF": 0
+		},
+	"/infodesign_studentplans_txt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/infodesign_studentplans_txt.html",
 		"oF": 0
 		},
 	"/js/swiper.min-min.js": {

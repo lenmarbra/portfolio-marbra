@@ -155,7 +155,7 @@ a{
 .nav-bg-blue{
   position: fixed;
   width: 100vw;
-  height: 4em; 
+  height: 4.3em; 
   background-color: @darkblue;
   margin-top: 0;
   margin-left: 0;
@@ -184,10 +184,11 @@ a{
       margin-top: 3%;
   }
   .nav-btns{
-    margin-top: 1%;
-    margin-right: -3rem;
-    width: 15em;
-    float: right;
+    position: fixed;
+    top: 2%;
+    right: .5%;
+    // width: 15em;
+    // float: right;
     a{
       display: inline-block;
       .nav-btn{
@@ -195,12 +196,12 @@ a{
         box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
         border-radius: 50px;
         margin-right: 1rem;
-        margin-left: 1.5rem;
+        // margin-left: 2rem;
         display: inline-block;
       }
       .nav-btn-txt{
-        margin-left: 14.5rem !important;
-      }
+        margin-left: 16rem!important;
+        }
       .next{
         margin-right: 3rem;
       }
@@ -214,9 +215,9 @@ a{
   }
 }
 .info-btn{
-  position: fixed;
-  top: 94%;
-  left: 1.8%;
+  position: absolute;
+  top: 16%;
+  left: 2%;
   .nav-btn{
   width: 2.2em;
   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
@@ -237,7 +238,7 @@ a{
 }
 .process-btn{
   position: fixed;
-  top: 93%;
+  top: 86%;
   right: 0%;
   height: 2.2em;
   // border-radius: 50px;
@@ -251,7 +252,7 @@ a{
 }
 .process-btn-report{
   position: fixed;
-  top: 93%;
+  top: 86%;
   left: 86%;
   height: 2.2em;
   // border-radius: 50px;
@@ -266,7 +267,7 @@ a{
 }
 .process-btn-entire{
   position: fixed;
-  top: 93%;
+  top: 86%;
   left: 89.3%;
   height: 2.2em;
   // border-radius: 50px;
@@ -279,6 +280,34 @@ a{
   font-size: 13px;
   }
 }
+.prev-next{
+  position: fixed;
+  bottom: 4.5%;
+  left: 92.8%;
+  z-index: 20;
+  height: 1em;
+    .nav-btn{
+    width: 2.2em;
+    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+    border-radius: 50px;
+    display: inline-block;
+    }
+    .next{
+      margin-left: 60%;
+    }
+}
+.down-btn{
+  position: absolute;
+  left: 2%;
+  top: 94%;
+  z-index: 0;
+ .nav-btn-down {
+  width: 2.2em;
+  box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+  border-radius: 50px;
+  display: inline-block;
+  }
+}
 
 
 // ----------------------NAV BAR - IPAD-------------------------
@@ -287,7 +316,7 @@ a{
   .nav-bg-blue{
     position: fixed;
     width: 100vw;
-    height: 4.5em; 
+    height: 4.3em; 
     background-color: @darkblue;
     margin-top: 0;
     margin-left: 0;
@@ -296,12 +325,13 @@ a{
       display: inline-block;
       background-color: transparent;
       font-size: @font-size;
-      font-size: 16px;
+      font-size: 17px;
+      font-weight: 500;
       line-height: 1.2em;
       text-align: left;
-      width: 15em;
-      margin-top: 9%;
-      margin-left: 14.25%;
+      width: 35em;
+      margin-top: 4.2%;
+      margin-left: 5%;
       &:hover{
         font-style: italic;
       }
@@ -315,29 +345,25 @@ a{
         margin-top: 3%;
     }
     .nav-btns{
-      margin-top: -6.3%;
-      margin-right: 1rem;
-      width: 10em;
-      float: right;
-      .mobile{
-        display: none;
-      }
+      position: fixed;
+      top: 2%;
+      right: 1.5%;
       a{
         display: inline-block;
         .nav-btn{
           width: 2.2em;
           box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
           border-radius: 50px;
-          margin-right: 1rem;
-          margin-left: 1rem;
           display: inline-block;
+        }
+        .nav-btn-txt{
+          margin-left: 6.5rem !important;
+        }
+        .next{
+          margin-right: 3rem;
         }
         .mobile{
           display: none;
-        }
-        .nav-btn-txt{
-          margin-left: 11.2rem!important;
-          margin-top: 8.1rem!important;
         }
       }
     }
@@ -346,9 +372,9 @@ a{
     }
   }
   .info-btn{
-    position: fixed;
-    top: 59.5%;
-    left: 94%;
+    position: absolute;
+    top: 14%;
+    left: 4%;
     .nav-btn{
     width: 2.2em;
     box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
@@ -356,26 +382,15 @@ a{
     display: inline-block;
     }
   }
-  .down-btn{
-    position: fixed;
-    top:54%;
-    left: 4.2%;
-   .nav-btn-down {
-    width: 2.2em;
-    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    border-radius: 50px;
-    }
-  }
   .process-btn{
-    position: absolute;
-    top: 58%;
-    left: 76.2%;
+    position: fixed;
+    top: 56.5%;
+    right: 9%;
     height: 2.2em;
     // border-radius: 50px;
     // width: 20em;
-    padding: 1.25% 2% 0 3%;
-    padding-bottom: -4%;;
-    background-color: #2c2a3491;
+    padding: 1% .8% 0% 1.9%;
+    background-color: #2C2A34;
     a h2{
     color: @yellow-color;
     font-size: 13px;
@@ -383,12 +398,12 @@ a{
   }
   .process-btn-report{
     position: fixed;
-    top: 64.5%;
-    left: 76%;
-    height: 2em;
+    top: 93%;
+    left: 86%;
+    height: 2.2em;
     // border-radius: 50px;
     // width: 20em;
-    padding: .9% .8% 0% 2.6%;
+    padding: 1% .8% 0% 1.9%;
     padding-bottom: -2%;;
     background-color: #2C2A34;
     a h2{
@@ -398,20 +413,48 @@ a{
   }
   .process-btn-entire{
     position: fixed;
-    top: 64%;
-    left: 76.6%;
+    top: 93%;
+    left: 89.3%;
     height: 2.2em;
     // border-radius: 50px;
     // width: 20em;
-    padding: 1.3% 1% 0% 2.5%;
-    padding-bottom: -6%;
+    padding: .7% .8% 0% 1.6%;
+    padding-bottom: -4%;
     background-color: #2C2A34;
     a h2{
     color: @yellow-color;
     font-size: 13px;
     }
   }
-}
+  .prev-next{
+    position: fixed;
+    top: 69%;
+    left: 87%;
+    z-index: 20;
+    height: 1em;
+      .nav-btn{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      display: inline-block;
+      }
+      .next{
+        margin-left: 60%;
+      }
+    }
+  .down-btn{
+    position: absolute;
+    left: 4%;
+    top: 69%;
+    z-index: 0;
+   .nav-btn-down {
+    width: 2.2em;
+    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+    border-radius: 50px;
+    display: inline-block;
+    }
+  }
+  }
 
 // ----------------------NAV BAR - MOBILE-------------------------
 
@@ -432,9 +475,9 @@ a{
         font-size: 16px;
         line-height: 1.2em;
         text-align: left;
-        width: 8em;
-        margin-top: 14%;
-        margin-left: 22.5%;
+        width: 17em;
+        margin-top: 6.5%;
+        margin-left: 9.5%;
         &:hover{
           font-style: italic;
         }
@@ -448,8 +491,8 @@ a{
         margin-top: 4%;
       }
       .nav-btns{
-        margin-top: -17%;
-        margin-right: .95rem;
+        margin-top: 0%;
+        margin-right: -31%;
         width: 10em;
         float: right;
         .mobile{
@@ -464,8 +507,8 @@ a{
             width: 2.2em;
             box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
             border-radius: 50px;
-            margin-left: 11.8rem;
-            margin-top: 1.6rem;
+            margin-left: 0rem;
+            margin-top: 0rem;
             display: inline-block;
           }
           .mobile{
@@ -480,7 +523,7 @@ a{
     }
     .info-btn{
       position: absolute;
-      top: 20%;
+      top: 16%;
       left: 7%;
       z-index: 20;
       .nav-btn{
@@ -569,8 +612,9 @@ a{
     }
     .prev-next{
       position: fixed;
-      bottom: 7.5%;
-      left: 74%;
+      bottom: auto;
+      top: 92%;
+      left: 75%;
       z-index: 20;
       height: 1em;
         .nav-btn{
@@ -835,8 +879,8 @@ a{
       margin-left: 1%;
       background-color: @darkblue;
       padding: 1.5em;
-      width: 20em;
-      height: 20em;
+      width: 12em;
+      height: 12em;
       h2{
       color: @yellow-color;
       font-family: @main-font;
@@ -858,11 +902,12 @@ a{
       margin-right: 1%;
       margin-bottom: 0%;
       margin-left: 1%;
-      margin-top: -20%;
+      margin-top: 0%;
       background-color: @darkblue;
       padding: 1.5em;
       width: 20em;
       height: 20em;
+      display: none;
 
     }
     .card-uxdesign{
@@ -1108,13 +1153,6 @@ a{
 
 #information-design{
   .nav-bg-blue{
-    position: fixed;
-    width: 100vw;
-    height: 4em; 
-    background-color: @darkblue;
-    margin-top: 0;
-    margin-left: 0;
-    z-index: 8;
     h2{
       display: inline-block;
       background-color: transparent;
@@ -1129,29 +1167,7 @@ a{
         font-style: italic;
       }
     }
-    .nav-btns{
-      margin-top: 1.15%;
-      // margin-left: 107rem;
-      margin-right: 2.4rem;
-      width: 3em;
-      float: right;
-      .mobile{
-        display: none;
-      }
-      a{
-        display: inline-block;
-        .nav-btn{
-          width: 2.2em;
-          box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-          border-radius: 50px;
-          margin-right: .2rem;
-          margin-left: 2.5rem;
-          display: inline-block;
-        }
-      }
-    }
   }
-  
 
   h1{
     line-height: 1.2em;
@@ -1300,51 +1316,11 @@ a{
 
 @media only screen and (max-width: 800px){
 
-#information-design{
-  .nav-bg-blue{
-    position: fixed;
-    width: 100vw;
-    height: 4.5em; 
-    background-color: @darkblue;
-    margin-top: 0;
-    margin-left: 0;
-    z-index: 8;
-    h2{
-      display: inline-block;
-      background-color: transparent;
-      font-size: @font-size;
-      font-size: 16px;
-      line-height: 1.2em;
-      text-align: left;
-      width: 35em;
-      margin-top: 4%;
-      margin-left: 6%;
-      &:hover{
-        font-style: italic;
-      }
-    }
-    .nav-btns{
-      margin-top: 2.15%;
-      // margin-left: 107rem;
-      margin-right: 1rem;
-      width: 3em;
-      float: right;
-      .mobile{
-        display: none;
-      }
-      a{
-        display: inline-block;
-        .nav-btn{
-          width: 2.2em;
-          box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-          border-radius: 50px;
-          margin-right: .1rem;
-          margin-left: 1rem;
-          display: inline-block;
-        }
-      }
-    }
-  }  
+#information-design{ 
+  .nav-bg-blue .nav-btns a .nav-btn {
+    margin-right: 3rem;
+    margin-top: -8%;
+  }
   h1{
     line-height: 1.2em;
     margin-top: 10%;
@@ -1391,6 +1367,7 @@ a{
   background-image: url('../images/infodesign/granite_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 1.5%;
   .erasedplans-video{
     width: 40vw;
     height: 100%;
@@ -1432,14 +1409,14 @@ a{
   h1{
     margin-bottom: 1%;
     max-width: 12em;
-    margin-left: 3.65%;
+    margin-left: 3%;
     }
   .devastating-h1{
     margin-bottom: 0%;
     margin-top: 2%;
   }
   p{
-    margin-left: 12%;
+    margin-left: 10%;
     margin-top: 2%;
     margin-bottom: -2%;
     a{
@@ -1447,8 +1424,7 @@ a{
     }
   }
   .erased-p{
-    margin-left: 1%;
-    margin-left: -16%;
+    margin-left: -18%;
     width: 40em;
     margin-bottom: -35%;
   }
@@ -1472,10 +1448,10 @@ a{
   h5{
     margin-bottom: 1%;
     margin-top: .5%;
-    margin-left: 4%;
-  }
+    margin-left: 3.2%;
+    }
   p{
-    margin-left: -12%;
+    margin-left: -13.5%;
     width: 30em;
     margin-bottom: -30%;
   }
@@ -1492,58 +1468,65 @@ a{
     .nav-bg-blue{
       position: fixed;
       width: 100vw;
-      height: 4em; 
+      height: 3.5em; 
       background-color: @darkblue;
-      top: 0;
-      left: 0;
-      z-index: 10;
-      .back{
-        display: none;
-      }
+      margin-top: 0;
+      margin-left: 0;
+      z-index: 8;
       h2{
-        margin-top: 10.5%;
-        margin-left: 17%;
-        width: 10em;
-      }
-      .logo{
-        position: absolute;
-        width: 2.25em;
-        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-        border-radius: 50px;
-        top: 4%;
-        left: 61.8%;
-        }
-        .nav-btns{
-          margin-top: -12%;
-          // margin-left: 107rem;
-          margin-right: 1.3rem;
-          width: 3em;
-          float: right;
-          .mobile{
-            display: none;
-          }
-          a{
-            display: inline-block;
-            .nav-btn{
-              width: 2.2em;
-              box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-              border-radius: 50px;
-              margin-right: .1rem;
-              margin-left: 1.5rem;
-              margin-top: 0%;
-              display: inline-block;
-            }
-          }
-        }
-      .mobile{
         display: inline-block;
+        background-color: transparent;
+        font-size: @font-size;
+        font-size: 16px;
+        line-height: 1.2em;
+        text-align: left;
+        width: 17em;
+        margin-top: 6.5%;
+        margin-left: 9.5%;
+        &:hover{
+          font-style: italic;
+        }
       }
-      .next-project h2{
-        position: absolute;
-        top: 40%;
-        left: 13%;
+      h2:after
+      {
+        content:' ';
+        display:block;
+        border: 1px solid @yellow-color;
+        width: 2.5em;
+        margin-top: 4%;
+      }
+      .nav-btns{
+        margin-top: 0%;
+        margin-right: -31%;
+        width: 10em;
+        float: right;
+        .mobile{
+          display: inline-block;
+        }
+        .desktop{
+          display: none;
+        }
+        a{
+          display: inline-block;
+          .nav-btn{
+            width: 2.2em;
+            box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+            border-radius: 50px;
+            margin-left: -1.3rem;
+            margin-top: 0rem;
+            display: inline-block;
+          }
+          .mobile{
+            display: inline-block;
+          }
+          .nav-btn-txt{
+            margin-left: 3.2% !important;
+            margin-top: 3.1% !important;
+          }
+        } 
       }
     }
+
     h1{
       line-height: 1.2em;
       margin-left: 0%;
@@ -1564,48 +1547,18 @@ a{
       margin-bottom: 0em;
       line-height: 1.3em;
     }
-    // .arrow{
-    //   display: none;
-    //   }
-    // .mob-btn{
-      // width: 90vw;
-      // height: .3em;
-      // border: 1px solid @yellow-color;
-      // padding: 4.2% 0% 6.7%;
-      // text-align: center;
-      // border-radius: 1px;
-      // margin-top: 15%;
-      // margin-left: -38%;
-      // background-color: #2c2b3456;
-    //   display: none;
-    // }
-      .arrow-down{
-        transform: rotate(90deg);  
-        width: 2.5em;
-        height: 1em;
-      } 
-    // h2{
-    //   margin-top: 10%;
-    //   margin-bottom: -.2%;
-    //   font-size: 16px;
-    //   letter-spacing: .2em;
-    //   margin-left: 6.5%;
-    // }
-    // .infodesign-h2{
-    //   h2{
-    //     margin-top: 7.7%;
-    //     margin-bottom: -.2%;
-    //     font-size: 16px;
-    //     letter-spacing: .2em;
-    //     margin-left: 5.5%;
-    //     }
-    // }
+    .arrow-down{
+      transform: rotate(90deg);  
+      width: 2.5em;
+      height: 1em;
+    } 
   }
   .bg-posters{
     margin-top: 2em;
     background-image: none;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-left: -1.2%;
     .erasedplans-video{
       width: 15vw;
       height: 100%;
@@ -1740,12 +1693,410 @@ a{
   }
 }
 
+//------------Information design - Erased plans------------------------------
+
+#datavis-erasedplans{
+//   .info-btn {
+//     position: absolute;
+//     top: 1%;
+//     left: 2%;
+// }
+  #top-studentplans{
+    height: 100vh;
+  }
+  h1{
+    margin-top: 5.5%;
+    margin-left: 1.56%;
+    max-width: 19em;
+  }
+  p{
+    margin-top: -3%;
+    margin-left: 5.56%;
+    max-width: 16em;
+  }
+  video{
+    border-radius: 4px;
+    width: 55em;
+    margin-top: 17%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+  }
+  .bg-posters{
+    margin-top: 8em;
+    background-image: url('../images/infodesign/granite_bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img{
+      width: 28%;
+      margin-top: 9%;
+      margin-right: 3%;
+      margin-bottom: 10%;
+      box-shadow: @shadow-img;
+    }
+    .posters{
+      margin-left: 7.8%;
+    }
+  }
+}
+
+//------------Information design - Erased plans - IPAD------------------------------
+
+@media only screen and (max-width: 800px){
+  #datavis-erasedplans{
+    //   .info-btn {
+    //     position: absolute;
+    //     top: 1%;
+    //     left: 2%;
+    // }
+      #top-studentplans{
+        height: 147.5vh;
+      }
+      h1{
+        margin-top: 11%;
+        margin-left: 3%;
+        max-width: 19em;
+      }
+      p{
+        margin-top: -3%;
+        margin-left: 5.56%;
+        max-width: 16em;
+      }
+      video{
+        border-radius: 4px;
+        width: 37em;
+        margin-top: 34%;
+        margin-left: -27%;
+        margin-bottom: 10%;
+      }
+      .bg-posters{
+        margin-top: 8em;
+        margin-left: 0;
+        background-image: url('../images/infodesign/granite_bg.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        img{
+          width: 28%;
+          margin-top: 9%;
+          margin-right: 3%;
+          margin-bottom: 10%;
+          box-shadow: @shadow-img;
+        }
+        .posters{
+          margin-left: 7.8%;
+        }
+      }
+      .process-btn-entire {
+        position: fixed;
+        top: 63%;
+        left: 81%;
+        height: 2.2em;
+        padding: 1.6% .8% 0 2.5%;
+        background-color: #2C2A34;
+    }
+    }
+    }
+
+    //------------Information design - Erased plans - MOBILE------------------------------
+
+@media only screen and (max-width: 600px){
+  #datavis-erasedplans{
+    .info-btn {
+      position: absolute;
+      top: 22%;
+      left: 6%;
+      z-index: 0;
+    }
+    .down-btn{
+      display:none;
+    }
+    #top-studentplans{
+      height: 120vh;
+      }
+    h1{
+      line-height: 1.2em;
+      margin-left: 5%;
+      margin-top: 17%;
+    }
+    h5{
+      font-size: @font-size;
+      font-family: @main-font;
+      color: @yellow-color;
+      font-weight: 400;
+      line-height: 1.4em;
+    }
+    p{
+      color: @yellow-color;
+      max-width: 35em;
+      margin-left: 11%;
+      margin-top: -4%;
+      margin-bottom: 0em;
+      line-height: 1.3em;
+    }
+    .arrow-down{
+      transform: rotate(90deg);  
+      width: 2.5em;
+      height: 1em;
+    } 
+    .bg-posters{
+      margin-top: 2em;
+      background-image: none;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-left: -1.2%;
+      img{
+        width: 90vw;
+        margin-top: 9%;
+        margin-right: 3%;
+        margin-bottom: 10%;
+        box-shadow: none;
+      }
+      .posters{
+        margin-left: 8.8%;
+      }
+      .container-flex{
+        display: flex;
+        width: 90vw;
+        margin-left: 7%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .flex-item{
+          display: inline-block;
+          width: 100vw;
+          margin: 0;
+        }
+        .swiper-container {
+          width: 90vw;
+          margin-top: 8%;
+          margin-left: 0%;
+          margin-bottom: 5%;
+          .swiper-wrapper{
+            width: 100%;
+          img{
+            width: 100%;
+            }
+          }
+          .swiper-pagination-bullet{
+            background-color: @yellow-color;
+            opacity: .5;
+          }
+          .swiper-pagination-bullet-active{
+            background-color: @yellow-color;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .process-btn-entire{
+      position: absolute;
+      top: 22%;
+      left: 64%;
+      height: 1.8em;
+      padding: 1.7%  3.5% 0.5% 6%;
+      padding-bottom: -6%;
+      background-color: #474550b7;
+      border-radius: 1px;
+      z-index: 0;
+      a h2{
+      color: @yellow-color;
+      font-size: 13px;
+      font-weight: 380;
+      letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+//----Information design - Devastating infectious diseases - Social behaviour trends------------------------------
+
+#datavis-infectiousdiseases{
+  //   .info-btn {
+  //     position: absolute;
+  //     top: 1%;
+  //     left: 2%;
+  // }
+    #top-studentplans{
+      height: 100vh;
+    }
+    #top-infectiousdiseases{
+      height: 100vh;
+    }
+    h1{
+      margin-top: 5.5%;
+      margin-left: 1.56%;
+      max-width: 19em;
+    }
+    p{
+      margin-top: -3%;
+      margin-left: 5.56%;
+      max-width: 16em;
+    }
+    .postertwo{
+      border-radius: 4px;
+      width: 55em;
+      margin-top: 8%;
+      margin-left: -23.5%;
+    }
+    .posterone{
+      border-radius: 4px;
+      width: 40em;
+      margin-top: -13%;
+      margin-left: 20%;
+      margin-bottom: 10%;
+      transform: rotate(90deg);
+    }
+    .bg-posters{
+      margin-top: 8em;
+      background-image: url('../images/infodesign/granite_bg.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      img{
+        width: 28%;
+        margin-top: 9%;
+        margin-right: 3%;
+        margin-bottom: 10%;
+        box-shadow: @shadow-img;
+      }
+      .posters{
+        margin-left: 7.8%;
+      }
+    }
+  }
+
+  //-Information design - Devastating infectious diseases - Social behaviour trends - IPAD------------------------------
+
+@media only screen and (max-width: 800px){
+  #datavis-infectiousdiseases{
+    //   .info-btn {
+    //     position: absolute;
+    //     top: 1%;
+    //     left: 2%;
+    // }
+      #top-studentplans{
+        height: 150vh;
+      }
+      #top-infectiousdiseases{
+        height: 100vh;
+      }
+      h1{
+        margin-top: 11%;
+        margin-left: 3%;
+        max-width: 19em;
+      }
+      p{
+        margin-top: -3%;
+        margin-left: 5.56%;
+        max-width: 16em;
+      }
+      .postertwo{
+        border-radius: 4px;
+        width: 37em;
+        margin-top: 20%;
+        margin-left: -36%;
+        margin-bottom: 10%;
+      }
+      .posterone{
+        border-radius: 4px;
+        width: 56vw;
+        margin-top: -7%;
+        margin-left: 8%;
+        margin-bottom: 10%;
+      }
+      .process-btn-entire {
+        position: fixed;
+        top: 63.5%;
+        left: 81%;
+        height: 2.2em;
+        padding: 1.6% .8% 0 2.5%;
+        background-color: #2C2A34;
+    }
+  }
+}
+  
+    //-Information design - Devastating infectious diseases - Social behaviour trends - MOBILE------------------------------
+
+    @media only screen and (max-width: 600px){
+      #datavis-infectiousdiseases{
+        .info-btn {
+          position: absolute;
+          top: 22%;
+          left: 6%;
+          z-index: 0;
+        }
+        .down-btn{
+          display:none;
+        }
+        #top-studentplans{
+          height: 120vh;
+          }
+        #top-infectiousdiseases{
+          height: 120vh;
+          }
+        h1{
+          line-height: 1.2em;
+          margin-left: 5%;
+          margin-top: 17%;
+        }
+        h5{
+          font-size: @font-size;
+          font-family: @main-font;
+          color: @yellow-color;
+          font-weight: 400;
+          line-height: 1.4em;
+        }
+        p{
+          color: @yellow-color;
+          max-width: 35em;
+          margin-left: 11%;
+          margin-top: -4%;
+          margin-bottom: 0em;
+          line-height: 1.3em;
+        }
+        .postertwo{
+          border-radius: 4px;
+          width: 92vw;
+          margin-top: 34%;
+          margin-left: 4%;
+          margin-bottom: 10%;
+        }
+        .posterone{
+          border-radius: 4px;
+          width: 92vw;
+          margin-top: 16%;
+          margin-left: 4%;
+          margin-bottom: 10%;
+          transform: rotate(0deg);
+        }
+        .process-btn-entire{
+          position: absolute;
+          top: 22%;
+          left: 64%;
+          height: 1.8em;
+          padding: 1.7%  3.5% 0.5% 6%;
+          padding-bottom: -6%;
+          background-color: #474550b7;
+          border-radius: 1px;
+          z-index: 0;
+          a h2{
+          color: @yellow-color;
+          font-size: 13px;
+          font-weight: 380;
+          letter-spacing: 2px;
+          }
+        }
+      }
+    }
+
 //------------UXDESIGN PAGES------------------------------
 
-//-------------UXDESIGN - THEFORK - DESKTOP-----------------------
+//------------UXDESIGN - THEFORK - DESKTOP-----------------------
 
 #uxdesign-thefork{
-  
   .top-area{
     background-image: url(../images/uxdesign/bgdarkblue.png);
     background-attachment: fixed;
@@ -1755,7 +2106,7 @@ a{
     height: 100vh;
     h1{
       margin-top: 5.5%;
-      margin-left: 1.56%;
+      margin-left: 1.75%;
       width: 12em;
       font-size: 32px;
     }
@@ -1889,6 +2240,42 @@ a{
 @media only screen and (max-width: 800px){
 
 #uxdesign-thefork{
+  .nav-bg-blue{
+    .nav-btns{
+      position: fixed;
+      top: 1.7%;
+      right: 8.9rem;
+      z-index: 40;
+      a{
+        display: inline-block;
+        .nav-btn{
+          width: 2.2em;
+          box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+          border-radius: 50px;
+          display: inline-block;
+        }
+        .nav-btn-txt{
+          margin-left: 14.5rem !important;
+        }
+      }
+    }
+  }
+  .prev-next{
+    position: fixed;
+    top: 62.5%;
+    left: 79%;
+    z-index: 20;
+    height: 1em;
+    .nav-btn{
+    width: 2.2em;
+    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+    border-radius: 50px;
+    display: inline-block;
+    }
+    .next{
+      margin-left: 60%;
+    }
+  }
   .top-area{
     background-image: url(../images/uxdesign/bgdarkblue.png);
     background-attachment: fixed;
@@ -1897,7 +2284,7 @@ a{
     background-size: cover;
     height: 100vh;
     h1{
-      margin-left: 3.7%;
+      margin-left: 3.2%;
       margin-top: 10%;
       width: 12em;
       font-size: 32px;
@@ -1937,6 +2324,7 @@ a{
       height: 100vh;
       width: 100vw;
       margin-top: -47%;
+      margin-bottom: 30%;
       z-index: -1;
     }
     .videos{
@@ -2040,23 +2428,29 @@ a{
   #uxdesign-thefork{
     width: 100vw;
     overflow-x: hidden;
-      .top-area{
-      background-image: url(../images/uxdesign/bgdarkbluemob.png);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      h1{
-        margin-left: 5.9%;
-        margin-top: 13.3%;
-        width: 12em;
-        font-size: 30px;
+    .nav-bg-blue{
+      .nav-btns{
+        top: 1.7%;
+        right: 1.3rem;
+        }
       }
-      h5{
-        margin-left: 5.5%;
-        margin-top: -4%;
-        letter-spacing: .3px;
-      }
+    .top-area{
+    background-image: url(../images/uxdesign/bgdarkbluemob.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+      margin-left: 5.5%;
+      margin-top: 15%;
+      width: 12em;
+      font-size: 30px;
+    }
+    h5{
+      margin-left: 5.5%;
+      margin-top: -4%;
+      letter-spacing: .3px;
+    }
       .intro-thefork{
         p{
           max-width: 89vw;
@@ -2084,17 +2478,6 @@ a{
       margin-top: 0%;
       background-image: none;
     }
-    // #video-area{
-    //   // background: @bg-gradient-radial;
-    //   background-image: url(../images/uxdesign/bgdarkblue.png);
-    //   background-attachment: fixed;
-    //   background-position: center;
-    //   background-repeat: no-repeat;
-    //   background-size: cover;
-    //   height: 100vh;
-    //   width: 100vw;
-    //   margin-top: -47%;
-    //   z-index: -1;
     .mobile{
       display: inline-block;
     }
@@ -2234,13 +2617,10 @@ a{
         margin-left: 0%;
       }
     }
-    .prev-next {
-      position: fixed;
-      bottom: 7%;
-      left: 74%;
-      z-index: 20;
-      height: 1em;
-  }
+    .prev-next{
+      top: 90%;
+      left: 75%;
+    }
   }
 }
 
@@ -2439,9 +2819,9 @@ a{
     background-size: cover;
     height: 60vh;
     h1{
-      margin-left: 3.6%;
-      margin-top: 9%;
-      width: 8em;
+      margin-left: 2.9%;
+      margin-top: 10%;
+      width: 18em;
       font-size: 32px;
     }
     .intro-rayban{
@@ -2453,14 +2833,23 @@ a{
         margin-bottom: 40%;
       }
     }
+    .topimage{
+      img{
+        width: 67%;
+        margin-top: 10%;
+        margin-left: 12%;
+        margin-bottom: 38%;
+        z-index: 1;
+      }
+    }
     #userflow-rayban{
-      height: 30vh;
+      height: 50vh;
       width: 100vw;
       background-color: @darkblue;
       background-image: none;
       h5{
         font-size: 26px;
-        margin-top: -20%;
+        margin-top: 10%;
         margin-left: 3.6%;
       }
       img{
@@ -2610,7 +2999,7 @@ a{
       width: 100vw;
       h1{
         margin-left: 5.5%;
-        margin-top: 14%;
+        margin-top: 16%;
         width: 10em;
         font-size: 32px;
       }
@@ -2790,8 +3179,8 @@ a{
   overflow-y: hidden;
   .top-area{
     h1{
-      margin-top: 5%;
-      margin-left: 1.56%;
+      margin-top: 5.7%;
+      margin-left: 1.75%;
       width: 12em;
       font-size: 32px;
       transform-style: preserve-3d;
@@ -3170,7 +3559,6 @@ a{
 // -----------------BRANDING & IDENTITY-------------------
 
 #brandingidentity{
-
   #top-branding{
     height: 100vh;
   }
@@ -3229,9 +3617,9 @@ a{
     }
   }
   .swiper-container {
-    width: 60em;
-    margin-top: .2%;
-    margin-left: 19.5%;
+    width: 50em;
+    margin-top: 2.8%;
+    margin-left: 22.8%;
     margin-bottom: 10%;
     video{
       width: 100%;
@@ -3329,9 +3717,9 @@ a{
     }
     .swiper-container {
       width: 47em;
-      margin-top: 0.5%;
+      margin-top: 7.5%;
       margin-left: 4%;
-      margin-bottom: 30%;
+      margin-bottom: 20%;
       video{
         width: 100%;
       }
@@ -3373,86 +3761,6 @@ a{
       margin-left: 4%;
       margin-top: 5%;
     }
-    .nav-bg-blue{
-      position: fixed;
-      width: 100vw;
-      height: 4.5em; 
-      background-color: @darkblue;
-      margin-top: 0;
-      margin-left: 0;
-      z-index: 8;
-      h2{
-        display: inline-block;
-        background-color: transparent;
-        font-size: @font-size;
-        font-size: 16px;
-        line-height: 1.2em;
-        text-align: left;
-        width: 35em;
-        margin-top: 4.2%;
-        margin-left: 6%;
-        &:hover{
-          font-style: italic;
-        }
-      }
-      h2:after
-      {
-          content:' ';
-          display:block;
-          border: 1px solid @yellow-color;
-          width: 2.5em;
-          margin-top: 3%;
-      }
-      .nav-btns{
-        margin-top: -8%;
-        // margin-left: 107rem;
-        margin-right: 1.3rem;
-        width: 10em;
-        float: right;
-        .mobile{
-          display: none;
-        }
-        a{
-          display: inline-block;
-          .nav-btn{
-            width: 2.2em;
-            box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-            border-radius: 50px;
-            margin-right: 1rem;
-            margin-left: 1rem;
-            display: inline-block;
-          }
-          .mobile{
-            display: none;
-          }
-          .nav-btn-txt{
-            margin-left: 11.2rem!important;
-            margin-top: 8.1rem!important;
-          }
-        }
-      }
-    }
-    // .info-btn{
-    //   position: fixed;
-    //   top: 65%;
-    //   left: 93%;
-    //   .nav-btn{
-    //   width: 2.2em;
-    //   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    //   border-radius: 50px;
-    //   display: inline-block;
-    //   }
-    // }
-    // .down-btn{
-    //   position: fixed;
-    //   top: 65%;
-    //   left: 5.3%;
-    //  .nav-btn-down {
-    //   width: 2.2em;
-    //   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    //   border-radius: 50px;
-    //   }
-    // }
   }
 }
 
@@ -3460,118 +3768,59 @@ a{
 
 @media only screen and (max-width: 600px){
   #brandingidentity{
-  .nav-bg-blue{
-    h2{
-      max-width: 25%;
-      margin-top: 3.5%;
-      margin-left: 5.15%;
+    #top-branding{
+      height: 100vh;
     }
-    h2:after {
-      content: ' ';
-      margin-top: 5%;
-  }
-    .nav-btns{
-      margin-top: -18.7%;
-      margin-right: .9rem;
-      width: 10em;
-      float: right;
-      .mobile{
-        display: inline-block;
-      }
-      .desktop{
-        display: none;
-      }
-      a{
-        display: inline-block;
-        .nav-btn{
-          width: 2.2em;
-          box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-          border-radius: 50px;
-          margin-right: 1rem;
-          margin-left: 11.8rem;
-          margin-top: 0;
-          display: inline-block;
-        }
-      }
+    h1{
+      margin-top: 16%;
+      margin-left: 5%;
     }
-  }
-  // .info-btn{
-  //   position: fixed;
-  //   top: 92.5%;
-  //   left: 89%;
-  //   z-index: 20;
-  //   .nav-btn{
-  //   width: 2.2em;
-  //   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-  //   border-radius: 50px;
-  //   display: inline-block;
-  //   }
-  // }
-  .down-btn{
-    position: absolute;
-    top: 90.5%;
-    left: 6.8%;
-    z-index: 10;
-    .nav-btn-down {
-    width: 2.2em;
-    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    border-radius: 50px;
-    display: inline-block;
+    p{
+      margin-top: -2%;
+      margin-left: 6.5%;
+      max-width: 85vw;
     }
-  }
-  #top-branding{
-    height: 100vh;
-  }
-  h1{
-    margin-top: 20%;
-    margin-left: 5.8%;
-  }
-  p{
-    margin-top: -2%;
-    margin-left: 6.5%;
-    max-width: 85vw;
-  }
-  .vertical-arrow{
-    position: relative;
-    top: 0;
-    margin-top: 8%;
-    margin-left: -2.3%;
-    margin-bottom: 3%;
-  }
-  #k-bg{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/brandingidentity/kbgmobile.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    .vertical-arrow{
+      position: relative;
+      top: 0;
+      margin-top: 8%;
+      margin-left: -2.3%;
+      margin-bottom: 3%;
     }
-  .app-bg-row{
-    .row{
-      margin-top: 0%;
-    }
-    #app-bg{
+    #k-bg{
       width: 100vw;
       height: 100vh;
-      background-image: url(../images/brandingidentity/bgsoremob.png);
+      background-image: url(../images/brandingidentity/kbgmobile.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-      .mockup{
-        margin-top: 40%;
-        margin-left: 25%;
-        width: 12em;
+      background-size: 100%;
       }
-      .kitaapp-arrow{
-        display: none;
+    .app-bg-row{
+      .row{
+        margin-top: 0%;
+      }
+      #app-bg{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(../images/brandingidentity/bgsoremob.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .mockup{
+          margin-top: 40%;
+          margin-left: 25%;
+          width: 12em;
+        }
+        .kitaapp-arrow{
+          display: none;
+        }
       }
     }
-  }
     .swiper-container {
       width: 85vw;
-      height: 71vh;
+      height: 73vh;
       margin-top: 16%;
       margin-left: 7.3%;
       margin-bottom: 1%;
@@ -3632,7 +3881,6 @@ a{
 // -----------------BRANDING & IDENTITY - COOKBOOK-------------------
 
 #brandingidentity-cookbook{
-
   height: 100vh;
   overflow-y: hidden;
 
@@ -3649,9 +3897,9 @@ a{
     max-width: 16em;
   }
   .swiper-container {
-    width: 60em;
-    margin-top: 2%;
-    margin-left: 20%;
+    width: 50em;
+    margin-top: 2.8%;
+    margin-left: 22.8%;
     margin-bottom: 10%;
     video{
       width: 100%;
@@ -3751,22 +3999,22 @@ a{
     margin-left: 1%;
     margin-top: 0%;
   }
-  .prev-next{
-    position: absolute;
-    top: 173%;
-    left: 5%;
-    z-index: 20;
-    height: 1em;
-    .nav-btn{
-    width: 2.2em;
-    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    border-radius: 50px;
-    display: inline-block;
-    }
-    .next{
-      margin-left: 60%;
-    }
-  }
+  // .prev-next{
+  //   position: absolute;
+  //   top: 173%;
+  //   left: 5%;
+  //   z-index: 20;
+  //   height: 1em;
+  //   .nav-btn{
+  //   width: 2.2em;
+  //   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+  //   border-radius: 50px;
+  //   display: inline-block;
+  //   }
+  //   .next{
+  //     margin-left: 60%;
+  //   }
+  // }
 }
 }
 // ----------BRANDING & IDENTITY - COOKBOOK - MOBILE-------------------
@@ -3775,24 +4023,12 @@ a{
   #brandingidentity-cookbook{
     height: 100vh;
     overflow-y: visible;   
-    .nav-bg-blue{
-      height: 4.3em;
-     h2 {
-      width: 9em;
-      margin-top: 14%;
-      margin-left: 20%;
-    }
-  }
-    .nav-bg-blue h2:after {
-      content: ' ';
-      margin-top: 5%;
-  }
     #top-branding{
       height: 0vh;
     }
     h1{
-      margin-top: 20%;
-      margin-left: 5.6%;
+      margin-top: 16%;
+      margin-left: 5%;
     }
     p{
       margin-top: -3%;
@@ -3851,57 +4087,7 @@ a{
       margin-left: 0%;
       margin-bottom: -1%;
     }
-    .nav-bg-blue .nav-btns a .nav-btn {
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgb(37 31 59 / 20%), 0 6px 20px 0 rgb(10 7 15 / 19%);
-      border-radius: 50px;
-      margin-left: 11.8rem;
-      margin-top: -.5rem;
-      display: inline-block;
   }
-    .info-btn{
-      position: fixed;
-      bottom: 5.5%;
-      left: -1%;
-      z-index: 20;
-      height: 1em;
-      .nav-btn{
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      display: inline-block;
-      }
-    }
-    .down-btn{
-      position: absolute;
-      top: 93%;
-      left: 6.8%;
-      z-index: 2;
-     .nav-btn-down {
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      display: inline-block;
-      }
-    }
-    .prev-next{
-      position: fixed;
-      top: 93%;
-      left: 40%;
-      z-index: 20;
-      height: 1em;
-      .nav-btn{
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      display: inline-block;
-      }
-      .next{
-        margin-left: 60%;
-      }
-    }
-  }
-
 }
 
 
@@ -4186,8 +4372,8 @@ a{
     background-size: cover;
     height: 102vh;
     h1{
-      margin-top: -17%;
-      margin-left: -1%;
+      margin-top: -15.9%;
+      margin-left: -.7%;
       font-size: 32px;
       }
     p{
@@ -4330,7 +4516,6 @@ a{
 @media only screen and (max-width: 800px){
 
 #slownews-page{
-
   .intro-slownews{
     position: fixed;
   }
@@ -4355,7 +4540,7 @@ a{
       margin-bottom: 0%;
     }
     h1{
-      margin-left: 7.2%;
+      margin-left: 7%;
       margin-top: 1%;
     }
     p{
@@ -4484,17 +4669,37 @@ a{
       width: .95em;
     }
   }
-  .down-btn{
+  .process-btn-report{
     position: fixed;
-    top: 64.2%;
-    left: 3.3%;
-   .nav-btn-down {
-    width: 2.2em;
-    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    border-radius: 50px;
+    top: 63%;
+    left: 75.5%;
+    height: 2.2em;
+    // border-radius: 50px;
+    // width: 20em;
+    padding: 1.1% .8% 0% 3%;
+    padding-bottom: -2%;;
+    background-color: #2C2A34;
+    a h2{
+    color: @yellow-color;
+    font-size: 13px;
     }
   }
-
+  .prev-next{
+    position: fixed;
+    top: 69%;
+    left: 87%;
+    z-index: 20;
+    height: 1em;
+      .nav-btn{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      display: inline-block;
+      }
+      .next{
+        margin-left: 60%;
+      }
+    }
   }
 }
 
@@ -4535,8 +4740,8 @@ a{
         margin-bottom: 8%;  
       }
       h1{
-        margin-left: 5.7%;
-        margin-top: -24%;
+        margin-left: 5.6%;
+        margin-top: -22%;
         margin-bottom: 3%;
         font-size: 30px;
       }
@@ -4592,25 +4797,6 @@ a{
         display: none;
       }
     }
-    .prev-next {
-      position: fixed;
-      bottom: 5%;
-      left: 74%;
-      z-index: 20;
-      height: 1em;
-  }
-  // .info-btn{
-  //   position: fixed;
-  //   top: 92.5%;
-  //   left: 88.5%;
-  //   z-index: 20;
-  //   .nav-btn{
-  //   width: 2.2em;
-  //   box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-  //   border-radius: 50px;
-  //   display: inline-block;
-  //   }
-  // }
   .down-btn{
     position: absolute;
     top: 93%;
@@ -4622,6 +4808,39 @@ a{
     border-radius: 50px;
     display: inline-block;
     }
+  }
+  .process-btn-report{
+    position: absolute;
+    top: 82%;
+    left: 55%;
+    height: 1.8em;
+    padding: 1.7% 3.5% 0.5% 6%;
+    padding-bottom: -6%;
+    background-color: #474550b7;
+    border-radius: 1px;
+    a h2{
+    color: @yellow-color;
+    font-size: 13px;
+    font-weight: 380;
+    letter-spacing: 2px;
+    }
+  }
+  .prev-next{
+    position: fixed;
+    bottom: auto;
+    top: 92%;
+    left: 75%;
+    z-index: 20;
+    height: 1em;
+      .nav-btn{
+      width: 2.2em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      display: inline-block;
+      }
+      .next{
+        margin-left: 60%;
+      }
   }
 }
 }
@@ -5093,21 +5312,13 @@ a{
         }
       }
     }
-    .process-btn{
-      position: fixed;
-      top: 56%;
-      left: 78.1%;
-      height: 2em;
-      // border-radius: 50px;
-      // width: 20em;
-      padding: .9% .8% 0% 2.6%;
-      padding-bottom: -2%;;
+    .process-btn {
+      top: 62%;
+      right: 0%;
+      height: 2.2em;
+      padding: 1.2% .8% 0 3.5%;
       background-color: #2C2A34;
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      }
-    }
+  }
   }
 }
 
@@ -5158,7 +5369,7 @@ a{
 
 #animations-page-txt{
   .text{
-    margin-top: 17%;
+    margin-top: 20%;
     margin-left: 29%;
     width: 40%;
     h5{
@@ -5250,14 +5461,15 @@ a{
 }
 }
 
-// -----------TEXT PAGES - ANIMATIONS-TXT - MOBILE---------------
+// -----------TEXT PAGES - ANIMATIONS - MOBILE---------------
 
 @media only screen and (max-width: 600px){
   #animations-page-txt{
     height: 110vh;
     .text{
-      margin-top: 22%;
-      margin-left: 9%;
+      margin-top: 14%;
+      margin-left: 8%;
+
       width: 75%;
       h5{
         font-size: @font-size+10;
@@ -5269,7 +5481,7 @@ a{
     .process-btn-entire{
       position: fixed;
       top: 82%;
-      left: 60%;
+      left: 68%;
       height: 1.8em;
       // border-radius: 50px;
       // width: 20em;
@@ -5343,7 +5555,7 @@ a{
     width: 90vw;
     h5{
       font-size: @font-size+10;
-      text-align: center;
+      text-align: left;
       margin-bottom: 0em;
       a{
         text-decoration: underline;
@@ -5362,18 +5574,21 @@ a{
 }
 }
 
-// -----------TEXT PAGES - RAYBAN-TXT - MOBILE---------------
+// -----------TEXT PAGES - RAYBAN - MOBILE---------------
 
 @media only screen and (max-width: 600px){
   #rayban-page-txt{
     height: 110vh;
+    .nav-bg-blue {
+      background-color: transparent;
+  }
     .text{
-      margin-top: 19%;
-      margin-left: 6%;
-      width: 85%;
+      margin-top: 18%;
+      margin-left: 9%;
+      width: 80%;
       h5{
         font-size: @font-size+10;
-        text-align: center;
+        text-align: left;
         margin-bottom: 0em;
         font-size: 18px;
       }
@@ -5452,9 +5667,9 @@ a{
 
   #kita-page-txt{
     .text{
-      margin-top: 27%;
-      margin-left: 19%;
-      width: 60%;
+      margin-top: 9%;
+      margin-left: 6%;
+      width: 85%;
     }
   }
 }
@@ -5465,14 +5680,118 @@ a{
   #kita-page-txt{
     height: 110vh;
     .text{
-      margin-top: 29%;
-      margin-left: 16%;
-      width: 65%;
+      margin-top: 25%;
+      margin-left: 12%;
+      width: 75%;
       h5{
         font-size: @font-size+10;
         text-align: left;
         margin-bottom: 0em;
         font-size: 18px;
+      }
+    }
+  }
+}
+
+//----------- TEXT PAGES - INFORMATION DESIGN PAGES  ------------
+
+#infodesign-page-txt{
+  .text{
+    margin-top: 20%;
+    margin-left: 29%;
+    width: 40%;
+    h5{
+      font-size: @font-size+10;
+      text-align: left;
+      margin-bottom: 0.2em;
+      a{
+        text-decoration: underline;
+        margin-left: .2%;
+        color: @yellow-color;
+        &:hover{
+          color: @appricot-color; 
+        }
+      }
+      .slownews-link{
+        text-decoration: none;
+      }
+    }
+  }  
+}
+
+//----------- TEXT PAGES - INFORMATION DESIGN PAGES - IPAD ------------
+
+@media only screen and (max-width: 800px){
+  #infodesign-page-txt {
+    .text{
+      margin-top: 12%;
+      margin-left: 8%;
+      width: 82vw;
+      h5{
+        font-size: @font-size+10;
+        text-align: left;
+        margin-bottom: 0.2em;
+        a{
+          text-decoration: underline;
+          margin-left: .2%;
+          color: @yellow-color;
+          &:hover{
+            color: @appricot-color; 
+          }
+        }
+        .slownews-link{
+          text-decoration: none;
+        }
+      }
+    } 
+    .process-btn-entire{
+      position: fixed;
+      top: 50%;
+      left: 80%;
+      height: 2.2em;
+      // border-radius: 50px;
+      // width: 20em;
+      padding: 1% 1.5% 0% 2.8%;
+      padding-bottom: -4%;
+      background-color: #2C2A34;
+      a h2{
+      color: @yellow-color;
+      font-size: 13px;
+      }
+    } 
+  }
+}
+
+// -----------TEXT PAGES - INFORMATIONS DESIGN PAGES - MOBILE---------------
+
+@media only screen and (max-width: 600px){
+  #infodesign-page-txt{
+    height: 110vh;
+    .text{
+      margin-top: 14%;
+      margin-left: 8%;
+
+      width: 75%;
+      h5{
+        font-size: @font-size+10;
+        text-align: left;
+        margin-bottom: 0em;
+        font-size: 18px;
+      }
+    }
+    .process-btn-entire{
+      position: fixed;
+      top: 82%;
+      left: 68%;
+      height: 1.8em;
+      // border-radius: 50px;
+      // width: 20em;
+      padding: 1.3% 1% 0% 4.5%;
+      padding-bottom: -6%;
+      background-color: #2C2A34;
+      a h2{
+      color: @yellow-color;
+      font-size: 13px;
       }
     }
   }
