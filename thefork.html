@@ -599,6 +599,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/CSSRulePlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+  
   
     <script>
       var mySwiper = new Swiper('.swiper-container', {
@@ -611,6 +615,45 @@
       },
       })
     </script> 
+
+      <!-- -------Play pause for video--------- -->
+  <script>
+
+    var myVideo = document.getElementById("video1"); 
+    
+    function playPauseOne() { 
+      if (myVideo.paused) 
+        myVideo.play(); 
+      else 
+        myVideo.pause(); 
+    } 
+
+  </script> 
+  <script>
+
+    var myVideoTwo = document.getElementById("video2"); 
+    
+    function playPauseTwo() { 
+      if (myVideoTwo.paused) 
+        myVideoTwo.play(); 
+      else 
+        myVideoTwo.pause(); 
+    } 
+
+  </script> 
+  <script>
+
+    var myVideoThree = document.getElementById("video3"); 
+    
+    function playPauseThree() { 
+      if (myVideoThree.paused) 
+        myVideoThree.play(); 
+      else 
+        myVideoThree.pause(); 
+    } 
+
+  </script> 
+
 
 </body>
 
