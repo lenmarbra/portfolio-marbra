@@ -176,9 +176,9 @@ a{
     width: 35em;
     margin-top: 4.2%;
     margin-left: 5%;
-    &:hover{
-      font-style: italic;
-    }
+    // &:hover{
+    //   font-style: italic;
+    // }
   }
   h2:after
   {
@@ -337,9 +337,9 @@ a{
       width: 35em;
       margin-top: 4.2%;
       margin-left: 5%;
-      &:hover{
-        font-style: italic;
-      }
+      // &:hover{
+      //   font-style: italic;
+      // }
     }
     h2:after
     {
@@ -483,9 +483,6 @@ a{
         width: 17em;
         margin-top: 6.5%;
         margin-left: 9.5%;
-        &:hover{
-          font-style: italic;
-        }
       }
       h2:after
       {
@@ -657,9 +654,9 @@ a{
       width: 35em;
       margin-top: 4%;
       margin-left: 3.5%;
-      &:hover{
-        font-style: italic;
-      }
+      // &:hover{
+      //   font-style: italic;
+      // }
     }
     h2:after
     {
@@ -669,32 +666,6 @@ a{
     width: 2.5em;
     margin-top: 3%;
     }
-    // .nav-btns{
-    //   margin-top: 1%;
-    //   margin-right: 1.5rem;
-    //   width: 15em;
-    //   float: right;
-    //   a{
-    //     display: inline-block;
-    //     .nav-btn{
-    //       width: 2.2em;
-    //       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    //       border-radius: 50px;
-    //       margin-right: 1rem;
-    //       margin-left: 1.5rem;
-    //       display: inline-block;
-    //     }
-    //     .nav-btn-txt{
-    //       margin-left: 18rem !important;
-    //     }
-    //     .next{
-    //       margin-right: 6rem;
-    //     }
-    //     .mobile{
-    //       display: none;
-    //     }
-    //   }
-    // }
     .nav-btns-onlytop{
       margin-right: .5rem;
     }
@@ -726,12 +697,22 @@ a{
   a{
     display: inline-block;
     margin-left: 20%;
-    &:hover{
-      font-style: italic;
-    }
     .mobile{
       display: none;
     }
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    margin-top: -12px;
+    content: "";
+    display: block;
+    height: 2px;
+    background: @yellow-color;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 94%; 
   }
   h2{
     letter-spacing: 1.5px;
@@ -835,9 +816,9 @@ a{
         width: 15em;
         margin-top: 7%;
         margin-left: 7%;
-        &:hover{
-          font-style: italic;
-        }
+        // &:hover{
+        //   font-style: italic;
+        // }
       }
     }
   .intro{
@@ -1168,9 +1149,9 @@ a{
       width: 35em;
       margin-top: 4.2%;
       margin-left: 5%;
-      &:hover{
-        font-style: italic;
-      }
+      // &:hover{
+      //   font-style: italic;
+      // }
     }
   }
 
@@ -1487,9 +1468,9 @@ a{
         width: 17em;
         margin-top: 6.5%;
         margin-left: 9.5%;
-        &:hover{
-          font-style: italic;
-        }
+        // &:hover{
+        //   font-style: italic;
+        // }
       }
       h2:after
       {
@@ -4879,9 +4860,9 @@ a{
         width: 35em;
         margin-top: 4%;
         margin-left: 5.5%;
-        &:hover{
-          font-style: italic;
-        }
+        // &:hover{
+        //   font-style: italic;
+        // }
       }
       .mobile{
         display: none;
@@ -5007,9 +4988,9 @@ a{
             width: 35em;
             margin-top: 4.7%;
             margin-left: 6%;
-            &:hover{
-              font-style: italic;
-            }
+            // &:hover{
+            //   font-style: italic;
+            // }
           }
           .mobile{
             display: none;
@@ -5023,9 +5004,9 @@ a{
           font-size: @font-size;
           margin-top: 7.7%;
           margin-left: 11%;
-          &:hover{
-            font-style: italic;
-          }
+          // &:hover{
+          //   font-style: italic;
+          // }
           }
         }
         .logo{
