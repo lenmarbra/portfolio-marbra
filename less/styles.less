@@ -265,6 +265,7 @@ a{
   // padding: 7% .8% 0% 1.9%;
   // padding-bottom: -2%;;
   background-color: #2C2A34;
+  z-index: 10;
   a h2{
   color: @yellow-color;
   font-size: 13px;
@@ -2796,9 +2797,7 @@ a{
 //-------------UXDESIGN - RAYBAN - IPAD-----------------------
 
 @media only screen and (max-width: 800px){
-
 #uxdesign-rayban{
-  
   .top-area{
     background-image: url(../images/uxdesign/prescription/bgraybanipad.png);
     background-attachment: absolute;
@@ -2930,48 +2929,47 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    h5{
-      font-size: 26px;
-      margin-top: -10%;
-      margin-left: -11%;
-    }
-    .rayban-video{
-      margin-top: 4%;
-      margin-bottom: 2%;
-      margin-left: 0%;
-      width: 82vw;
-      border-radius: 2px;
-    }
-    button{
-      list-style: none;
-      // display: inline-block;
-      text-decoration: none;
-      color: @yellow-color;
-      opacity: 70%;
-      background-color: transparent;
-      font-size: @font-size+10;
-      font-family: @main-font;
-      font-weight: 800;
-      border: none;
-      border-radius: 0%;
-      text-transform: none;
-      padding: 1px 20px 10px 15px;
-      margin-left: -2.5%;
-      margin-top: 0%;
-      margin-bottom: 12%;
-      &:hover{
-        font-style: none;
-        opacity: 63%;
+      h5{
+        font-size: 26px;
+        margin-top: -10%;
+        margin-left: -11%;
+      }
+      .rayban-video{
+        margin-top: 4%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+        width: 82vw;
+        border-radius: 2px;
+      }
+      button{
+        list-style: none;
+        // display: inline-block;
+        text-decoration: none;
+        color: @yellow-color;
+        opacity: 70%;
+        background-color: transparent;
+        font-size: @font-size+10;
+        font-family: @main-font;
+        font-weight: 800;
+        border: none;
+        border-radius: 0%;
+        text-transform: none;
+        padding: 1px 20px 10px 15px;
+        margin-left: -2.5%;
+        margin-top: 0%;
+        margin-bottom: 12%;
+        &:hover{
+          font-style: none;
+          opacity: 63%;
+        }
       }
     }
+    #bottom-section{
+      background-image: none;
+      height: 30vh;
+      width: 100vw;
+    }
   }
-  #bottom-section{
-    background-image: none;
-    height: 30vh;
-    width: 100vw;
-  }
-
-}
 }
 
 //-------------UXDESIGN - RAYBAN - MOBILE-----------------------
@@ -3179,7 +3177,6 @@ a{
     from{transform: rotateX(90deg);}
     to{transform: rotateX(0deg);}
     }
-
     h5{
       margin-top: -1%;
       margin-left: 1.56%;
@@ -3207,7 +3204,6 @@ a{
       from{color:@yellow-color}
       to{color: @appricot-color}
       }
-
     }
     .topimage{
       img{
