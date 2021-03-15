@@ -627,7 +627,7 @@ a{
       position: fixed;
       bottom: auto;
       top: 91.5%;
-      left: 75%;
+      left: 39.5%;
       z-index: 20;
       height: 1em;
         .nav-btn{
@@ -2633,7 +2633,7 @@ a{
       height: 2.9em;
       // background-color: #2C2A34;
       background-color: none;
-      background-image: linear-gradient(180deg,#35333f, #2C2A34);
+      background-image: linear-gradient(180deg,#35333f, #26242e);
       a h2{
       color: @yellow-color;
       font-size: 13px;
@@ -3425,15 +3425,28 @@ a{
       to{background-position-x: -1170px;}
       }
     }
-    .process-btn-report{
-      top: 83.5%;
-      left: 58%;
+    .desktop{
+      display:none;
     }
-    .prev-next{
-      position: fixed;
-      bottom: auto;
-      top: 91.6%;
-      left: 75%;
+    .process-btn-report{
+      position: relative;
+      top: 110%;
+      left: 10%;
+      width: 80vw;
+      text-align: center;      
+      height: 2.9em;
+      // background-color: #2C2A34;
+      background-color: none;
+      background-image: linear-gradient(180deg,#35333f, #26242e);
+      a h2{
+      color: @yellow-color;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.2em;
+      margin-left: 0;
+      margin-top: 5.5%; 
+      width: 20em;
+      }
     }
   }
 }
@@ -4743,7 +4756,7 @@ a{
     }
     #slownews-images{
       display: inline-block;
-      height: 95vh;
+      height: 105vh;
     }
     .mobile-images{
       .container-flex{
@@ -4795,6 +4808,33 @@ a{
     box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
     border-radius: 50px;
     display: inline-block;
+    }
+  }
+  .prev-next{
+    top: 91.5%;
+    left: 39.5%;
+  }
+  .desktop{
+    display:none;
+  }
+  .process-btn-report{
+    position: relative;
+    top: 8%;
+    left: 10%;
+    width: 80vw;
+    text-align: center;      
+    height: 2.9em;
+    // background-color: #2C2A34;
+    background-color: none;
+    background-image: linear-gradient(180deg,#35333f, #26242e);
+    a h2{
+    color: @yellow-color;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-left: 0;
+    margin-top: 5.5%; 
+    width: 20em;
     }
   }
 }
