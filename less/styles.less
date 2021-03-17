@@ -506,7 +506,7 @@ a{
     }
     .info-btn{
       position: absolute;
-      top: 19%;
+      top: 17%;
       left: 6.5%;
       z-index: 20;
       .nav-btn{
@@ -515,18 +515,6 @@ a{
       border-radius: 50px;
       display: inline-block;
       // border: @yellow-color 2px solid;
-      }
-    }
-    .down-btn{
-      position: absolute;
-      left: 6.5%;
-      top: 91.2%;
-      z-index: 10;
-     .nav-btn-down {
-      width: 2.2em;
-      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-      border-radius: 50px;
-      display: inline-block;
       }
     }
     .close-btn{
@@ -559,40 +547,40 @@ a{
       }
     }
     .process-btn-report{
-      position: fixed;
-      top: 83.5%;
-      left: 46%;
-      height: 2.2em;
-      // border-radius: 50px;
-      width: 22em;
-      // padding: 7% .8% 0% 1.9%;
-      // padding-bottom: -2%;;
-      background-color: #2C2A34;
+      position: absolute;
+      top: 185%;
+      left: 10%;
+      width: 80vw;
+      text-align: center;      
+      height: 2.9em;
+      // background-color: @darkblue;
+      background-image: linear-gradient(180deg,#181522, @darkblue);
       a h2{
       color: @yellow-color;
       font-size: 13px;
+      font-weight: 400;
       line-height: 1.2em;
-      margin-left: 9%;
-      margin-top: 3.5%; 
+      margin-left: 0;
+      margin-top: 5.5%; 
       width: 20em;
       }
     }
+    .desktop{
+      display: none;
+    }
     .process-btn-entire{
-      position: fixed;
+      position: relative;
       top: 80%;
-      left: 6%;
+      left: 10%;
       height: 2.7em;
-      // border-radius: 50px;
-      width: 22em;
-      // padding: 7% .8% 0% 1.9%;
-      // padding-bottom: -2%;;
-      background-color: #2C2A34;
+      width: 20em;
+      background-image: linear-gradient(180deg,#181522, @darkblue);
       a h2{
       color: @yellow-color;
       font-size: 13px;
       font-weight: 500;
       line-height: 1.2em;
-      margin-left: 18%;
+      margin-left: 11%;
       margin-top: 4.5%; 
       width: 20em;
       text-align: center;
@@ -602,21 +590,27 @@ a{
       display: inline-block;
     }
     .prev-next{
-      position: fixed;
-      bottom: auto;
       top: 91.5%;
-      left: 40%;
+      left: 41%;
+    }
+    .prev-next-student-p{
+      position: absolute;
+      top: 90%;
+      left: 42%;
       z-index: 20;
-      height: 1em;
-        .nav-btn{
-        width: 2.2em;
-        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-        border-radius: 50px;
-        display: inline-block;
-        }
-        .next{
-          margin-left: 60%;
-        }
+      .nav-btn{
+      width: 1em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      display: inline-block;
+      }
+      .next{
+        margin-left: 260%;
+      }
+    }
+    .down-btn{
+      top: 91.5%;
+      left: 7.8%;
     }
   }
 
@@ -1874,25 +1868,11 @@ a{
     .process-btn-entire{
       position: relative;
       top: 94%;
-      left: 10%;
-      width: 80vw;
-      text-align: center;      
-      height: 2.9em;
-      background-color: none;
-      background-image: linear-gradient(180deg,#35333f, #26242e);
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 1.2em;
-      margin-left: 0;
-      margin-top: 4.5%; 
-      width: 20em;
-      }
     }
     .prev-next{
-      top: 91.5%;
-      left: 40%;
+      position: absolute;
+      left: 43%;
+      top: 125%;
     }
   }
 
@@ -2024,10 +2004,10 @@ a{
           display:none;
         }
         #top-studentplans{
-          height: 120vh;
+          height: 100vh;
           }
         #top-infectiousdiseases{
-          height: 122vh;
+          height: 100vh;
           }
         h1{
           line-height: 1.2em;
@@ -2065,23 +2045,20 @@ a{
           margin-bottom: 22%;
           transform: rotate(0deg);
         }
-        // .process-btn-entire{
-        //   position: absolute;
-        //   top: 22%;
-        //   left: 64%;
-        //   height: 1.8em;
-        //   padding: 1.7%  3.5% 0.5% 6%;
-        //   padding-bottom: -6%;
-        //   background-color: #474550b7;
-        //   border-radius: 1px;
-        //   z-index: 0;
-        //   a h2{
-        //   color: @yellow-color;
-        //   font-size: 13px;
-        //   font-weight: 380;
-        //   letter-spacing: 2px;
-        //   }
-        // }
+        .process-btn-entire{
+          margin-bottom: 20%;
+        }
+        .prev-next{
+          position: absolute;
+          top: 130%;
+          left: 44%;
+        }
+        .student-p{
+          position: absolute;
+          top: 100%;
+          left: 44%;
+
+        }
       }
     }
 
@@ -2612,9 +2589,13 @@ a{
       border-radius: 15px;
       background-color: @white-color;
     }
+    .down-btn{
+      top: 92.5%;
+      left: 7.8%;
+    }
     .prev-next{
       top: 90.5%;
-      left: 40%;
+      left: 41%;
     }
     .desktop{
       display:none;
@@ -2623,21 +2604,6 @@ a{
       position: absolute;
       top: 400%;
       left: 10%;
-      width: 80vw;
-      text-align: center;      
-      height: 2.9em;
-      // background-color: #2C2A34;
-      background-color: none;
-      background-image: linear-gradient(180deg,#35333f, #26242e);
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 1.2em;
-      margin-left: 0;
-      margin-top: 5.5%; 
-      width: 20em;
-      }
     }
   }
 }
@@ -3427,13 +3393,6 @@ a{
     .process-btn-report{
       position: relative;
       top: 101%;
-      left: 10%;
-      width: 80vw;
-      text-align: center;      
-      height: 2.9em;
-      // background-color: #2C2A34;
-      background-color: none;
-      background-image: linear-gradient(180deg,#35333f, #26242e);
       a h2{
       color: @yellow-color;
       font-size: 13px;
@@ -3911,6 +3870,12 @@ a{
         margin-top: 0;
         margin-left: -7%;
       }
+    }
+    .prev-next{
+      top: 92%;
+    }
+    .down-btn{
+      top: 92%;
     }
   }
 }
@@ -4621,42 +4586,16 @@ a{
       }
     }
   .down-btn{
-    position: absolute;
-    top: 91.5%;
-    left: 6.8%;
-    z-index: 10;
-   .nav-btn-down {
-    width: 2.2em;
-    box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
-    border-radius: 50px;
-    display: inline-block;
+    top: 91.8%;
+    left: 8.4%;
     }
-  }
-  .prev-next{
-    top: 91.5%;
-    left: 40%;
-  }
   .desktop{
     display:none;
   }
   .process-btn-report{
-    position: absolute;
-    top: 185%;
-    left: 10%;
-    width: 80vw;
-    text-align: center;      
-    height: 2.9em;
-    // background-color: #2C2A34;
-    background-color: none;
-    background-image: linear-gradient(180deg,#35333f, #26242e);
     a h2{
-    color: @yellow-color;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.2em;
-    margin-left: 0;
+    margin-left: 3%;
     margin-top: 5.5%; 
-    width: 20em;
     }
   }
 }
