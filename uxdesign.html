@@ -38,6 +38,12 @@
     <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- <script src="//cdn.jsdelivr.net/npm/less" ></script> -->
+    <script>
+      // Picture element HTML5 shiv
+      document.createElement( "picture" );
+    </script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.js" async></script>
+
 
 </head>
 
@@ -69,7 +75,7 @@
 
   <div class="info-btn"><a href="uxdesign_thefork_txt.html"><img class="nav-btn" src="images/all/info.png" alt=""></a></div>
   <div class="process-btn-report desktop"><a href="thefork.html"><h2>Process Work</h2></a></div>
-  <div class="down-btn arrowdown"><a href="#video-area"><img class="nav-btn-down prev" src="images/all/dowsn.png" alt=""></a></div>
+  <div class="down-btn arrowdown"><a href="#video-area"><img class="nav-btn-down" src="images/all/dowsn.png" alt=""></a></div>
 
 
   
@@ -260,7 +266,7 @@
   <!-- ---------DOWN BTN DISAPPEARANCE---------- -->
   <script>
     gsap.registerPlugin(ScrollTrigger)
-    gsap.to(".arrowdown", {opacity: 0, duration: 1.5, scrollTrigger:{
+    gsap.to(".arrowdown", {opacity: 0, duration: .5, scrollTrigger:{
       trigger: ".arrowdown",
       start: "top 60%"
       // markers: true,
