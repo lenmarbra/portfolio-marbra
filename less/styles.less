@@ -523,7 +523,7 @@ a{
       left: 92%;
       z-index: 20;
       .nav-btn{
-      width: 1.9em;
+      width: 1.4em;
       box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
       border-radius: 50px;
       display: inline-block;
@@ -591,7 +591,16 @@ a{
     }
     .prev-next{
       top: 92%;
-      left: 44%;
+      left: 40%;
+      .nav-btn{
+        width: 1.2em;
+        box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+        border-radius: 50px;
+        display: inline-block;
+        }
+        .next{
+          margin-left: 320%;
+        }
     }
     .prev-next-student-p{
       position: absolute;
@@ -605,12 +614,20 @@ a{
       display: inline-block;
       }
       .next{
-        margin-left: 260%;
+        margin-left: 320%;
       }
     }
     .down-btn{
+      position: absolute;
       top: 92%;
       left: 8%;
+      z-index: 0;
+     .nav-btn-down {
+      width: 1.8em;
+      box-shadow: 0 2px 4px 0 rgba(37, 31, 59, 0.2), 0 6px 20px 0 rgba(10, 7, 15, 0.19);
+      border-radius: 50px;
+      display: inline-block;
+      }
     }
   }
 
@@ -2595,7 +2612,7 @@ a{
     }
     .prev-next{
       top: 90.5%;
-      left: 41%;
+      left: 40%;
     }
     .desktop{
       display:none;
@@ -3326,8 +3343,8 @@ a{
 @media only screen and (max-width: 600px){
 
   #uxdesign-animations{
-    height: 70vh;
-    overflow-y: hidden;
+    height: 110vh;
+    overflow-y: scroll;
     .top-area{
       h1{
         margin-left: 5.6%;
@@ -3358,7 +3375,7 @@ a{
       overflow:hidden;
       .lady{
         position: absolute;
-        top: 27%;
+        top: 37%;
         left: 37.5%;
         height: 575.2px;
         width: 90px;
@@ -3392,7 +3409,7 @@ a{
     }
     .process-btn-report{
       position: relative;
-      top: 101%;
+      top: 80%;
       a h2{
       color: @yellow-color;
       font-size: 13px;
