@@ -232,14 +232,21 @@ a{
 }
 .process-btn{
   position: fixed;
-  top: 86%;
-  right: 0%;
+  top: 92%;
+  left: 1.8%;
   height: 2.2em;
-  padding: 1% .8% 0% 1.9%;
-  background-image: linear-gradient(180deg,#35333f, #26242e);
+  width: 12.7em;
+  // background-image: linear-gradient(180deg,#25232e, #26242e);
+  border: 2px solid @yellow-color;
+  z-index: 10;
   a h2{
   color: @yellow-color;
   font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-left: 11.5%;
+  margin-top: 3.5%; 
+  width: 20em;
   }
 }
 .process-btn-report{
@@ -371,13 +378,13 @@ a{
   }
   .info-btn {
     position: absolute;
-    top: 12%;
+    top: 13%;
     left: 4.2%;
   }
   .process-btn-report{
     position: fixed;
-    top: 67%;
-    left: 3.8%;
+    top: 66.5%;
+    left: 4%;
     height: 2.2em;
     width: 12.7em;
     // background-image: linear-gradient(180deg,#25232e, #26242e);
@@ -395,7 +402,7 @@ a{
   }
   .process-btn-entire{
     position: fixed;
-    top: 66.5%;
+    top: 65.5%;
     left: 3.2%;
     height: 2.2em;
     width: 12.7em;
@@ -530,19 +537,21 @@ a{
   } 
     .process-btn{
       position: absolute;
-      top: 82%;
-      left: 59%;
-      right: auto;
-      height: 1.8em;
-      padding: 1.7% 3.5% 0.5% 6%;
-      padding-bottom: -6%;
-      background-color: #474550b7;
-      border-radius: 1px;
+      top: 215%;
+      left: 10%;
+      width: 80vw;
+      text-align: center;      
+      height: 2.9em;
+      // background-color: @darkblue;
+      background-image: linear-gradient(180deg,#181522, @darkblue);
       a h2{
       color: @yellow-color;
       font-size: 13px;
-      font-weight: 380;
-      letter-spacing: 2px;
+      font-weight: 400;
+      line-height: 1.2em;
+      margin-left: 0;
+      margin-top: 5.5%; 
+      width: 20em;
       }
     }
     .process-btn-report{
@@ -1739,7 +1748,7 @@ a{
         height: 147.5vh;
       }
       h1{
-        margin-top: 11%;
+        margin-top: 7.5%;
         margin-left: 3%;
         max-width: 19em;
       }
@@ -1774,6 +1783,9 @@ a{
           margin-left: 7.8%;
         }
       }
+      .down-btn {
+        top: 65.5%;
+    }
     }
   }
 
@@ -1968,7 +1980,7 @@ a{
         height: 100vh;
       }
       h1{
-        margin-top: 11%;
+        margin-top: 7.5%;
         margin-left: 3%;
         max-width: 19em;
       }
@@ -2003,7 +2015,7 @@ a{
       #datavis-infectiousdiseases{
         .info-btn {
           position: absolute;
-          top: 30%;
+          top: 23%;
           left: 6%;
           z-index: 0;
         }
@@ -2019,7 +2031,7 @@ a{
         h1{
           line-height: 1.2em;
           margin-left: 5%;
-          margin-top: 9%;
+          margin-top: 17%;
           max-width: 90vw;
         }
         h5{
@@ -2065,6 +2077,9 @@ a{
           top: 100%;
           left: 44%;
 
+        }
+        .desktop{
+          display: none;
         }
       }
     }
@@ -2407,6 +2422,10 @@ a{
       right: 11%;
     }
   }
+  .process-btn-report{
+    position: fixed;
+    top: 67.5%;
+    }
   }
 }
 
@@ -3274,8 +3293,8 @@ a{
 
   .top-area{
     h1{
-      margin-left: 4%;
-      margin-top: 9.7%;
+      margin-left: 3.5%;
+      margin-top: 10%;
       width: 12em;
       font-size: 32px;
     }
@@ -3678,7 +3697,7 @@ a{
     }
     h1{
       margin-top: 11%;
-      margin-left: 3.7%;
+      margin-left: 3.2%;
     }
     p{
       margin-top: -3%;
@@ -3782,6 +3801,9 @@ a{
     }
     .prev-next{
       top: 69%;
+    }
+    .info-btn{
+      top: 13%;
     }
   }
 }
@@ -4948,7 +4970,10 @@ a{
         text-decoration: none;
       }
     }
-  }  
+  }
+  .process-btn-report a h2 {
+    margin-left: 8.1%;
+  }   
 }
 
 // -----------TEXT PAGES - SLOWNEWS-TXT - IPAD---------------
@@ -4956,6 +4981,7 @@ a{
 @media only screen and (max-width: 800px){
 
 #slownews-page-txt{
+  height: 114vh;
   .text{
     margin-top: 10%;
     margin-left: 6%;
@@ -4978,18 +5004,22 @@ a{
     }
   }
   .process-btn-report{
-    position: fixed;
-    top: 94.5%;
-    left: 76%;
-    height: 2em;
-    // border-radius: 50px;
-    // width: 20em;
-    padding: .9% .8% 0% 2.6%;
-    padding-bottom: -2%;;
-    background-color: #2C2A34;
+    position: absolute;
+    top: 102%;
+    left: 9.7%;
+    height: 2.2em;
+    width: 12.7em;
+    // background-image: linear-gradient(180deg,#25232e, #26242e);
+    border: 2px solid @yellow-color;
+    z-index: 10;
     a h2{
     color: @yellow-color;
     font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2em;
+    margin-left: 8.5%;
+    margin-top: 3.5%; 
+    width: 20em;
     }
   }
   
@@ -5114,13 +5144,11 @@ a{
         }
       }
     }
-    .process-btn {
-      top: 62%;
-      right: 0%;
-      height: 2.2em;
-      padding: 1.2% .8% 0 3.5%;
-      background-color: #2C2A34;
-  }
+    .process-btn{
+      position: fixed;
+      top: 65%;
+      left: 11.5%;
+    }
   }
 }
 
@@ -5148,21 +5176,12 @@ a{
       }
     }
   .process-btn{
-    position: fixed;
-    top: 91.2%;
-    left: 56%;
-    height: 1.8em;
-    // border-radius: 50px;
-    // width: 20em;
-    padding: 2% .8% 0% 5.8%;
-    padding-bottom: -3%;;
-    background-color: #2c2a34b7;
-    z-index: 2;
-    a h2{
-    color: @yellow-color;
-    font-size: 13px;
-    line-height: 1.2em;
-    }
+    position: absolute;
+    top: 95%;
+    left: 9.5%;
+  }
+  .close{
+    display: none;
   }
   }
 }
@@ -5282,18 +5301,8 @@ a{
     }
     .process-btn-entire{
       position: fixed;
-      top: 82%;
-      left: 68%;
-      height: 1.8em;
-      // border-radius: 50px;
-      // width: 20em;
-      padding: 1.3% 1% 0% 4.5%;
-      padding-bottom: -6%;
-      background-color: #2C2A34;
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      }
+      top: 48%;
+    //   left: 68%;
     }
   }
 }
@@ -5411,6 +5420,9 @@ a{
     font-size: 13px;
     line-height: 1.2em;
     }
+  }
+  .close{
+    display: none;
   }
   }
 }
@@ -5547,20 +5559,28 @@ a{
       }
     } 
     .process-btn-entire{
-      position: fixed;
-      top: 50%;
-      left: 80%;
-      height: 2.2em;
-      // border-radius: 50px;
-      // width: 20em;
-      padding: 1% 1.5% 0% 2.8%;
-      padding-bottom: -4%;
-      background-color: #2C2A34;
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      }
+      top: 30%;
+      left: 11%;
     } 
+    .process-btn-entire-infectious{
+      position: fixed;
+      top: 39%;
+      left: 11.5%;
+      height: 2.2em;
+      width: 12.7em;
+      // background-image: linear-gradient(180deg,#25232e, #26242e);
+      border: 2px solid @yellow-color;
+      z-index: 10;
+      a h2{
+        color: @yellow-color;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.2em;
+        margin-left: 12%;
+        margin-top: 3.5%; 
+        width: 20em;
+        }
+      }
   }
 }
 
@@ -5582,19 +5602,28 @@ a{
       }
     }
     .process-btn-entire{
-      position: fixed;
-      top: 82%;
-      left: 68%;
-      height: 1.8em;
-      // border-radius: 50px;
-      // width: 20em;
-      padding: 1.3% 1% 0% 4.5%;
-      padding-bottom: -6%;
-      background-color: #2C2A34;
-      a h2{
-      color: @yellow-color;
-      font-size: 13px;
-      }
+      top: 38%;
+      left: 10%;
     }
+    .process-btn-entire-infectious{
+      position: fixed;
+      top: 54%;
+      left: 11.5%;
+      height: 2.2em;
+      width: 80vw;
+      // background-image: linear-gradient(180deg,#25232e, #26242e);
+      border: 2px solid @yellow-color;
+      z-index: 10;
+      a h2{
+        color: @yellow-color;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.2em;
+        // margin-left: 12%;
+        margin-top: 3.5%; 
+        width: 20em;
+        text-align: center;
+        }
+      }
   }
 }
