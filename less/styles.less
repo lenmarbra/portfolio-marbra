@@ -5745,7 +5745,7 @@ a{
   }  
 }
 
-//infectious diseases
+//devastating infectious diseases
 
 #infodesign-page-inf-txt{
   .text{
@@ -5793,6 +5793,9 @@ a{
 //----------- TEXT PAGES - INFORMATION DESIGN PAGES - IPAD ------------
 
 @media only screen and (max-width: 800px){
+
+  //erased plans
+
   #infodesign-page-txt{
     
     .text{
@@ -5841,6 +5844,8 @@ a{
       }
     }
   
+  //devastating infectious diseases
+
   #infodesign-page-inf-txt{
     .text{
       margin-top: 13%;
@@ -5873,6 +5878,8 @@ a{
 // -----------TEXT PAGES - INFORMATIONS DESIGN PAGES - MOBILE---------------
 
 @media only screen and (max-width: 600px){
+
+  //erased plans
   #infodesign-page-txt{
     height: 110vh;
     .text{
@@ -5881,72 +5888,77 @@ a{
       width: 75%;
       h5{
         font-size: @font-size+10;
-        text-align: left;
+        text-align: center;
         margin-bottom: 0em;
         font-size: 18px;
       }
     }
     .process-btn-entire{
-      top: 38%;
+      top: 68%;
       left: 10%;
-    }
-    .process-btn-entire-infectious{
-      position: fixed;
-      top: 54%;
-      left: 11.5%;
-      height: 2.2em;
-      width: 80vw;
-      // background-image: linear-gradient(180deg,#25232e, #26242e);
-      border: 2px solid @yellow-color;
-      z-index: 10;
       a h2{
         color: @yellow-color;
         font-size: 13px;
         font-weight: 500;
         line-height: 1.2em;
-        // margin-left: 12%;
-        margin-top: 3.5%; 
+        margin-left: 12%;
+        margin-top: 4.5%; 
         width: 20em;
         text-align: center;
         }
-      }
+    }
   }
+
+  //devastating infectious diseases
+
   #infodesign-page-inf-txt{
     height: 110vh;
     .text{
       margin-top: 14%;
-      margin-left: 8%;
+      margin-left: 9%;
       width: 75%;
       h5{
         font-size: @font-size+10;
-        text-align: left;
+        text-align: center;
         margin-bottom: 0em;
         font-size: 18px;
       }
     }
     .process-btn-entire{
-      top: 38%;
+      top: 68%;
       left: 10%;
     }
-    .process-btn-entire-infectious{
-      position: fixed;
-      top: 54%;
-      left: 11.5%;
-      height: 2.2em;
-      width: 80vw;
-      // background-image: linear-gradient(180deg,#25232e, #26242e);
-      border: 2px solid @yellow-color;
-      z-index: 10;
-      a h2{
-        color: @yellow-color;
-        font-size: 13px;
-        font-weight: 500;
-        line-height: 1.2em;
-        // margin-left: 12%;
-        margin-top: 3.5%; 
-        width: 20em;
+  }
+  //social behaviour
+
+  #infodesign-page-soc-txt{
+    height: 110vh;
+    .text{
+      margin-top: 14%;
+      margin-left: 9%;
+      width: 75%;
+      h5{
+        font-size: @font-size+10;
         text-align: center;
-        }
+        margin-bottom: 0em;
+        font-size: 18px;
       }
+    }
+  .process-btn-entire{
+    top: 68%;
+    left: 10%;
+    width: 20em;
+    height: 2.7em;
+    a h2{
+      color: @yellow-color;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 1.2em;
+      margin-left: 12%;
+      margin-top: 4.5%; 
+      width: 20em;
+      text-align: center;
+      }
+    }
   }
 }
