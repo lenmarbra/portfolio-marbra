@@ -86,7 +86,7 @@ h2{
   font-family: @main-font;
   font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: .3em;
+  letter-spacing: .31em;
   line-height: .7em;
   color: @yellow-color;
 }
@@ -958,13 +958,15 @@ a{
       margin-left: 0;
       z-index: 8;
       h2{
-        margin-top: 16%;
+        margin-top: 14%;
         margin-left: 9%;
         font-size: 16px;
         font-weight: 300;
         width: 50vw;
         height: 50vh;
-        writing-mode: vertical-lr;
+        text-align: right;
+        writing-mode: vertical-rl;
+        transform: rotate(-180deg);      
         &:hover{
           font-style: none;
         }
@@ -1022,7 +1024,7 @@ a{
       h2{
         margin-top: 6.3%;
         margin-left: 1%;
-        writing-mode: vertical-lr;
+        writing-mode: vertical-rl;
       }
     }
     .mail-and-cv{
