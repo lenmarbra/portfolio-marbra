@@ -169,6 +169,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/stylesindextwo.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/stylesindextwo-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/stylestwo.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -8344,6 +8356,76 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/startpage\/about.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/startpage\/about.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/startpage\/about\/profilbild_cv.jpg" : {
+      "ft" : 16384,
+      "iS" : 2501409,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/about\/profilbild_cv.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/about\/profilbild_cv.png" : {
+      "ft" : 32768,
+      "iS" : 1443872,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/about\/profilbild_cv.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/about\/profilbild_cv.psd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/about\/profilbild_cv.psd",
+      "oF" : 0
+    },
+    "\/images\/startpage\/about\/profilbildbg_cv.png" : {
+      "ft" : 32768,
+      "iS" : 1443872,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/about\/profilbildbg_cv.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/about\/profileblackwhite.png" : {
+      "ft" : 32768,
+      "iS" : 45551,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/about\/profileblackwhite.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/startpage\/archive\/frontimagemob.png" : {
       "ft" : 32768,
       "iS" : 28535,
@@ -8442,6 +8524,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/startpage\/bubble.png" : {
+      "ft" : 32768,
+      "iS" : 80662,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/bubble.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/bubble.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/startpage\/bubble.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/startpage\/cardbranding.png" : {
       "ft" : 32768,
       "iS" : 106902,
@@ -8480,6 +8585,29 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/images\/startpage\/footer.png" : {
+      "ft" : 32768,
+      "iS" : 51137,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/footer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/footer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/startpage\/footer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/images\/startpage\/infodesigncard_dt.png" : {
       "ft" : 32768,
@@ -8546,6 +8674,131 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/startpage\/projects\/animations.png" : {
+      "ft" : 32768,
+      "iS" : 94195,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/animations.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/cookbook.png" : {
+      "ft" : 32768,
+      "iS" : 211553,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/cookbook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/erased.png" : {
+      "ft" : 32768,
+      "iS" : 221080,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/erased.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/infectious.png" : {
+      "ft" : 32768,
+      "iS" : 8659,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/infectious.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/infographics.png" : {
+      "ft" : 32768,
+      "iS" : 8376,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/infographics.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/kita.png" : {
+      "ft" : 32768,
+      "iS" : 208218,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/kita.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/rayban.png" : {
+      "ft" : 32768,
+      "iS" : 49790,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/rayban.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/slownews.png" : {
+      "ft" : 32768,
+      "iS" : 306263,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/slownews.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/thefork.png" : {
+      "ft" : 32768,
+      "iS" : 117996,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/thefork.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/projects\/thefork.psd" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/projects\/thefork.psd",
+      "oF" : 0
+    },
     "\/images\/startpage\/starpagemob.png" : {
       "ft" : 32768,
       "iS" : 764434,
@@ -8600,6 +8853,52 @@
       "oA" : 0,
       "oAP" : "\/images\/startpage\/startpagevideo.mp4",
       "oF" : 0
+    },
+    "\/images\/startpage\/topbg.png" : {
+      "ft" : 32768,
+      "iS" : 128040,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/topbg.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/topbgalt.png" : {
+      "ft" : 32768,
+      "iS" : 185712,
+      "oA" : 0,
+      "oAP" : "\/images\/startpage\/topbgalt.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/startpage\/topbgalt.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/startpage\/topbgalt.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/startpage\/topbgaltsec.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/startpage\/topbgaltsec.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/images\/startpage\/uxdesigncard_dt.png" : {
       "ft" : 32768,
@@ -11551,6 +11850,14 @@
       "oAP" : "\/index.html",
       "oF" : 0
     },
+    "\/indextwo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/indextwo.html",
+      "oF" : 0
+    },
     "\/infodesign_infectiousdiseases_txt.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -11670,6 +11977,24 @@
       "mS" : 0,
       "oA" : 0,
       "oAP" : "\/css\/stylescopyindex.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0,
+      "rwU" : 0,
+      "sI" : 0,
+      "sU" : 0
+    },
+    "\/less\/stylesindextwo.less" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "eJ" : 0,
+      "ft" : 1,
+      "iI" : 0,
+      "ma" : 0,
+      "mS" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/stylesindextwo.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0,
